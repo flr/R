@@ -1,0 +1,44 @@
+Package: FLash
+Version: 2.4
+Depends: FLCore(>= 2.4), methods
+LinkingTo: FLCore
+License: GPL-2
+
+Package: FLAssess
+Version: 2.4
+Depends: FLCore(>= 2.4), methods
+LinkingTo: FLCore
+License: GPL-2
+
+Package: FLBRP
+Version: 2.4
+Depends: FLCore(>= 2.4),FLash,methods,MASS
+LinkingTo: FLCore,FLash
+License: GPL-2
+
+Package: FLCore
+Version: 2.4
+Depends: methods, R(>= 2.13.0), grid, lattice
+Imports: stats, graphics
+License: GPL-2
+
+Package: FLEDA
+Version: 2.4
+Depends: FLCore(>= 2.4), methods
+License: GPL-2
+
+Package: FLRDynState
+Version: 2.4
+Depends: FLCore(>= 2.4), methods
+License: GPL-2
+
+Package: FLXSA
+Version: 2.4
+Depends: methods, FLCore(>= 2.4), FLAssess(>= 2.4)
+License: GPL-2
+
+Package: SQLiteFL
+Version: 2.4
+Depends: methods, FLCore
+License: GPL-2
+

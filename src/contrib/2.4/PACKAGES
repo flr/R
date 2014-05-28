@@ -1,0 +1,23 @@
+Package: FLAssess
+Version: 1.4-1
+Depends: R (>= 2.4.0), FLCore
+
+Package: FLBayes
+Version: 1.4-1
+Depends: R (>= 2.4.0), FLCore
+
+Package: FLCore
+Version: 1.4-3
+Depends: R (>= 2.4.0), methods, graphics, stats, lattice
+
+Package: FLEDA
+Version: 1.4-2
+Depends: R (>= 2.4.0), FLCore (>= 1.4-0), methods
+
+Package: FLXSA
+Version: 1.4-4
+Depends: R (>= 2.5.0), FLCore, FLAssess
+
+Package: FLSTF
+Version: 1.4-3
+Depends: R (>= 2.5.0), FLCore

@@ -1,0 +1,27 @@
+Package: FLCore
+Version: 1.99-106
+Depends: R (>= 2.7.0), methods, graphics, stats, lattice
+
+Package: FLAssess
+Version: 1.99-102
+Depends: R (>= 2.7.0), FLCore (> 1.99)
+
+Package: FLXSA
+Version: 1.99-100
+Depends: R (>= 2.7.0), FLAssess (> 1.99)
+
+Package: FLEDA
+Version: 1.99-2
+Depends: R (>= 2.7.0), FLCore (> 1.99)
+
+Package: FLash
+Version: 0.1.2
+Depends: R (>= 2.7.0), FLCore (> 1.99)
+
+Package: FLBRP
+Version: 1.99-1
+Depends: R (>= 2.7.0), FLCore (> 1.99), FLash
+
+Package: FLSTF
+Version: 1.99-1
+Depends: R (>= 2.7.0), FLCore (> 1.99), FLAssess

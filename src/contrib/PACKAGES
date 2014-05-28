@@ -1,0 +1,86 @@
+Package: FLa4a
+Version: 0.99.4
+Depends: R (>= 3.0.0), copula, FLCore (>= 2.5.20140519), methods, mgcv,
+        splines, stats, triangle, lattice, Matrix
+License: file LICENSE
+MD5sum: f7aefe8c19b4ed27fd94e28826589cab
+NeedsCompilation: no
+
+Package: FLash
+Version: 2.5.0
+Depends: R(>= 2.15.0), FLCore(>= 2.5), methods
+License: GPL-2
+MD5sum: abe5f1a80faee76855c30553c6de6d3e
+NeedsCompilation: yes
+
+Package: FLAssess
+Version: 2.5.20130716
+Depends: FLCore(>= 2.5.0), FLash(>= 2.5.0)
+LinkingTo: FLash
+License: GPL-2
+MD5sum: ad6dc20abfe2d5223ff4f4019ebbbb7a
+NeedsCompilation: yes
+
+Package: FLBEIA
+Version: 1.3.20130719
+Depends: methods, R(>= 2.15.0), FLCore, FLFleet
+License: GPL-2
+MD5sum: 13d6fb1d41102a9f3ba657bd0fab15b5
+NeedsCompilation: no
+
+Package: FLBRP
+Version: 2.5.20131209
+Depends: methods, FLCore(>= 2.3), FLash, ggplotFL, plyr
+LinkingTo: FLash
+License: GPL-2
+MD5sum: 70faac07a1b3cae9a74ebb71eb04d0ce
+NeedsCompilation: yes
+
+Package: FLCore
+Version: 2.5.20140513
+Depends: methods, R(>= 3.0), grid, lattice, MASS
+Imports: stats, graphics
+License: GPL (>= 2)
+MD5sum: 3e5c44dfba14b93deb0001b7db714db2
+NeedsCompilation: no
+
+Package: FLFleet
+Version: 2.5.20130719
+Depends: methods, FLCore, R(>= 2.15.1),
+Imports: FLCore
+License: GPL-2
+MD5sum: 8c8ecd674fb664640913158d0bea9540
+NeedsCompilation: no
+
+Package: FLSAM
+Version: 0.99.991
+Depends: R(>= 2.13.0), FLCore(>= 2.4), utils, MASS
+Suggests: methods, reshape, plyr, ellipse
+License: GPL
+MD5sum: cda2b545bbd2e0760f4c7d6b0cb2cfe3
+NeedsCompilation: no
+
+Package: FLXSA
+Version: 2.5.20130710
+Depends: methods, FLCore(>= 2.5), FLAssess(>= 2.5), FLash(>= 2.5)
+License: GPL-2
+MD5sum: 4163b0eb7e787bad43a9227f0f7e86ec
+NeedsCompilation: yes
+
+Package: ggplotFL
+Version: 2.5.20140514
+Depends: R(>= 3.0.0), ggplot2, FLCore, gridExtra, reshape2
+Imports: plyr
+Suggests: knitr
+License: GPL-2
+MD5sum: 890a487b6dbf3065ef85a4d59fda8dab
+NeedsCompilation: no
+
+Package: SQLiteFL
+Version: 0.2
+Depends: methods, FLCore
+Imports: FLCore
+License: GPL-2
+MD5sum: 9d6b28055987ebeccbe4b97f36be8c77
+NeedsCompilation: yes
+
