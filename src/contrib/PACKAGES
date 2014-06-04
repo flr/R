@@ -1,9 +1,9 @@
 Package: FLa4a
-Version: 0.99.4
+Version: 0.99.7
 Depends: R (>= 3.0.0), copula, FLCore (>= 2.5.20140519), methods, mgcv,
         splines, stats, triangle, lattice, Matrix
 License: file LICENSE
-MD5sum: f7aefe8c19b4ed27fd94e28826589cab
+MD5sum: f20b6fcf27700cdb3172fbcde2b3b991
 NeedsCompilation: no
 
 Package: FLash
