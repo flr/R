@@ -41,7 +41,14 @@ Version: 2.5.20140610
 Depends: methods, R(>= 3.0), grid, lattice, MASS
 Imports: stats, graphics
 License: GPL (>= 2)
-MD5sum: 7be3fbba962e789bf4edf19bd43fb828
+MD5sum: 1cdde80fe117bd43846a924905b09ea7
+NeedsCompilation: no
+
+Package: FLEDA
+Version: 2.5
+Depends: FLCore(>= 2.5), methods
+License: GPL-2
+MD5sum: 418269c75c523f3d0df75189eb1f261b
 NeedsCompilation: no
 
 Package: FLFleet
