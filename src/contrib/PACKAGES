@@ -37,11 +37,11 @@ MD5sum: 70faac07a1b3cae9a74ebb71eb04d0ce
 NeedsCompilation: yes
 
 Package: FLCore
-Version: 2.5.20140610
+Version: 2.5.20140611
 Depends: methods, R(>= 3.0), grid, lattice, MASS
 Imports: stats, graphics
 License: GPL (>= 2)
-MD5sum: 1cdde80fe117bd43846a924905b09ea7
+MD5sum: 45573f4cc637512032a785d74de388cd
 NeedsCompilation: no
 
 Package: FLEDA
