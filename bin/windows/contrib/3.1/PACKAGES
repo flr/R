@@ -1,3 +1,9 @@
+Package: FLa4a
+Version: 0.99.10
+Depends: R (>= 3.0.0), copula, FLCore (>= 2.5.20140519), methods, mgcv,
+        splines, stats, triangle, lattice, Matrix
+License: file LICENSE
+
 Package: FLash
 Version: 2.5.0
 Depends: R(>= 2.15.0), FLCore(>= 2.5), methods
@@ -23,6 +29,12 @@ LinkingTo: FLash
 License: GPL-2
 Archs: i386
 
+Package: FLCore
+Version: 2.5.20140620
+Depends: methods, R(>= 3.0), grid, lattice, MASS
+Imports: stats, graphics
+License: GPL (>= 2)
+
 Package: FLEDA
 Version: 2.5
 Depends: FLCore(>= 2.5), methods
@@ -45,6 +57,13 @@ Version: 2.5.20130710
 Depends: methods, FLCore(>= 2.5), FLAssess(>= 2.5), FLash(>= 2.5)
 License: GPL-2
 Archs: i386
+
+Package: ggplotFL
+Version: 2.5.20140619
+Depends: R(>= 3.0.0), ggplot2, FLCore, gridExtra, reshape2
+Imports: plyr
+Suggests: knitr
+License: GPL-2
 
 Package: SQLiteFL
 Version: 0.2
