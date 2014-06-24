@@ -1,3 +1,12 @@
+Package: FLa4a
+Version: 0.99.11
+Depends: R (>= 3.0.0), methods, copula, FLCore (>= 2.5.20140624), mgcv,
+        splines, triangle
+Imports: lattice, Matrix
+License: file LICENSE
+MD5sum: f70767aaebc3307d5f1bdafc772e8054
+NeedsCompilation: no
+
 Package: FLash
 Version: 2.5.0
 Depends: R(>= 2.15.0), FLCore(>= 2.5), methods
@@ -28,6 +37,14 @@ License: GPL-2
 MD5sum: 70faac07a1b3cae9a74ebb71eb04d0ce
 NeedsCompilation: yes
 
+Package: FLCore
+Version: 2.5.20140624
+Depends: methods, R(>= 3.0), grid, lattice, MASS
+Imports: stats, graphics
+License: GPL (>= 2)
+MD5sum: 8d9df4741809d7f2f61580228679474d
+NeedsCompilation: no
+
 Package: FLEDA
 Version: 2.5
 Depends: FLCore(>= 2.5), methods
@@ -57,6 +74,15 @@ Depends: methods, FLCore(>= 2.5), FLAssess(>= 2.5), FLash(>= 2.5)
 License: GPL-2
 MD5sum: 4163b0eb7e787bad43a9227f0f7e86ec
 NeedsCompilation: yes
+
+Package: ggplotFL
+Version: 2.5.20140619
+Depends: R(>= 3.0.0), ggplot2, FLCore, gridExtra, reshape2
+Imports: plyr
+Suggests: knitr
+License: GPL-2
+MD5sum: c9c833193f15cf7969af2bc9c70b6b76
+NeedsCompilation: no
 
 Package: SQLiteFL
 Version: 0.2
