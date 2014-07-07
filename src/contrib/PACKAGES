@@ -1,10 +1,10 @@
 Package: FLa4a
-Version: 0.99.12
+Version: 0.100.00
 Depends: R (>= 3.0.0), methods, copula, FLCore (>= 2.5.20140624), mgcv,
         splines, triangle
 Imports: lattice, Matrix
 License: file LICENSE
-MD5sum: a0d8db626602292a9c60179de1ea374f
+MD5sum: 6e1b3e79c66705d56bff8ec91f54753c
 NeedsCompilation: no
 
 Package: FLash
@@ -38,11 +38,11 @@ MD5sum: 70faac07a1b3cae9a74ebb71eb04d0ce
 NeedsCompilation: yes
 
 Package: FLCore
-Version: 2.5.20140624
+Version: 2.5.20140703
 Depends: methods, R(>= 3.0), grid, lattice, MASS
 Imports: stats, graphics
 License: GPL (>= 2)
-MD5sum: 8d9df4741809d7f2f61580228679474d
+MD5sum: 732b126b468279746d399ad26b5ccf00
 NeedsCompilation: no
 
 Package: FLEDA
