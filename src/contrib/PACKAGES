@@ -69,10 +69,10 @@ MD5sum: cda2b545bbd2e0760f4c7d6b0cb2cfe3
 NeedsCompilation: no
 
 Package: FLXSA
-Version: 2.5.20130710
+Version: 2.5.20140715
 Depends: methods, FLCore(>= 2.5), FLAssess(>= 2.5), FLash(>= 2.5)
 License: GPL-2
-MD5sum: 4163b0eb7e787bad43a9227f0f7e86ec
+MD5sum: b92d995a14a20d2588e5d409e5ed6ef6
 NeedsCompilation: yes
 
 Package: ggplotFL
