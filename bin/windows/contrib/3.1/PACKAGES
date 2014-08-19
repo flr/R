@@ -31,7 +31,7 @@ License: GPL-2
 Archs: i386
 
 Package: FLCore
-Version: 2.5.20140703
+Version: 2.5.20140814
 Depends: methods, R(>= 3.0), grid, lattice, MASS
 Imports: stats, graphics
 License: GPL (>= 2)
@@ -60,7 +60,7 @@ License: GPL-2
 Archs: i386
 
 Package: ggplotFL
-Version: 2.5.20140619
+Version: 2.5.20140723
 Depends: R(>= 3.0.0), ggplot2, FLCore, gridExtra, reshape2
 Imports: plyr
 Suggests: knitr

@@ -1,3 +1,19 @@
+Package: aspic
+Version: 2.0.1
+Depends: R(>= 3.0.1), biodyn(>= 0.0.1), stringr(>= 0.6.2), reshape(>=
+        0.8.4),
+License: GPL-2
+MD5sum: 2c087457ff05b516cc1b2ff5c292d695
+NeedsCompilation: no
+
+Package: biodyn
+Version: 0.0.1
+Depends: R(>= 3.0.1), FLCore(>= 2.2)
+Imports: ggplotFL(>= 0.2), FLBRP
+License: GPL-2
+MD5sum: 3d35e799b45c8b3b22e0c3081e9e70a0
+NeedsCompilation: no
+
 Package: FLa4a
 Version: 0.100.00
 Depends: R (>= 3.0.0), methods, copula, FLCore (>= 2.5.20140624), mgcv,
@@ -38,11 +54,11 @@ MD5sum: 70faac07a1b3cae9a74ebb71eb04d0ce
 NeedsCompilation: yes
 
 Package: FLCore
-Version: 2.5.20140703
+Version: 2.5.20140814
 Depends: methods, R(>= 3.0), grid, lattice, MASS
 Imports: stats, graphics
 License: GPL (>= 2)
-MD5sum: 732b126b468279746d399ad26b5ccf00
+MD5sum: 9f7a4da4828781ed5adf74b775435287
 NeedsCompilation: no
 
 Package: FLEDA
@@ -76,12 +92,12 @@ MD5sum: b92d995a14a20d2588e5d409e5ed6ef6
 NeedsCompilation: yes
 
 Package: ggplotFL
-Version: 2.5.20140619
+Version: 2.5.20140723
 Depends: R(>= 3.0.0), ggplot2, FLCore, gridExtra, reshape2
 Imports: plyr
 Suggests: knitr
 License: GPL-2
-MD5sum: c9c833193f15cf7969af2bc9c70b6b76
+MD5sum: 47c215b06b71f39d9334462d824eeb49
 NeedsCompilation: no
 
 Package: SQLiteFL
