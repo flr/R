@@ -55,11 +55,11 @@ MD5sum: 13d6fb1d41102a9f3ba657bd0fab15b5
 NeedsCompilation: no
 
 Package: FLBRP
-Version: 2.5.20140708
+Version: 2.5.20140822
 Depends: FLCore(>= 2.3), FLash, ggplotFL, plyr, reshape
 LinkingTo: FLash
 License: GPL-2
-MD5sum: 8a63437437a45a6436df9108df52d9fe
+MD5sum: aacf3c1751f77af884e3858269a3ba16
 NeedsCompilation: yes
 
 Package: FLCore
