@@ -14,6 +14,15 @@ License: GPL-2
 MD5sum: 3d35e799b45c8b3b22e0c3081e9e70a0
 NeedsCompilation: no
 
+Package: diags
+Version: 0.0
+Depends: R(>= 2.15.1), methods, grid, stringr, r4ss, ggplot2, reshape,
+        plyr, LaF, ellipse, corrplot
+Suggests: RCurl, gam
+License: GPL-2
+MD5sum: edfe2401c0c52fc8f371efb791f30f32
+NeedsCompilation: no
+
 Package: FLa4a
 Version: 0.100.00
 Depends: R (>= 3.0.0), methods, copula, FLCore (>= 2.5.20140624), mgcv,
@@ -35,7 +44,7 @@ Version: 2.5.20130716
 Depends: FLCore(>= 2.5.0), FLash(>= 2.5.0)
 LinkingTo: FLash
 License: GPL-2
-MD5sum: ad6dc20abfe2d5223ff4f4019ebbbb7a
+MD5sum: 860859be6fde9e7f9dcc8924dd2c9304
 NeedsCompilation: yes
 
 Package: FLBEIA
@@ -46,11 +55,11 @@ MD5sum: 13d6fb1d41102a9f3ba657bd0fab15b5
 NeedsCompilation: no
 
 Package: FLBRP
-Version: 2.5.20131209
-Depends: methods, FLCore(>= 2.3), FLash, ggplotFL, plyr
+Version: 2.5.20140708
+Depends: FLCore(>= 2.3), FLash, ggplotFL, plyr, reshape
 LinkingTo: FLash
 License: GPL-2
-MD5sum: 70faac07a1b3cae9a74ebb71eb04d0ce
+MD5sum: 8a63437437a45a6436df9108df52d9fe
 NeedsCompilation: yes
 
 Package: FLCore
@@ -58,7 +67,7 @@ Version: 2.5.20140814
 Depends: methods, R(>= 3.0), grid, lattice, MASS
 Imports: stats, graphics
 License: GPL (>= 2)
-MD5sum: 9f7a4da4828781ed5adf74b775435287
+MD5sum: 245641b10b3ed82f4d90a193272acc69
 NeedsCompilation: no
 
 Package: FLEDA
@@ -68,36 +77,53 @@ License: GPL-2
 MD5sum: 418269c75c523f3d0df75189eb1f261b
 NeedsCompilation: no
 
+Package: FLFishery
+Version: 0.1.20140121
+Depends: R(>= 3.0.0), methods, FLCore
+Suggests: knitr
+License: GPL-2
+MD5sum: 44eb73dc868bf14a5d14a6dd425a9c0e
+NeedsCompilation: no
+
 Package: FLFleet
-Version: 2.5.20130719
+Version: 2.5.20140531
 Depends: methods, FLCore, R(>= 2.15.1),
 Imports: FLCore
 License: GPL-2
-MD5sum: 8c8ecd674fb664640913158d0bea9540
+MD5sum: 99980226f5cd64e4e9cacce1b9705c37
 NeedsCompilation: no
 
 Package: FLSAM
-Version: 0.99.991
+Version: 1.0
 Depends: R(>= 2.13.0), FLCore(>= 2.4), utils, MASS
 Suggests: methods, reshape, plyr, ellipse
 License: GPL
-MD5sum: cda2b545bbd2e0760f4c7d6b0cb2cfe3
+MD5sum: 6e361fbef469f80f31af3c59a3e95854
 NeedsCompilation: no
 
 Package: FLXSA
-Version: 2.5.20140715
-Depends: methods, FLCore(>= 2.5), FLAssess(>= 2.5), FLash(>= 2.5)
+Version: 2.5.20140808
+Depends: FLCore(>= 2.5), FLAssess(>= 2.5)
 License: GPL-2
-MD5sum: b92d995a14a20d2588e5d409e5ed6ef6
+MD5sum: 1657bff7fce077f73a096e201f12ddaa
 NeedsCompilation: yes
 
 Package: ggplotFL
-Version: 2.5.20140723
+Version: 2.5.20140821
 Depends: R(>= 3.0.0), ggplot2, FLCore, gridExtra, reshape2
 Imports: plyr
 Suggests: knitr
 License: GPL-2
-MD5sum: 47c215b06b71f39d9334462d824eeb49
+MD5sum: f675d4b43c4c77dcdb431e98fc550977
+NeedsCompilation: no
+
+Package: kobe
+Version: 1.3.2
+Depends: R(>= 3.0.2), methods
+Imports: plyr, reshape, ggplot2, MASS, emdbook, coda
+Suggests: akima,
+License: GPL (>= 2)
+MD5sum: aeca5e6de829e2d4fa5cc509357a523b
 NeedsCompilation: no
 
 Package: SQLiteFL
