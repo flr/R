@@ -126,6 +126,15 @@ License: GPL (>= 2)
 MD5sum: aeca5e6de829e2d4fa5cc509357a523b
 NeedsCompilation: no
 
+Package: lh
+Version: 1.0
+Depends: FLCore
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp
+License: GPL (>= 2)
+MD5sum: 48126e2c2e30ee94b9efccf26369ed9f
+NeedsCompilation: yes
+
 Package: SQLiteFL
 Version: 0.2
 Depends: methods, FLCore

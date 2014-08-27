@@ -98,3 +98,11 @@ Imports: plyr, reshape, ggplot2, MASS, emdbook, coda
 Suggests: akima,
 License: GPL (>= 2)
 
+Package: lh
+Version: 1.0
+Depends: FLCore
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp
+License: GPL (>= 2)
+Archs: i386
+
