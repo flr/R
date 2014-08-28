@@ -7,11 +7,11 @@ MD5sum: 2c087457ff05b516cc1b2ff5c292d695
 NeedsCompilation: no
 
 Package: biodyn
-Version: 0.0.1
-Depends: R(>= 3.0.1), FLCore(>= 2.2)
-Imports: ggplotFL(>= 0.2), FLBRP
+Version: 0.0.2
+Depends: R(>= 3.0.1), FLCore(>= 2.2), diags, plyr
+Imports: ggplotFL(>= 0.2)
 License: GPL-2
-MD5sum: 3d35e799b45c8b3b22e0c3081e9e70a0
+MD5sum: fe1647c25217e1607512d8f2a546e404
 NeedsCompilation: no
 
 Package: diags

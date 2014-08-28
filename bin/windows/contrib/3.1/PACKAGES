@@ -5,9 +5,9 @@ Depends: R(>= 3.0.1), biodyn(>= 0.0.1), stringr(>= 0.6.2), reshape(>=
 License: GPL-2
 
 Package: biodyn
-Version: 0.0.1
-Depends: R(>= 3.0.1), FLCore(>= 2.2)
-Imports: ggplotFL(>= 0.2), FLBRP
+Version: 0.0.2
+Depends: R(>= 3.0.1), FLCore(>= 2.2), diags, plyr
+Imports: ggplotFL(>= 0.2)
 License: GPL-2
 
 Package: diags
