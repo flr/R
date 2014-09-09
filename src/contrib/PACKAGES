@@ -24,12 +24,12 @@ MD5sum: edfe2401c0c52fc8f371efb791f30f32
 NeedsCompilation: no
 
 Package: FLa4a
-Version: 0.100.00
+Version: 0.130.00
 Depends: R (>= 3.0.0), methods, copula, FLCore (>= 2.5.20140624), mgcv,
         splines, triangle
 Imports: lattice, Matrix
 License: file LICENSE
-MD5sum: 6e1b3e79c66705d56bff8ec91f54753c
+MD5sum: 4ff680b27ca40b5700ebec0821966ee6
 NeedsCompilation: no
 
 Package: FLash
@@ -63,11 +63,11 @@ MD5sum: aacf3c1751f77af884e3858269a3ba16
 NeedsCompilation: yes
 
 Package: FLCore
-Version: 2.5.20140814
+Version: 2.5.20140904
 Depends: methods, R(>= 3.0), grid, lattice, MASS
 Imports: stats, graphics
 License: GPL (>= 2)
-MD5sum: 245641b10b3ed82f4d90a193272acc69
+MD5sum: 52ce12144d2cce5bf9443c3f39ac16e0
 NeedsCompilation: no
 
 Package: FLEDA

@@ -18,7 +18,7 @@ Suggests: RCurl, gam
 License: GPL-2
 
 Package: FLa4a
-Version: 0.100.00
+Version: 0.130.00
 Depends: R (>= 3.0.0), methods, copula, FLCore (>= 2.5.20140624), mgcv,
         splines, triangle
 Imports: lattice, Matrix
@@ -50,7 +50,7 @@ License: GPL-2
 Archs: i386
 
 Package: FLCore
-Version: 2.5.20140814
+Version: 2.5.20140904
 Depends: methods, R(>= 3.0), grid, lattice, MASS
 Imports: stats, graphics
 License: GPL (>= 2)
