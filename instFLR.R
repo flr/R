@@ -31,7 +31,7 @@ if(length(miss) > 0) {
 	# DROP FLR pkgs
 	miss <- miss[!miss %in% pkgs]
 
-	install.packages(miss, repos=getOption('repos'))
+	install.packages(miss)
 
 }
 
