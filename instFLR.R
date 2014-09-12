@@ -26,7 +26,7 @@ miss <- unique(unlist(lapply(deps, function(x) x$Depends[!x$Depends %in% x$Insta
 if(length(miss) > 0) {
 
   	# MSG
-	print("INSTALLING pkg dependencies from CRAN")
+	cat("INSTALLING pkg dependencies from CRAN \n")
 
 	# DROP FLR pkgs
 	miss <- miss[!miss %in% pkgs]
@@ -36,7 +36,7 @@ if(length(miss) > 0) {
 }
 
 # INSTALL from FLR repo
-print("INSTALLING FLR packages")
+cat("INSTALLING FLR packages \n")
 
 install.packages(pkgs, repos="http://flr-project.org/R")
 
