@@ -6,34 +6,14 @@
 # Soundtrack:
 # Notes:
 
-
 # GET pkg DESCRIPTIONs
-info <- tools:::.build_repository_package_db("./src/contrib/", fields=NULL,
-	type="source", verbose=FALSE, unpacked=FALSE)
-
-# CREATE Package matrix for package.dependencies
-desc <-  do.call(rbind, lapply(info, function(x) t(as.matrix(x))))
-
-# Packages in repo
-pkgs <- unlist(lapply(info, function(x) x['Package']))
-names(pkgs) <- sub('.Package', '', names(pkgs))
-
+desc <- available.packages(contriburl = contrib.url("http://flr-project.org/R"))
 
 # OFFER pkgs
-pkgs <- select.list(pkgs, multiple=TRUE)
+pkgs <- select.list(rownames(desc), multiple=TRUE)
 
 # SUBSET desc
 desc <- desc[desc[, 'Package'] %in% pkgs,]
-
-
-
-# ADD File
-desc <- cbind(desc,  names(pkgs))
-colnames(desc)[16]<-'File'
-
-# ADD Repository
-desc <- cbind(desc, "http://flr-project.org/R")
-colnames(desc)[17] <- 'Repository'
 
 # CHECK dependencies
 deps <- tools::package.dependencies(desc, check = FALSE)
@@ -41,7 +21,7 @@ insp <- utils::installed.packages()
 deps <- lapply(deps, function(x) tools:::getDepList(x, insp))
 
 # FIND missing
-miss <- unlist(lapply(deps, function(x) x$Depends[!x$Depends %in% x$Installed]))
+miss <- unique(unlist(lapply(deps, function(x) x$Depends[!x$Depends %in% x$Installed])))
 
 if(length(miss) > 0) {
 
@@ -60,8 +40,3 @@ print("INSTALLING FLR packages")
 
 install.packages(pkgs, repos="http://flr-project.org/R")
 
-
-
-
-
-available.packages('http://flr-project.org/R/src/contrib')
