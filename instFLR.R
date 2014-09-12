@@ -10,7 +10,7 @@
 desc <- available.packages(contriburl = contrib.url("http://flr-project.org/R"))
 
 # OFFER pkgs
-pkgs <- select.list(rownames(desc), multiple=TRUE)
+pkgs <- select.list(rownames(desc), multiple=TRUE, title="FLR Packages")
 
 # SUBSET desc
 desc <- desc[desc[, 'Package'] %in% pkgs,]
