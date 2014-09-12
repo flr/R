@@ -18,11 +18,14 @@ desc <-  do.call(rbind, lapply(info, function(x) t(as.matrix(x))))
 pkgs <- unlist(lapply(info, function(x) x['Package']))
 names(pkgs) <- sub('.Package', '', names(pkgs))
 
+
 # OFFER pkgs
 pkgs <- select.list(pkgs, multiple=TRUE)
 
 # SUBSET desc
 desc <- desc[desc[, 'Package'] %in% pkgs,]
+
+
 
 # ADD File
 desc <- cbind(desc,  names(pkgs))
@@ -56,3 +59,9 @@ if(length(miss) > 0) {
 print("INSTALLING FLR packages")
 
 install.packages(pkgs, repos="http://flr-project.org/R")
+
+
+
+
+
+available.packages('http://flr-project.org/R/src/contrib')
