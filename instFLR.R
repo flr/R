@@ -1,15 +1,14 @@
-# deps.R - DESC
-# deps.R
+# instFLR.R - Installation script for FLR packages
 
-# Copyright 2003-2014 FLR Team. Distributed under the GPL 2 or later
+# Copyright 2014 FLR Team. Distributed under the GPL 2.
+# Author: Iago Mosqueira, JRC
 # Maintainer: Iago Mosqueira, JRC
-# Soundtrack:
 # Notes:
 
 # GET pkg DESCRIPTIONs
 desc <- available.packages(contriburl = contrib.url("http://flr-project.org/R"))
 
-# OFFER pkgs
+# OFFER FLR pkgs
 pkgs <- select.list(rownames(desc), multiple=TRUE, title="FLR Packages")
 
 # SUBSET desc
