@@ -3,7 +3,8 @@
 # Copyright 2014 FLR Team. Distributed under the GPL 2.
 # Author: Iago Mosqueira, JRC
 # Maintainer: Iago Mosqueira, JRC
-# Notes:
+
+# NOTES:
 
 # GET pkg DESCRIPTIONs
 desc <- available.packages(contriburl = contrib.url("http://flr-project.org/R"))
