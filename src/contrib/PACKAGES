@@ -1,6 +1,7 @@
 Package: aspic
 Version: 2.0.1
-Depends: R(>= 3.0.1), biodyn(>= 0.0.1), stringr(>= 0.6.2), reshape(>=0.8.4)
+Depends: R(>= 3.0.1), biodyn(>= 0.0.1), stringr(>= 0.6.2), reshape(>=
+        0.8.4),
 License: GPL-2
 MD5sum: 2c087457ff05b516cc1b2ff5c292d695
 NeedsCompilation: no
@@ -23,12 +24,12 @@ MD5sum: edfe2401c0c52fc8f371efb791f30f32
 NeedsCompilation: no
 
 Package: FLa4a
-Version: 0.130.00
+Version: 0.140.1
 Depends: R (>= 3.0.0), methods, copula, FLCore (>= 2.5.20140624), mgcv,
         splines, triangle
 Imports: lattice, Matrix
 License: file LICENSE
-MD5sum: 4ff680b27ca40b5700ebec0821966ee6
+MD5sum: 1df6224d0501667ac81336a12182a416
 NeedsCompilation: no
 
 Package: FLash
@@ -62,11 +63,11 @@ MD5sum: aacf3c1751f77af884e3858269a3ba16
 NeedsCompilation: yes
 
 Package: FLCore
-Version: 2.5.20140904
+Version: 2.5.20140919
 Depends: methods, R(>= 3.0), grid, lattice, MASS
 Imports: stats, graphics
 License: GPL (>= 2)
-MD5sum: 52ce12144d2cce5bf9443c3f39ac16e0
+MD5sum: 57a6440213a9546c8cc5bb03053a9796
 NeedsCompilation: no
 
 Package: FLEDA
