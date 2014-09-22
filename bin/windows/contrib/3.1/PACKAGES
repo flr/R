@@ -106,3 +106,10 @@ LinkingTo: Rcpp
 License: GPL (>= 2)
 Archs: i386
 
+Package: SQLiteFL
+Version: 0.2
+Depends: methods, FLCore
+Imports: FLCore
+License: GPL-2
+Archs: i386
+
