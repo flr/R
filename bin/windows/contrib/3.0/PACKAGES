@@ -60,7 +60,7 @@ License: GPL-2
 Archs: i386
 
 Package: ggplotFL
-Version: 2.5.20140723
+Version: 2.5.20140821
 Depends: R(>= 3.0.0), ggplot2, FLCore, gridExtra, reshape2
 Imports: plyr
 Suggests: knitr
