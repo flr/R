@@ -132,7 +132,7 @@ Depends: FLCore
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp
 License: GPL (>= 2)
-MD5sum: 48126e2c2e30ee94b9efccf26369ed9f
+MD5sum: 2463e87f4d3c320321b51b23a62e3741
 NeedsCompilation: yes
 
 Package: SQLiteFL

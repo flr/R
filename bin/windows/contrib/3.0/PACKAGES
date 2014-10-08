@@ -66,6 +66,14 @@ Imports: plyr
 Suggests: knitr
 License: GPL-2
 
+Package: lh
+Version: 1.0
+Depends: FLCore
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp
+License: GPL (>= 2)
+Archs: i386
+
 Package: SQLiteFL
 Version: 0.2
 Depends: methods, FLCore
