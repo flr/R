@@ -33,10 +33,10 @@ MD5sum: 1df6224d0501667ac81336a12182a416
 NeedsCompilation: no
 
 Package: FLash
-Version: 2.5.0
+Version: 2.5.1
 Depends: R(>= 2.15.0), FLCore(>= 2.5), methods
 License: GPL-2
-MD5sum: abe5f1a80faee76855c30553c6de6d3e
+MD5sum: dfd5552892cd19ac279d4a732cf22e36
 NeedsCompilation: yes
 
 Package: FLAssess
@@ -63,11 +63,11 @@ MD5sum: aacf3c1751f77af884e3858269a3ba16
 NeedsCompilation: yes
 
 Package: FLCore
-Version: 2.5.20140919
+Version: 2.5.20141103
 Depends: methods, R(>= 3.0), grid, lattice, MASS
 Imports: stats, graphics
 License: GPL (>= 2)
-MD5sum: 57a6440213a9546c8cc5bb03053a9796
+MD5sum: c7947908bd796cc25b54b492865f2bb6
 NeedsCompilation: no
 
 Package: FLEDA
