@@ -8,10 +8,11 @@ NeedsCompilation: no
 
 Package: biodyn
 Version: 0.0.2
-Depends: R(>= 3.0.1), FLCore(>= 2.2), diags, plyr
-Imports: ggplotFL(>= 0.2)
+Depends: R(>= 3.0.1), methods, FLCore(>= 2.5), FLBRP
+Imports: ggplot2, plyr, reshape, stringr
+Suggests: knitr
 License: GPL-2
-MD5sum: fe1647c25217e1607512d8f2a546e404
+MD5sum: 8eb419c1aba7650718c9b62acd858608
 NeedsCompilation: no
 
 Package: diags

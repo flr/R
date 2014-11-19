@@ -6,8 +6,9 @@ License: GPL-2
 
 Package: biodyn
 Version: 0.0.2
-Depends: R(>= 3.0.1), FLCore(>= 2.2), diags, plyr
-Imports: ggplotFL(>= 0.2)
+Depends: R(>= 3.0.1), methods, FLCore(>= 2.5), FLBRP
+Imports: ggplot2, plyr, reshape, stringr
+Suggests: knitr
 License: GPL-2
 
 Package: diags
