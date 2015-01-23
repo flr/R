@@ -19,9 +19,9 @@ Suggests: RCurl, gam
 License: GPL-2
 
 Package: FLa4a
-Version: 0.140.1
-Depends: R (>= 3.0.0), methods, copula, FLCore (>= 2.5.20140624), mgcv,
-        splines, triangle
+Version: 0.200.1
+Depends: R (>= 3.0.0), methods, FLCore (>= 2.5.20140624), mgcv,
+        splines, triangle, copula
 Imports: lattice, Matrix
 License: file LICENSE
 
