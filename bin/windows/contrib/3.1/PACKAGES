@@ -26,7 +26,7 @@ Imports: lattice, Matrix
 License: file LICENSE
 
 Package: FLash
-Version: 2.5.1
+Version: 2.5.2
 Depends: R(>= 2.15.0), FLCore(>= 2.5), methods
 License: GPL-2
 Archs: i386
@@ -51,9 +51,9 @@ License: GPL-2
 Archs: i386
 
 Package: FLCore
-Version: 2.5.20141103
-Depends: methods, R(>= 3.0), grid, lattice, MASS
-Imports: stats, graphics
+Version: 2.5.20150116
+Depends: methods, R(>= 3.0), lattice, MASS
+Imports: grid, stats, graphics
 License: GPL (>= 2)
 
 Package: FLEDA
