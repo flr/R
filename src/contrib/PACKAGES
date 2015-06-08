@@ -132,8 +132,9 @@ Version: 1.0
 Depends: FLCore
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp
+Suggests: knitr, testthat
 License: GPL (>= 2)
-MD5sum: 2463e87f4d3c320321b51b23a62e3741
+MD5sum: 86415d34d92d53c6d2dfdd372378064f
 NeedsCompilation: yes
 
 Package: SQLiteFL
