@@ -30,14 +30,14 @@ Depends: R (>= 3.0.0), methods, FLCore (>= 2.5.20140624), mgcv,
         splines, triangle, copula
 Imports: lattice, Matrix
 License: file LICENSE
-MD5sum: 93f69f432eb569cdb3a3ca5866957781
+MD5sum: 0c98890ffdde7adab1cef94824497105
 NeedsCompilation: no
 
 Package: FLash
-Version: 2.5.1
+Version: 2.5.2
 Depends: R(>= 2.15.0), FLCore(>= 2.5), methods
 License: GPL-2
-MD5sum: dfd5552892cd19ac279d4a732cf22e36
+MD5sum: 3000026906e68bf63f60ecd6c14150d0
 NeedsCompilation: yes
 
 Package: FLAssess
@@ -45,7 +45,7 @@ Version: 2.5.20130716
 Depends: FLCore(>= 2.5.0), FLash(>= 2.5.0)
 LinkingTo: FLash
 License: GPL-2
-MD5sum: 860859be6fde9e7f9dcc8924dd2c9304
+MD5sum: 751f1d3c95288946150b77870cff47d5
 NeedsCompilation: yes
 
 Package: FLBEIA
@@ -57,18 +57,18 @@ NeedsCompilation: no
 
 Package: FLBRP
 Version: 2.5.20140822
-Depends: FLCore(>= 2.3), FLash, ggplotFL, plyr, reshape
+Depends: FLCore(>= 2.3), FLash, ggplotFL, plyr, reshape2
 LinkingTo: FLash
 License: GPL-2
-MD5sum: aacf3c1751f77af884e3858269a3ba16
+MD5sum: 749854be236480008d8b8b64f0a89fc1
 NeedsCompilation: yes
 
 Package: FLCore
-Version: 2.5.20141103
-Depends: methods, R(>= 3.0), grid, lattice, MASS
-Imports: stats, graphics
+Version: 2.5.20150513
+Depends: methods, R(>= 3.0), lattice, MASS
+Imports: grid, stats, graphics
 License: GPL (>= 2)
-MD5sum: c7947908bd796cc25b54b492865f2bb6
+MD5sum: bd714fef7eb970c54ca8042424e87597
 NeedsCompilation: no
 
 Package: FLEDA
@@ -79,11 +79,11 @@ MD5sum: 418269c75c523f3d0df75189eb1f261b
 NeedsCompilation: no
 
 Package: FLFishery
-Version: 0.1.20140121
+Version: 0.1.20150528
 Depends: R(>= 3.0.0), methods, FLCore
 Suggests: knitr
 License: GPL-2
-MD5sum: 44eb73dc868bf14a5d14a6dd425a9c0e
+MD5sum: c29acec27766ca920a9a417c82b34ad9
 NeedsCompilation: no
 
 Package: FLFleet
@@ -91,7 +91,7 @@ Version: 2.5.20140531
 Depends: methods, FLCore, R(>= 2.15.1),
 Imports: FLCore
 License: GPL-2
-MD5sum: 99980226f5cd64e4e9cacce1b9705c37
+MD5sum: 48a4105e736f5ae6c431f5502bcc229e
 NeedsCompilation: no
 
 Package: FLSAM
@@ -99,23 +99,23 @@ Version: 1.0
 Depends: R(>= 2.13.0), FLCore(>= 2.4), utils, MASS
 Suggests: methods, reshape, plyr, ellipse
 License: GPL
-MD5sum: 6e361fbef469f80f31af3c59a3e95854
+MD5sum: fb7d1e37b5efec3ba5d89cc9c8295858
 NeedsCompilation: no
 
 Package: FLXSA
 Version: 2.5.20140808
 Depends: FLCore(>= 2.5), FLAssess(>= 2.5)
 License: GPL-2
-MD5sum: 1657bff7fce077f73a096e201f12ddaa
+MD5sum: 785bb62c144228da98b47f3a1cf5b9ef
 NeedsCompilation: yes
 
 Package: ggplotFL
-Version: 2.5.20140821
-Depends: R(>= 3.0.0), ggplot2, FLCore, gridExtra, reshape2
+Version: 2.5.20141027
+Depends: R(>= 3.0.0), ggplot2(>= 1.0.0), FLCore, gridExtra, reshape2
 Imports: plyr
 Suggests: knitr
 License: GPL-2
-MD5sum: f675d4b43c4c77dcdb431e98fc550977
+MD5sum: 83804b08abb3ebd7fc4d441654617a83
 NeedsCompilation: no
 
 Package: kobe
@@ -128,20 +128,19 @@ MD5sum: aeca5e6de829e2d4fa5cc509357a523b
 NeedsCompilation: no
 
 Package: lh
-Version: 1.0
+Version: 1.1
 Depends: FLCore
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp
-Suggests: knitr, testthat
-License: GPL (>= 2)
-MD5sum: 86415d34d92d53c6d2dfdd372378064f
+Suggests: knitr, testthat, plyr, reshape, ggplot2
+MD5sum: 60dda96cc5667167b710a62355972c62
 NeedsCompilation: yes
 
 Package: SQLiteFL
-Version: 0.2
+Version: 0.2.20141106
 Depends: methods, FLCore
-Imports: FLCore
+Suggests: xtable
 License: GPL-2
-MD5sum: 9d6b28055987ebeccbe4b97f36be8c77
+MD5sum: 946b3bef65069d99d310518193a428bb
 NeedsCompilation: yes
 
