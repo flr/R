@@ -1,18 +1,18 @@
 Package: aspic
 Version: 2.0.1
 Depends: R(>= 3.0.1), biodyn(>= 0.0.1), stringr(>= 0.6.2), reshape(>=
-        0.8.4),
+        0.8.4)
 License: GPL-2
-MD5sum: 2c087457ff05b516cc1b2ff5c292d695
+MD5sum: ecf45c773d07c58cdd2c9db0b7393c49
 NeedsCompilation: no
 
 Package: biodyn
 Version: 0.0.2
-Depends: R(>= 3.0.1), methods, FLCore(>= 2.5), FLBRP
-Imports: ggplot2, plyr, reshape, stringr
-Suggests: knitr
+Depends: R(>= 3.0.1), methods, FLCore(>= 2.2), FLBRP
+Imports: ggplot2, plyr, reshape2, stringr
+Suggests: diags, kobe, knitr
 License: GPL-2
-MD5sum: 8eb419c1aba7650718c9b62acd858608
+MD5sum: 2e6b90c784834b22eff78c8ddf9edb03
 NeedsCompilation: no
 
 Package: diags
@@ -21,7 +21,7 @@ Depends: R(>= 2.15.1), methods, grid, stringr, r4ss, ggplot2, reshape,
         plyr, LaF, ellipse, corrplot
 Suggests: RCurl, gam
 License: GPL-2
-MD5sum: edfe2401c0c52fc8f371efb791f30f32
+MD5sum: c4e4290212303e48155225a206b5bcf9
 NeedsCompilation: no
 
 Package: FLa4a
@@ -121,10 +121,10 @@ NeedsCompilation: no
 Package: kobe
 Version: 1.3.2
 Depends: R(>= 3.0.2), methods
-Imports: plyr, reshape, ggplot2, MASS, emdbook, coda
+Imports: plyr, reshape2, ggplot2, MASS, emdbook, coda
 Suggests: akima,
 License: GPL (>= 2)
-MD5sum: aeca5e6de829e2d4fa5cc509357a523b
+MD5sum: a4ad667cc6727881ba6f0baca99ce53e
 NeedsCompilation: no
 
 Package: lh
