@@ -69,7 +69,7 @@ Depends: methods, R(>= 3.0), lattice, MASS, Matrix
 Imports: grid, stats, graphics
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 3b8ea85a966128682420540af5d9c1bd
+MD5sum: 13d91d9da9ad2dbd42258e51eccb19fa
 NeedsCompilation: no
 
 Package: FLEDA
@@ -111,12 +111,12 @@ MD5sum: 785bb62c144228da98b47f3a1cf5b9ef
 NeedsCompilation: yes
 
 Package: ggplotFL
-Version: 2.5.20141027
-Depends: R(>= 3.0.0), ggplot2(>= 1.0.0), FLCore, gridExtra, reshape2
-Imports: plyr
-Suggests: knitr
+Version: 2.5.20160119
+Depends: R(>= 3.0.0), ggplot2(>= 2.0.0), FLCore
+Imports: methods, gridExtra, reshape2, plyr
+Suggests: knitr, rmarkdown
 License: GPL-2
-MD5sum: 83804b08abb3ebd7fc4d441654617a83
+MD5sum: 48bc307314154d39763dbc18cb9a4e3a
 NeedsCompilation: no
 
 Package: lh

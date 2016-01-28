@@ -83,10 +83,10 @@ License: GPL-2
 Archs: i386
 
 Package: ggplotFL
-Version: 2.5.20141027
-Depends: R(>= 3.0.0), ggplot2(>= 1.0.0), FLCore, gridExtra, reshape2
-Imports: plyr
-Suggests: knitr
+Version: 2.5.20160119
+Depends: R(>= 3.0.0), ggplot2(>= 2.0.0), FLCore
+Imports: methods, gridExtra, reshape2, plyr
+Suggests: knitr, rmarkdown
 License: GPL-2
 
 Package: lh
