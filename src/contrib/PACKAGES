@@ -49,10 +49,12 @@ MD5sum: 751f1d3c95288946150b77870cff47d5
 NeedsCompilation: yes
 
 Package: FLBEIA
-Version: 1.3.20130719
-Depends: methods, R(>= 2.15.0), FLCore, FLFleet
+Version: 1.0
+Depends: R(>= 3.2.0), FLCore, FLFleet, FLash, FLAssess, FLXSA
+Imports: methods, plyr, ggplot2, nloptr, mvtnorm, triangle
+Suggests: Matrix
 License: GPL-2
-MD5sum: 13d6fb1d41102a9f3ba657bd0fab15b5
+MD5sum: 3034107052c0726c7cc461914ce93ec9
 NeedsCompilation: no
 
 Package: FLBRP
