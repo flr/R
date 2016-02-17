@@ -39,8 +39,10 @@ License: GPL-2
 Archs: i386
 
 Package: FLBEIA
-Version: 1.3.20130719
-Depends: methods, R(>= 2.15.0), FLCore, FLFleet
+Version: 1.0
+Depends: R(>= 3.1.0), FLCore, FLFleet, FLash, FLAssess, FLXSA
+Imports: methods, plyr, ggplot2, nloptr, mvtnorm, triangle
+Suggests: Matrix
 License: GPL-2
 
 Package: FLBRP
