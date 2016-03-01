@@ -19,7 +19,7 @@ Suggests: RCurl, gam
 License: GPL-2
 
 Package: FLa4a
-Version: 0.700.1
+Version: 0.700.2
 Depends: R (>= 3.0.0), methods, FLCore (>= 2.5.20140624), lattice,
         Matrix, mgcv, triangle, copula, coda
 Suggests: latticeExtra
@@ -40,7 +40,7 @@ Archs: i386
 
 Package: FLBEIA
 Version: 1.0
-Depends: R(>= 3.2.0), FLCore, FLFleet, FLash, FLAssess, FLXSA
+Depends: R(>= 3.1.0), FLCore, FLFleet, FLash, FLAssess, FLXSA
 Imports: methods, plyr, ggplot2, nloptr, mvtnorm, triangle
 Suggests: Matrix
 License: GPL-2

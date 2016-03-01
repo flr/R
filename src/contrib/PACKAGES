@@ -25,12 +25,12 @@ MD5sum: c4e4290212303e48155225a206b5bcf9
 NeedsCompilation: no
 
 Package: FLa4a
-Version: 0.700.1
+Version: 0.700.2
 Depends: R (>= 3.0.0), methods, FLCore (>= 2.5.20140624), lattice,
         Matrix, mgcv, triangle, copula, coda
 Suggests: latticeExtra
 License: file LICENSE
-MD5sum: 7dc48131d162b237ed831922ce955f47
+MD5sum: 610672d31918e2913c49bdf414373407
 NeedsCompilation: no
 
 Package: FLash
@@ -50,11 +50,11 @@ NeedsCompilation: yes
 
 Package: FLBEIA
 Version: 1.0
-Depends: R(>= 3.2.0), FLCore, FLFleet, FLash, FLAssess, FLXSA
+Depends: R(>= 3.1.0), FLCore, FLFleet, FLash, FLAssess, FLXSA
 Imports: methods, plyr, ggplot2, nloptr, mvtnorm, triangle
 Suggests: Matrix
 License: GPL-2
-MD5sum: 3034107052c0726c7cc461914ce93ec9
+MD5sum: 36bead441ab8a434d3d2e8d5809b8766
 NeedsCompilation: no
 
 Package: FLBRP
