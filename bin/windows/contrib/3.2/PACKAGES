@@ -71,6 +71,12 @@ Depends: methods, FLCore, R(>= 2.15.1),
 Imports: FLCore
 License: GPL-2
 
+Package: FLife
+Version: 0.9.0
+Depends: R(>= 3.0.1), methods
+Imports: FLCore(>= 2.5), FLBRP
+License: GPL (>= 2)
+
 Package: FLSAM
 Version: 1.0
 Depends: R(>= 2.13.0), FLCore(>= 2.4), utils, MASS
@@ -97,6 +103,13 @@ Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp
 Suggests: knitr, testthat, plyr, reshape, ggplot2
 Archs: i386
+
+Package: mpb
+Version: 0.1.0
+Depends: R(>= 3.0.1)
+Imports: methods, FLCore(>= 2.5), plyr, stringr, reshape, FLBRP
+Suggests: knitr
+License: GPL-2
 
 Package: SQLiteFL
 Version: 0.2.20141106
