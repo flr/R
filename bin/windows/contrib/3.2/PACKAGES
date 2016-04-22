@@ -72,9 +72,8 @@ Imports: FLCore
 License: GPL-2
 
 Package: FLife
-Version: 0.9.0
-Depends: R(>= 3.0.1), methods
-Imports: FLCore(>= 2.5), FLBRP
+Version: 1.1
+Depends: R(>= 3.0.1), methods, FLCore(>= 2.5), FLBRP
 License: GPL (>= 2)
 
 Package: FLSAM

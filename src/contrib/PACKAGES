@@ -98,11 +98,10 @@ MD5sum: 48a4105e736f5ae6c431f5502bcc229e
 NeedsCompilation: no
 
 Package: FLife
-Version: 0.9.0
-Depends: R(>= 3.0.1), methods
-Imports: FLCore(>= 2.5), FLBRP
+Version: 1.1
+Depends: R(>= 3.0.1), methods, FLCore(>= 2.5), FLBRP
 License: GPL (>= 2)
-MD5sum: 261bebc7e254bad09940be955730c66c
+MD5sum: 7e435e5130660d0263333e02d64c0c4b
 NeedsCompilation: no
 
 Package: FLSAM
@@ -144,8 +143,8 @@ Depends: R(>= 3.0.1)
 Imports: methods, FLCore(>= 2.5), plyr, stringr, reshape, FLBRP
 Suggests: knitr
 License: GPL-2
-MD5sum: 26fbe732704bb9f9a5f39b579ffd2bc2
-NeedsCompilation: yes
+MD5sum: 96bf43ad3f2478c343185aaa36d87a19
+NeedsCompilation: no
 
 Package: SQLiteFL
 Version: 0.2.20141106
