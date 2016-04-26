@@ -143,7 +143,7 @@ Depends: R(>= 3.0.1)
 Imports: methods, FLCore(>= 2.5), plyr, stringr, reshape, FLBRP
 Suggests: knitr
 License: GPL-2
-MD5sum: 96bf43ad3f2478c343185aaa36d87a19
+MD5sum: f4ce5f6fad7a56b373551c0105bbcf3d
 NeedsCompilation: no
 
 Package: SQLiteFL
