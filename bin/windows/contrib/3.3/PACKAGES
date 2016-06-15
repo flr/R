@@ -1,0 +1,119 @@
+Package: aspic
+Version: 2.0.1
+Depends: R(>= 3.0.1), biodyn(>= 0.0.1), stringr(>= 0.6.2), reshape(>=
+        0.8.4)
+License: GPL-2
+
+Package: biodyn
+Version: 0.0.2
+Depends: R(>= 3.0.1), methods, FLCore(>= 2.2), FLBRP
+Imports: ggplot2, plyr, reshape2, stringr
+Suggests: diags, kobe, knitr
+License: GPL-2
+
+Package: diags
+Version: 0.0
+Depends: R(>= 2.15.1), methods, grid, stringr, r4ss, ggplot2, reshape,
+        plyr, LaF, ellipse, corrplot
+Suggests: RCurl, gam
+License: GPL-2
+
+Package: FLa4a
+Version: 0.700.2
+Depends: R (>= 3.0.0), methods, FLCore (>= 2.5.20140624), lattice,
+        Matrix, mgcv, triangle, copula, coda
+Suggests: latticeExtra
+License: file LICENSE
+
+Package: FLash
+Version: 2.5.2
+Depends: R(>= 2.15.0), FLCore(>= 2.5), methods
+License: GPL-2
+Archs: i386
+
+Package: FLAssess
+Version: 2.5.20130716
+Depends: FLCore(>= 2.5.0), FLash(>= 2.5.0)
+LinkingTo: FLash
+License: GPL-2
+Archs: i386
+
+Package: FLBEIA
+Version: 1.0
+Depends: R(>= 3.1.0), FLCore, FLFleet, FLash, FLAssess, FLXSA
+Imports: methods, plyr, ggplot2, nloptr, mvtnorm, triangle
+Suggests: Matrix
+License: GPL-2
+
+Package: FLBRP
+Version: 2.5.20140822
+Depends: FLCore(>= 2.3), FLash, ggplotFL, plyr, reshape2
+LinkingTo: FLash
+License: GPL-2
+Archs: i386
+
+Package: FLCore
+Version: 2.5.20160504
+Depends: R(>= 3.0), MASS, lattice
+Imports: methods, utils, Matrix, grid, stats, graphics
+Suggests: testthat
+License: GPL (>= 2)
+
+Package: FLFishery
+Version: 0.1.20150528
+Depends: R(>= 3.0.0), methods, FLCore
+Suggests: knitr
+License: GPL-2
+
+Package: FLFleet
+Version: 2.5.20140531
+Depends: methods, FLCore, R(>= 2.15.1),
+Imports: FLCore
+License: GPL-2
+
+Package: FLife
+Version: 1.1
+Depends: R(>= 3.0.1), methods, FLCore(>= 2.5), FLBRP
+License: GPL (>= 2)
+
+Package: FLSAM
+Version: 1.0
+Depends: R(>= 2.13.0), FLCore(>= 2.4), utils, MASS
+Suggests: methods, reshape, plyr, ellipse
+License: GPL
+
+Package: FLXSA
+Version: 2.5.20140808
+Depends: FLCore(>= 2.5), FLAssess(>= 2.5)
+License: GPL-2
+Archs: i386
+
+Package: ggplotFL
+Version: 2.5.20160119
+Depends: R(>= 3.0.0), ggplot2(>= 2.0.0), FLCore
+Imports: methods, gridExtra, reshape2, plyr
+Suggests: knitr, rmarkdown
+License: GPL-2
+
+Package: lh
+Version: 1.1
+Depends: FLCore
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp
+Suggests: knitr, testthat, plyr, reshape, ggplot2
+Archs: i386
+
+Package: mpb
+Version: 0.1.0
+Depends: R(>= 3.0.1)
+Imports: methods, FLCore(>= 2.5), plyr, stringr, reshape, FLBRP
+Suggests: knitr
+License: GPL-2
+
+Package: SQLiteFL
+Version: 0.2.20141106
+Depends: methods, FLCore
+Suggests: xtable
+License: GPL-2
+Archs: i386
+
