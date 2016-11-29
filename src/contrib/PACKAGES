@@ -16,12 +16,13 @@ MD5sum: 2e6b90c784834b22eff78c8ddf9edb03
 NeedsCompilation: no
 
 Package: diags
-Version: 0.0
-Depends: R(>= 2.15.1), methods, grid, stringr, r4ss, ggplot2, reshape,
-        plyr, LaF, ellipse, corrplot
+Version: 1.0.0
+Depends: R(>= 2.15.1), methods
+Imports: grid, stringr, r4ss, reshape, plyr, ggplot2, LaF, ellipse,
+        corrplot
 Suggests: RCurl, gam
 License: GPL-2
-MD5sum: c4e4290212303e48155225a206b5bcf9
+MD5sum: af9aadc2e0301cc6ca592b4398867107
 NeedsCompilation: no
 
 Package: FLa4a
