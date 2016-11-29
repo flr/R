@@ -19,7 +19,7 @@ Suggests: RCurl, gam
 License: GPL-2
 
 Package: FLa4a
-Version: 0.800.1
+Version: 0.900.0
 Depends: R (>= 3.2.0), FLCore (>= 2.5.20140624), triangle
 Imports: methods, lattice, Matrix, mgcv, copula, coda
 Suggests: latticeExtra
@@ -32,28 +32,26 @@ License: GPL-2
 Archs: i386
 
 Package: FLAssess
-Version: 2.5.20130716
+Version: 2.5.20150717
 Depends: FLCore(>= 2.5.0), FLash(>= 2.5.0)
 LinkingTo: FLash
 License: GPL-2
 Archs: i386
 
 Package: FLBEIA
-Version: 1.0
-Depends: R(>= 3.1.0), FLCore, FLFleet, FLash, FLAssess, FLXSA
-Imports: methods, plyr, ggplot2, nloptr, mvtnorm, triangle
-Suggests: Matrix
+Version: 1.15
+Depends: methods, R(>= 2.15.0),FLCore, FLFleet
 License: GPL-2
 
 Package: FLBRP
-Version: 2.5.20140822
-Depends: FLCore(>= 2.3), FLash, ggplotFL, plyr, reshape2
+Version: 2.5.20161129
+Depends: FLCore(>= 2.3), FLash, ggplotFL, plyr, reshape
 LinkingTo: FLash
 License: GPL-2
 Archs: i386
 
 Package: FLCore
-Version: 2.5.20160504
+Version: 2.6.0.20161123
 Depends: R(>= 3.0), MASS, lattice
 Imports: methods, utils, Matrix, grid, stats, graphics
 Suggests: testthat
@@ -66,7 +64,7 @@ Suggests: knitr
 License: GPL-2
 
 Package: FLFleet
-Version: 2.5.20140531
+Version: 2.5.20150311
 Depends: methods, FLCore, R(>= 2.15.1),
 Imports: FLCore
 License: GPL-2
@@ -89,10 +87,10 @@ License: GPL-2
 Archs: i386
 
 Package: ggplotFL
-Version: 2.5.20160119
+Version: 2.5.20161007
 Depends: R(>= 3.0.0), ggplot2(>= 2.0.0), FLCore
-Imports: methods, gridExtra, reshape2, plyr
-Suggests: knitr, rmarkdown
+Imports: methods, gridExtra, stats
+Suggests: knitr, rmarkdown, reshape2
 License: GPL-2
 
 Package: lh
@@ -104,11 +102,13 @@ Suggests: knitr, testthat, plyr, reshape, ggplot2
 Archs: i386
 
 Package: mpb
-Version: 0.1.0
-Depends: R(>= 3.0.1)
-Imports: methods, FLCore(>= 2.5), plyr, stringr, reshape, FLBRP
-Suggests: knitr
+Version: 1.0.0
+Depends: R(>= 3.3.1), FLCore(>= 2.5.2)
+Imports: methods, stringr, reshape, Rcpp, FLBRP
+LinkingTo: Rcpp
+Suggests: rmarkdown, knitr
 License: GPL-2
+Archs: i386
 
 Package: SQLiteFL
 Version: 0.2.20141106
