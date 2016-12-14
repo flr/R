@@ -138,12 +138,12 @@ NeedsCompilation: yes
 
 Package: mpb
 Version: 1.0.0
-Depends: R(>= 3.3.1), FLCore(>= 2.5.2)
-Imports: methods, stringr, reshape, Rcpp, FLBRP
+Depends: R(>= 3.3.1), FLCore(>= 2.5.2), plyr, reshape, ggplot2
+Imports: methods, stringr, Rcpp, FLBRP
 LinkingTo: Rcpp
 Suggests: rmarkdown, knitr
 License: GPL-2
-MD5sum: 2dcc85b92f48133e82f3b9e12a18537d
+MD5sum: 19b8afc3f113a585d5dc219d9e1fb014
 NeedsCompilation: yes
 
 Package: SQLiteFL
