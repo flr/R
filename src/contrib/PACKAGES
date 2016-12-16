@@ -143,7 +143,7 @@ Imports: methods, stringr, Rcpp, FLBRP
 LinkingTo: Rcpp
 Suggests: rmarkdown, knitr
 License: GPL-2
-MD5sum: 19b8afc3f113a585d5dc219d9e1fb014
+MD5sum: 3bb6fd111072db9a5f4bdc208c4d7cad
 NeedsCompilation: yes
 
 Package: SQLiteFL
