@@ -70,7 +70,7 @@ Depends: R(>= 3.0), MASS, lattice
 Imports: methods, utils, Matrix, grid, stats, graphics
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: a70c6d255f7fcf44fe37770ddfa10168
+MD5sum: 2f5c941f27056f05942c4cda5df1287c
 NeedsCompilation: no
 
 Package: FLEDA
@@ -139,11 +139,11 @@ NeedsCompilation: yes
 Package: mpb
 Version: 1.0.0
 Depends: R(>= 3.3.1), FLCore(>= 2.5.2), plyr, reshape, ggplot2
-Imports: methods, stringr, Rcpp, FLBRP
+Imports: methods, stringr, Rcpp
 LinkingTo: Rcpp
 Suggests: rmarkdown, knitr
 License: GPL-2
-MD5sum: 19b8afc3f113a585d5dc219d9e1fb014
+MD5sum: 294508ecf5cf6776304d3f6ca80fa979
 NeedsCompilation: yes
 
 Package: SQLiteFL

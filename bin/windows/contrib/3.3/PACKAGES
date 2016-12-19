@@ -105,7 +105,7 @@ Archs: i386
 Package: mpb
 Version: 1.0.0
 Depends: R(>= 3.3.1), FLCore(>= 2.5.2), plyr, reshape, ggplot2
-Imports: methods, stringr, Rcpp, FLBRP
+Imports: methods, stringr, Rcpp
 LinkingTo: Rcpp
 Suggests: rmarkdown, knitr
 License: GPL-2
