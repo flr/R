@@ -20,10 +20,10 @@ Suggests: RCurl, gam
 License: GPL-2
 
 Package: FLa4a
-Version: 0.900.0
-Depends: R (>= 3.2.0), FLCore (>= 2.5.20140624), triangle
+Version: 1.0.0
+Depends: R (>= 3.2.0), FLCore (>= 2.6.0.20161214), triangle
 Imports: methods, lattice, Matrix, mgcv, copula, coda
-Suggests: latticeExtra
+Suggests: latticeExtra, knitr, formatR, XML, reshape2, testthat
 License: file LICENSE
 
 Package: FLash
