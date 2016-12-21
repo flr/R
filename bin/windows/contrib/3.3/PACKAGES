@@ -52,7 +52,7 @@ License: GPL-2
 Archs: i386
 
 Package: FLCore
-Version: 2.6.0.20161206
+Version: 2.6.0.20161214
 Depends: R(>= 3.0), MASS, lattice
 Imports: methods, utils, Matrix, grid, stats, graphics
 Suggests: testthat

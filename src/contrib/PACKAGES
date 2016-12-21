@@ -65,12 +65,12 @@ MD5sum: 1ad14b04fd50b77ad63dfb5d33f7fb51
 NeedsCompilation: yes
 
 Package: FLCore
-Version: 2.6.0.20161206
+Version: 2.6.0.20161214
 Depends: R(>= 3.0), MASS, lattice
 Imports: methods, utils, Matrix, grid, stats, graphics
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 2f5c941f27056f05942c4cda5df1287c
+MD5sum: 2f6de15c21c55eee7dd42203083cfad9
 NeedsCompilation: no
 
 Package: FLEDA
