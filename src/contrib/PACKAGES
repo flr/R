@@ -31,7 +31,7 @@ Depends: R (>= 3.2.0), FLCore (>= 2.6.0.20161214), triangle
 Imports: methods, lattice, Matrix, mgcv, copula, coda
 Suggests: latticeExtra, knitr, formatR, XML, reshape2, testthat
 License: file LICENSE
-MD5sum: 686ef5d1432a3caf320cf09eac7d9d0d
+MD5sum: 3f16a183f489688b54b59f292666076c
 NeedsCompilation: no
 
 Package: FLash
@@ -57,11 +57,11 @@ MD5sum: 6a49ed6bc2d1a3b74f4ad9e3e7d47c53
 NeedsCompilation: no
 
 Package: FLBRP
-Version: 2.5.20161129
+Version: 2.5.20170109
 Depends: FLCore(>= 2.3), FLash, ggplotFL, plyr, reshape
 LinkingTo: FLash
 License: GPL-2
-MD5sum: 1ad14b04fd50b77ad63dfb5d33f7fb51
+MD5sum: c7a2b943ecb21482f2d824ba18f5cc2c
 NeedsCompilation: yes
 
 Package: FLCore
