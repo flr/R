@@ -103,13 +103,13 @@ Suggests: knitr, testthat, plyr, reshape, ggplot2
 Archs: i386
 
 Package: mpb
-Version: 1.0.0
-Depends: R(>= 3.3.1), FLCore(>= 2.5.2), plyr, reshape, ggplot2
-Imports: methods, stringr, Rcpp
+Version: 1.0.1
+Depends: R(>= 3.3.1), FLCore(>= 2.5.2)
+Imports: methods, stringr, ggplotFL, plyr, reshape, Rcpp
 LinkingTo: Rcpp
 Suggests: rmarkdown, knitr
 License: GPL-2
-Archs: i386
+Archs: i386, x64
 
 Package: SQLiteFL
 Version: 0.2.20141106

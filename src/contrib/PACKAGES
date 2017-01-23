@@ -137,13 +137,13 @@ MD5sum: 60dda96cc5667167b710a62355972c62
 NeedsCompilation: yes
 
 Package: mpb
-Version: 1.0.0
-Depends: R(>= 3.3.1), FLCore(>= 2.5.2), plyr, reshape, ggplot2
-Imports: methods, stringr, Rcpp
+Version: 1.0.1
+Depends: R(>= 3.3.1), FLCore(>= 2.5.2)
+Imports: methods, stringr, ggplotFL, plyr, reshape, Rcpp
 LinkingTo: Rcpp
 Suggests: rmarkdown, knitr
 License: GPL-2
-MD5sum: 1beea6c8d3c31904d2fc4a17ae08f971
+MD5sum: 3ce8b7b7f6b7680e7d7aa2b0d712a7e1
 NeedsCompilation: yes
 
 Package: SQLiteFL
