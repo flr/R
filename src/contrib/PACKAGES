@@ -143,7 +143,7 @@ Imports: methods, stringr, ggplotFL, plyr, reshape, Rcpp
 LinkingTo: Rcpp
 Suggests: rmarkdown, knitr
 License: GPL-2
-MD5sum: 3ce8b7b7f6b7680e7d7aa2b0d712a7e1
+MD5sum: 55c48c0c37b97a9dc67a7861330278fb
 NeedsCompilation: yes
 
 Package: SQLiteFL

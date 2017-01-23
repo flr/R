@@ -109,7 +109,7 @@ Imports: methods, stringr, ggplotFL, plyr, reshape, Rcpp
 LinkingTo: Rcpp
 Suggests: rmarkdown, knitr
 License: GPL-2
-Archs: i386, x64
+Archs: i386
 
 Package: SQLiteFL
 Version: 0.2.20141106
