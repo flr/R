@@ -65,12 +65,12 @@ MD5sum: c7a2b943ecb21482f2d824ba18f5cc2c
 NeedsCompilation: yes
 
 Package: FLCore
-Version: 2.6.0.20161214
+Version: 2.6.0.20170123
 Depends: R(>= 3.0), MASS, lattice
-Imports: methods, utils, Matrix, grid, stats, graphics
+Imports: methods, utils, Matrix, grid, stats, stats4, graphics
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 2f6de15c21c55eee7dd42203083cfad9
+MD5sum: 071a3b0aa9d07db9be51e223e513a54a
 NeedsCompilation: no
 
 Package: FLEDA
@@ -143,7 +143,7 @@ Imports: methods, stringr, ggplotFL, plyr, reshape, Rcpp
 LinkingTo: Rcpp
 Suggests: rmarkdown, knitr
 License: GPL-2
-MD5sum: 55c48c0c37b97a9dc67a7861330278fb
+MD5sum: 1d93f64b036d4d6da045751b87a02818
 NeedsCompilation: yes
 
 Package: SQLiteFL
