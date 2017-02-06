@@ -23,7 +23,7 @@ if("FLash" %in% pkgs & arch$OS.type == "windows" & arch$r_arch != "i386")
 desc <- desc[desc[, 'Package'] %in% pkgs,]
 
 # CHECK dependencies
-deps <- tools::package.dependencies(desc, check = FALSE)
+deps <- tools::package_dependencies(desc, check = FALSE)
 insp <- utils::installed.packages()
 deps <- lapply(deps, function(x) tools:::getDepList(x, insp))
 
