@@ -1,3 +1,11 @@
+Package: diags
+Version: 2.0.0
+Depends: R(>= 2.15.1),
+Suggests: methods, RCurl, gam, GGally
+License: GPL-2
+MD5sum: e15366ca2f65f406c493b307f7d082b8
+NeedsCompilation: no
+
 Package: FLa4a
 Version: 1.0.0
 Depends: R (>= 3.2.0), FLCore (>= 2.6.0.20161214), triangle
