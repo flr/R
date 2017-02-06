@@ -78,13 +78,6 @@ License: GPL (>= 2)
 MD5sum: aa38d1259019daba53d1025419cf7f44
 NeedsCompilation: no
 
-Package: FLRDynState
-Version: 2.5
-Depends: FLCore(>= 2.4), methods
-License: GPL-2
-MD5sum: 179833f7722d325868b34324ced13107
-NeedsCompilation: yes
-
 Package: FLSAM
 Version: 1.02
 Depends: R(>= 2.13.0), FLCore(>= 2.4), utils, MASS
