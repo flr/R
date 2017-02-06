@@ -6,12 +6,12 @@
 
 # NOTES:
 
-
 # GET pkg DESCRIPTIONs
 desc <- available.packages(contriburl = contrib.url("http://flr-project.org/R"))
 
 # OFFER FLR pkgs
-pkgs <- select.list(rownames(desc), multiple=TRUE, title="FLR Packages")
+pkgs <- select.list(rownames(desc), multiple=TRUE, title="FLR Packages",
+  preselect=rownames(desc))
 
 # ---- FLash CHECK platform OS and arch
 arch <- .Platform
@@ -23,12 +23,11 @@ if("FLash" %in% pkgs & arch$OS.type == "windows" & arch$r_arch != "i386")
 desc <- desc[desc[, 'Package'] %in% pkgs,]
 
 # CHECK dependencies
-deps <- tools::package_dependencies(desc, check = FALSE)
-insp <- utils::installed.packages()
-deps <- lapply(deps, function(x) tools:::getDepList(x, insp))
+deps <- tools::package_dependencies(rownames(desc), recursive=TRUE)
+insp <- rownames(utils::installed.packages())
 
 # FIND missing
-miss <- unique(unlist(lapply(deps, function(x) x$Depends[!x$Depends %in% x$Installed])))
+miss <- unique(unlist(lapply(deps, function(x) x[!x %in% insp])))
 
 if(length(miss) > 0) {
 
@@ -46,4 +45,3 @@ if(length(miss) > 0) {
 cat("INSTALLING FLR packages \n")
 
 install.packages(pkgs, repos="http://flr-project.org/R")
-
