@@ -12,11 +12,9 @@ Suggests: diags, kobe, knitr
 License: GPL-2
 
 Package: diags
-Version: 1.0.0
-Depends: R(>= 2.15.1), methods
-Imports: grid, stringr, r4ss, reshape, plyr, ggplot2, LaF, ellipse,
-        corrplot
-Suggests: RCurl, gam
+Version: 2.0.0
+Depends: R(>= 2.15.1),
+Suggests: methods, RCurl, gam, GGally
 License: GPL-2
 
 Package: FLa4a
@@ -52,11 +50,16 @@ License: GPL-2
 Archs: i386
 
 Package: FLCore
-Version: 2.6.0.20170123
+Version: 2.6.0.20170130
 Depends: R(>= 3.0), MASS, lattice
 Imports: methods, utils, Matrix, grid, stats, stats4, graphics
 Suggests: testthat
 License: GPL (>= 2)
+
+Package: FLEDA
+Version: 2.5.1
+Depends: FLCore(>= 2.5.0), methods
+License: GPL-2
 
 Package: FLFishery
 Version: 0.1.20150528
@@ -76,7 +79,7 @@ Depends: R(>= 3.0.1), methods, FLCore(>= 2.5), FLBRP
 License: GPL (>= 2)
 
 Package: FLSAM
-Version: 1.0
+Version: 1.02
 Depends: R(>= 2.13.0), FLCore(>= 2.4), utils, MASS
 Suggests: methods, reshape, plyr, ellipse
 License: GPL
@@ -88,19 +91,18 @@ License: GPL-2
 Archs: i386
 
 Package: ggplotFL
-Version: 2.5.20161007
-Depends: R(>= 3.0.0), ggplot2(>= 2.0.0), FLCore
+Version: 2.5.9.9000
+Depends: R(>= 3.2.0), ggplot2(>= 2.0.0), FLCore
 Imports: methods, gridExtra, stats
 Suggests: knitr, rmarkdown, reshape2
 License: GPL-2
 
-Package: lh
-Version: 1.1
-Depends: FLCore
-Imports: Rcpp (>= 0.11.2)
-LinkingTo: Rcpp
-Suggests: knitr, testthat, plyr, reshape, ggplot2
-Archs: i386
+Package: kobe
+Version: 2.0.0
+Depends: R(>= 3.0.1), methods
+Imports: plyr, reshape, ggplot2, MASS, emdbook, coda
+Suggests: akima, knitr, rmarkdown
+License: GPL (>= 2)
 
 Package: mpb
 Version: 1.0.1
