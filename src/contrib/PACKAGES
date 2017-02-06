@@ -1,3 +1,20 @@
+Package: aspic
+Version: 2.0.1
+Depends: R(>= 3.0.1), biodyn(>= 0.0.1), stringr(>= 0.6.2), reshape(>=
+        0.8.4)
+License: GPL-2
+MD5sum: ecf45c773d07c58cdd2c9db0b7393c49
+NeedsCompilation: no
+
+Package: biodyn
+Version: 0.0.2
+Depends: R(>= 3.0.1), methods, FLCore(>= 2.2), FLBRP
+Imports: ggplot2, plyr, reshape2, stringr
+Suggests: diags, kobe, knitr
+License: GPL-2
+MD5sum: 2e6b90c784834b22eff78c8ddf9edb03
+NeedsCompilation: no
+
 Package: diags
 Version: 2.0.0
 Depends: R(>= 2.15.1),
