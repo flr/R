@@ -120,12 +120,12 @@ MD5sum: 29908c3800b29518576d77024fde260c
 NeedsCompilation: no
 
 Package: kobe
-Version: 2.0.0
+Version: 2.1.0
 Depends: R(>= 3.0.1), methods
-Imports: plyr, reshape, ggplot2, MASS, emdbook, coda
+Imports: plyr, ggplot2, MASS, emdbook, coda
 Suggests: akima, knitr, rmarkdown
 License: GPL (>= 2)
-MD5sum: 854a15598c29f8c1ee6d685dfd8f8fea
+MD5sum: 993f805e8bda7fb84b58139c456d891e
 NeedsCompilation: no
 
 Package: mpb
