@@ -33,10 +33,10 @@ MD5sum: 9676744ddb33e93a311e887252f9b7d5
 NeedsCompilation: no
 
 Package: FLash
-Version: 2.5.2
+Version: 2.5.3
 Depends: R(>= 2.15.0), FLCore(>= 2.5), methods
 License: GPL-2
-MD5sum: 0b7cc274d456d052ad1f76ded1846c1e
+MD5sum: 09eb2881bb3fd6a2334227cbfbecca4e
 NeedsCompilation: yes
 
 Package: FLAssess
