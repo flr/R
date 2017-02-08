@@ -125,7 +125,7 @@ Depends: R(>= 3.0.1), methods
 Imports: plyr, ggplot2, MASS, emdbook, coda
 Suggests: akima, knitr, rmarkdown
 License: GPL (>= 2)
-MD5sum: 993f805e8bda7fb84b58139c456d891e
+MD5sum: c6464cd0858b22236396fa5fa54634ac
 NeedsCompilation: no
 
 Package: mpb
