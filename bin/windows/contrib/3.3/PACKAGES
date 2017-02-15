@@ -43,14 +43,14 @@ Depends: methods, R(>= 2.15.0),FLCore, FLFleet
 License: GPL-2
 
 Package: FLBRP
-Version: 2.5.20170109
+Version: 2.5.20170215
 Depends: FLCore(>= 2.3), FLash, ggplotFL, plyr, reshape
 LinkingTo: FLash
 License: GPL-2
 Archs: i386
 
 Package: FLCore
-Version: 2.6.0.20170130
+Version: 2.6.0.20170214
 Depends: R(>= 3.0), MASS, lattice
 Imports: methods, utils, Matrix, grid, stats, stats4, graphics
 Suggests: testthat
@@ -79,7 +79,7 @@ Suggests: methods, reshape, plyr, ellipse
 License: GPL
 
 Package: FLXSA
-Version: 2.5.20140808
+Version: 2.5.20170215
 Depends: FLCore(>= 2.5), FLAssess(>= 2.5)
 License: GPL-2
 Archs: i386

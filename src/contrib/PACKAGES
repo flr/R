@@ -55,20 +55,20 @@ MD5sum: 4c1449594dad3dd8e60b355b24bdb1af
 NeedsCompilation: no
 
 Package: FLBRP
-Version: 2.5.20170109
+Version: 2.5.20170215
 Depends: FLCore(>= 2.3), FLash, ggplotFL, plyr, reshape
 LinkingTo: FLash
 License: GPL-2
-MD5sum: 2443a2db89fdd1419497a428c26fed8c
+MD5sum: 2f0f01fa842a89d631b88b013e5a6fe7
 NeedsCompilation: yes
 
 Package: FLCore
-Version: 2.6.0.20170130
+Version: 2.6.0.20170214
 Depends: R(>= 3.0), MASS, lattice
 Imports: methods, utils, Matrix, grid, stats, stats4, graphics
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: b306940b2528330710b79f5b54b0a6d3
+MD5sum: e64153c9178d308843857239591ac47c
 NeedsCompilation: no
 
 Package: FLEDA
@@ -104,10 +104,10 @@ MD5sum: 52df508316ae07ccb351c6ad71fb30a2
 NeedsCompilation: no
 
 Package: FLXSA
-Version: 2.5.20140808
+Version: 2.5.20170215
 Depends: FLCore(>= 2.5), FLAssess(>= 2.5)
 License: GPL-2
-MD5sum: d1b4752ba42eda04da123d9921434f13
+MD5sum: 8944687d2534174f3ecee49987e5647f
 NeedsCompilation: yes
 
 Package: ggplotFL
