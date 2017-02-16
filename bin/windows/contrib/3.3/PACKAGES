@@ -25,8 +25,8 @@ Suggests: latticeExtra, knitr, formatR, XML, reshape2, testthat
 License: file LICENSE
 
 Package: FLash
-Version: 2.5.3
-Depends: R(>= 2.15.0), FLCore(>= 2.5), methods
+Version: 2.5.4
+Depends: R(>= 2.15.0), FLCore(>= 2.6.0), methods
 License: GPL-2
 Archs: i386
 
