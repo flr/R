@@ -33,10 +33,10 @@ MD5sum: 9676744ddb33e93a311e887252f9b7d5
 NeedsCompilation: no
 
 Package: FLash
-Version: 2.5.3
-Depends: R(>= 2.15.0), FLCore(>= 2.5), methods
+Version: 2.5.6
+Depends: R(>= 2.15.0), FLCore(>= 2.6.0), methods
 License: GPL-2
-MD5sum: 09eb2881bb3fd6a2334227cbfbecca4e
+MD5sum: 088cbad831c2e3c65c936c6dbd93b4a2
 NeedsCompilation: yes
 
 Package: FLAssess
@@ -55,11 +55,11 @@ MD5sum: 4c1449594dad3dd8e60b355b24bdb1af
 NeedsCompilation: no
 
 Package: FLBRP
-Version: 2.5.20170109
+Version: 2.5.201702116
 Depends: FLCore(>= 2.3), FLash, ggplotFL, plyr, reshape
 LinkingTo: FLash
 License: GPL-2
-MD5sum: 2443a2db89fdd1419497a428c26fed8c
+MD5sum: 66caa435d55aecd80aa62cc8f78f0ce4
 NeedsCompilation: yes
 
 Package: FLCore
