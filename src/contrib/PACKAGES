@@ -33,10 +33,10 @@ MD5sum: 9676744ddb33e93a311e887252f9b7d5
 NeedsCompilation: no
 
 Package: FLash
-Version: 2.5.6
-Depends: R(>= 2.15.0), FLCore(>= 2.6.0), methods
+Version: 2.5.7
+Depends: R(>= 3.2.0), FLCore(>= 2.6.0.20170228), methods
 License: GPL-2
-MD5sum: 088cbad831c2e3c65c936c6dbd93b4a2
+MD5sum: e5c09a1ed4b6d58cb153aef263b52f3b
 NeedsCompilation: yes
 
 Package: FLAssess
@@ -55,20 +55,21 @@ MD5sum: 4c1449594dad3dd8e60b355b24bdb1af
 NeedsCompilation: no
 
 Package: FLBRP
-Version: 2.5.201702116
-Depends: FLCore(>= 2.3), FLash, ggplotFL, plyr, reshape
+Version: 2.5.20170228
+Depends: FLCore(>= 2.6.0.20170228), FLash, ggplotFL
+Imports: methods, plyr, reshape
 LinkingTo: FLash
 License: GPL-2
-MD5sum: 66caa435d55aecd80aa62cc8f78f0ce4
+MD5sum: d8c1f96756e352315ec09590f5b3472d
 NeedsCompilation: yes
 
 Package: FLCore
-Version: 2.6.0.20170130
+Version: 2.6.0.20170228
 Depends: R(>= 3.0), MASS, lattice
 Imports: methods, utils, Matrix, grid, stats, stats4, graphics
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: b306940b2528330710b79f5b54b0a6d3
+MD5sum: 5d379828b786629cb8271a17c2111ca4
 NeedsCompilation: no
 
 Package: FLEDA
