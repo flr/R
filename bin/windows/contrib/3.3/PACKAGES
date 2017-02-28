@@ -43,8 +43,9 @@ Depends: methods, R(>= 2.15.0),FLCore, FLFleet
 License: GPL-2
 
 Package: FLBRP
-Version: 2.5.201702116
-Depends: FLCore(>= 2.3), FLash, ggplotFL, plyr, reshape
+Version: 2.5.20170228
+Depends: FLCore(>= 2.6.0.20170228), FLash, ggplotFL
+Imports: methods, plyr, reshape
 LinkingTo: FLash
 License: GPL-2
 Archs: i386
