@@ -44,7 +44,7 @@ Version: 2.5.20150717
 Depends: FLCore(>= 2.5.0), FLash(>= 2.5.0)
 LinkingTo: FLash
 License: GPL-2
-MD5sum: e961d8030aa4b78470b9abcaf54375ff
+MD5sum: 3b98bd772b2393e2719425e3bba6931d
 NeedsCompilation: yes
 
 Package: FLBEIA
@@ -105,10 +105,10 @@ MD5sum: 52df508316ae07ccb351c6ad71fb30a2
 NeedsCompilation: no
 
 Package: FLXSA
-Version: 2.5.20140808
+Version: 2.5.20170215
 Depends: FLCore(>= 2.5), FLAssess(>= 2.5)
 License: GPL-2
-MD5sum: d1b4752ba42eda04da123d9921434f13
+MD5sum: 8944687d2534174f3ecee49987e5647f
 NeedsCompilation: yes
 
 Package: ggplotFL
