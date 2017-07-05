@@ -1,0 +1,96 @@
+Package: diags
+Version: 2.2.0
+Depends: R(>= 2.15.1),
+Suggests: methods, RCurl, gam, GGally
+License: GPL-2
+
+Package: FLa4a
+Version: 1.1.2
+Depends: R (>= 3.2.0), FLCore (>= 2.6.0.20161214), triangle, copula,
+        coda
+Imports: methods, lattice, Matrix, mgcv
+Suggests: latticeExtra, knitr, formatR, XML, reshape2, testthat
+License: file LICENSE
+
+Package: FLash
+Version: 2.5.7
+Depends: R(>= 3.2.0), FLCore(>= 2.6.0.20170228), methods
+License: GPL-2
+Archs: i386
+
+Package: FLAssess
+Version: 2.6.0
+Depends: FLCore(>= 2.5.0), FLash(>= 2.5.0)
+LinkingTo: FLash
+License: GPL-2
+Archs: i386
+
+Package: FLBRP
+Version: 2.5.20170307
+Depends: FLCore(>= 2.6.0.20170228), FLash, ggplotFL
+Imports: methods, plyr, reshape
+LinkingTo: FLash
+License: GPL-2
+Archs: i386
+
+Package: FLCore
+Version: 2.6.3
+Depends: R(>= 3.2), MASS, lattice
+Imports: methods, utils, Matrix, grid, stats, stats4, graphics,
+        latticeExtra
+Suggests: testthat
+License: GPL (>= 2)
+
+Package: FLEDA
+Version: 2.5.1
+Depends: FLCore(>= 2.5.0), methods
+License: GPL-2
+
+Package: FLFishery
+Version: 0.1.1.9001
+Depends: R(>= 3.3.0), methods, FLCore(>= 2.6.1), ggplotFL
+Suggests: knitr, testthat
+License: file LICENSE
+License_is_FOSS: yes
+
+Package: FLFleet
+Version: 2.5.20150311
+Depends: methods, FLCore, R(>= 2.15.1),
+Imports: FLCore
+License: GPL-2
+
+Package: FLSAM
+Version: 1.02
+Depends: R(>= 2.13.0), FLCore(>= 2.4), utils, MASS
+Suggests: methods, reshape, plyr, ellipse
+License: GPL
+
+Package: FLXSA
+Version: 2.5.20140808
+Depends: FLCore(>= 2.5), FLAssess(>= 2.5)
+License: GPL-2
+Archs: i386
+
+Package: ggplotFL
+Version: 2.6.0
+Depends: R(>= 3.2.0), ggplot2(>= 2.0.0), FLCore(>= 2.6.1.9001)
+Imports: methods, gridExtra, stats
+Suggests: knitr, rmarkdown, reshape2
+License: GPL-2
+
+Package: kobe
+Version: 2.1.0
+Depends: R(>= 3.0.1), methods
+Imports: plyr, ggplot2, MASS, emdbook, coda
+Suggests: akima, knitr, rmarkdown
+License: GPL (>= 2)
+
+Package: mpb
+Version: 2.1.0
+Depends: R(>= 3.3.1), FLCore(>= 2.5.2), ggplotFL
+Imports: methods, stringr, plyr, reshape, Rcpp
+LinkingTo: Rcpp
+Suggests: rmarkdown, knitr
+License: GPL-2
+Archs: i386, x64
+
