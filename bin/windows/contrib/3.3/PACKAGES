@@ -27,7 +27,8 @@ Archs: i386
 
 Package: FLBEIA
 Version: 1.15
-Depends: methods, R(>= 2.15.0),FLCore, FLFleet
+Depends: methods, R(>= 3.2.3),FLCore (>= 2.6.0), FLFleet, ggplot2
+Suggests: R.rsp
 License: GPL-2
 
 Package: FLBRP

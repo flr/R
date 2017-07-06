@@ -31,6 +31,14 @@ License: GPL-2
 MD5sum: c6b8ab5fad6c280680f4f4d1e897c9b1
 NeedsCompilation: yes
 
+Package: FLBEIA
+Version: 1.15
+Depends: methods, R(>= 3.2.3),FLCore (>= 2.6.0), FLFleet, ggplot2
+Suggests: R.rsp
+License: GPL-2
+MD5sum: eb1e15955f02c85db70dd9edb214988c
+NeedsCompilation: no
+
 Package: FLBRP
 Version: 2.5.20170307
 Depends: FLCore(>= 2.6.0.20170228), FLash, ggplotFL

@@ -25,6 +25,12 @@ LinkingTo: FLash
 License: GPL-2
 Archs: i386
 
+Package: FLBEIA
+Version: 1.15
+Depends: methods, R(>= 3.2.3),FLCore (>= 2.6.0), FLFleet, ggplot2
+Suggests: R.rsp
+License: GPL-2
+
 Package: FLBRP
 Version: 2.5.20170307
 Depends: FLCore(>= 2.6.0.20170228), FLash, ggplotFL
