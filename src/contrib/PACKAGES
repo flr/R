@@ -24,11 +24,11 @@ MD5sum: d60cd86b6613124e7ffe7e5d065dde0c
 NeedsCompilation: yes
 
 Package: FLAssess
-Version: 2.6.0
+Version: 2.6.1
 Depends: FLCore(>= 2.5.0), FLash(>= 2.5.0)
 LinkingTo: FLash
 License: GPL-2
-MD5sum: c6b8ab5fad6c280680f4f4d1e897c9b1
+MD5sum: 035b1eaba1ba6fac2229262f6fd3c7c6
 NeedsCompilation: yes
 
 Package: FLBEIA

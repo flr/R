@@ -19,7 +19,7 @@ License: GPL-2
 Archs: i386
 
 Package: FLAssess
-Version: 2.6.0
+Version: 2.6.1
 Depends: FLCore(>= 2.5.0), FLash(>= 2.5.0)
 LinkingTo: FLash
 License: GPL-2
