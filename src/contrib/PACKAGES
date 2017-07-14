@@ -116,12 +116,12 @@ MD5sum: d5d186760bf1cb68ec617029d2c96606
 NeedsCompilation: no
 
 Package: mpb
-Version: 2.1.0
-Depends: R(>= 3.3.1), FLCore(>= 2.5.2), ggplotFL
-Imports: methods, stringr, plyr, reshape, Rcpp
+Version: 2.1.1
+Depends: R(>= 3.3.1), FLCore(>= 2.5.2)
+Imports: methods, stringr, ggplotFL, ggplot2, plyr, reshape, Rcpp
 LinkingTo: Rcpp
 Suggests: rmarkdown, knitr
 License: GPL-2
-MD5sum: 87e2ed490002a5c2a8ba02f393a8c502
+MD5sum: aed8ac7b4db016bb345199197fc52f3f
 NeedsCompilation: yes
 
