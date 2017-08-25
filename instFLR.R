@@ -7,10 +7,10 @@
 # NOTES:
 
 # GET pkg DESCRIPTIONs
-desc <- available.packages(contriburl = contrib.url("http://flr-project.org/R"))
+flr  <- available.packages(contriburl = contrib.url("http://flr-project.org/R"))
 
 # OFFER FLR pkgs
-pkgs <- select.list(rownames(desc), multiple=TRUE, title="FLR Packages")
+pkgs <- select.list(rownames(flr), multiple=TRUE, title="FLR Packages")
 
 # ---- FLash CHECK platform OS and arch
 arch <- .Platform
@@ -22,11 +22,12 @@ if("FLasher" %in% pkgs & arch$OS.type == "windows" & arch$r_arch != "x64")
 		stop("WARNING: FLasher pkg requires 64 bit R in Windows!")
 
 # SUBSET desc
-desc <- desc[desc[, 'Package'] %in% pkgs,]
+desc <- flr[flr[, 'Package'] %in% pkgs,,drop=FALSE]
 
 # CHECK dependencies
-deps <- tools::package_dependencies(rownames(desc), recursive=TRUE)
-insp <- rownames(utils::installed.packages())
+deps <- gsub("[ \n]", "", gsub("\\(.*\\)", "", unlist(strsplit(paste(desc[, c("Depends", "Imports")]), ","))))
+
+insp <- c("R", rownames(utils::installed.packages()))
 
 # FIND missing
 miss <- unique(unlist(lapply(deps, function(x) x[!x %in% insp])))
