@@ -27,12 +27,12 @@ desc <- flr[flr[, 'Package'] %in% pkgs,,drop=FALSE]
 # CHECK dependencies
 deps <- gsub("[ \n]", "", gsub("\\(.*\\)", "", unlist(strsplit(paste(desc[, c("Depends", "Imports")]), ","))))
 
-insp <- c("R", rownames(utils::installed.packages()))
+insp <- c("R", "NA", rownames(utils::installed.packages()))
 
 # FIND missing
 miss <- unique(unlist(lapply(deps, function(x) x[!x %in% insp])))
 
-if(miss != "NA" & length(miss) > 0) {
+if(length(miss) > 0) {
 
   	# MSG
 	cat("INSTALLING pkg dependencies from CRAN \n")
