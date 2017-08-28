@@ -32,7 +32,7 @@ insp <- c("R", rownames(utils::installed.packages()))
 # FIND missing
 miss <- unique(unlist(lapply(deps, function(x) x[!x %in% insp])))
 
-if(length(miss) > 0) {
+if(miss != "NA" & length(miss) > 0) {
 
   	# MSG
 	cat("INSTALLING pkg dependencies from CRAN \n")
