@@ -13,7 +13,7 @@ Suggests: latticeExtra, knitr, formatR, XML, reshape2, testthat
 License: file LICENSE
 
 Package: FLash
-Version: 2.5.7
+Version: 2.5.8
 Depends: R(>= 3.2.0), FLCore(>= 2.6.0.20170228), methods
 License: GPL-2
 Archs: i386
@@ -40,7 +40,7 @@ License: GPL-2
 Archs: i386
 
 Package: FLCore
-Version: 2.6.3
+Version: 2.6.4
 Depends: R(>= 3.2), MASS, lattice
 Imports: methods, utils, Matrix, grid, stats, stats4, graphics,
         latticeExtra
@@ -78,7 +78,7 @@ License: GPL-2
 Archs: i386
 
 Package: ggplotFL
-Version: 2.6.0
+Version: 2.6.1
 Depends: R(>= 3.2.0), ggplot2(>= 2.0.0), FLCore(>= 2.6.1.9001)
 Imports: methods, gridExtra, stats
 Suggests: knitr, rmarkdown, reshape2
@@ -99,4 +99,3 @@ LinkingTo: Rcpp
 Suggests: rmarkdown, knitr
 License: GPL-2
 Archs: i386, x64
-

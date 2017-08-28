@@ -17,10 +17,10 @@ MD5sum: 64c69942a5d5fc5c904f23e0fd80c65e
 NeedsCompilation: no
 
 Package: FLash
-Version: 2.5.7
+Version: 2.5.8
 Depends: R(>= 3.2.0), FLCore(>= 2.6.0.20170228), methods
 License: GPL-2
-MD5sum: d60cd86b6613124e7ffe7e5d065dde0c
+MD5sum: 6ce79e6c640a7c45f404ff4790bfca4d
 NeedsCompilation: yes
 
 Package: FLAssess
@@ -49,13 +49,13 @@ MD5sum: e435d82c00a7eb99e11009135a0ff875
 NeedsCompilation: yes
 
 Package: FLCore
-Version: 2.6.3
+Version: 2.6.4
 Depends: R(>= 3.2), MASS, lattice
 Imports: methods, utils, Matrix, grid, stats, stats4, graphics,
         latticeExtra
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: edce038b3ac23114d20501d0b3cb2520
+MD5sum: 72a79d458a5388d37f3103e6faee1a81
 NeedsCompilation: no
 
 Package: FLEDA
@@ -94,16 +94,16 @@ Package: FLXSA
 Version: 2.5.20140808
 Depends: FLCore(>= 2.5), FLAssess(>= 2.5)
 License: GPL-2
-MD5sum: 1c00e6c5b8104e86b65dd500cc9f7915
+MD5sum: f7fd51def5eb4bd15ed8048bc072bb8b
 NeedsCompilation: yes
 
 Package: ggplotFL
-Version: 2.6.0
+Version: 2.6.1
 Depends: R(>= 3.2.0), ggplot2(>= 2.0.0), FLCore(>= 2.6.1.9001)
 Imports: methods, gridExtra, stats
 Suggests: knitr, rmarkdown, reshape2
 License: GPL-2
-MD5sum: 44406fb0b40148dfcba8d7af6a440bbe
+MD5sum: 2f422252d094eaf57aa8ea5720f92308
 NeedsCompilation: no
 
 Package: kobe
@@ -124,4 +124,3 @@ Suggests: rmarkdown, knitr
 License: GPL-2
 MD5sum: aed8ac7b4db016bb345199197fc52f3f
 NeedsCompilation: yes
-
