@@ -55,7 +55,7 @@ Imports: methods, utils, Matrix, grid, stats, stats4, graphics,
         latticeExtra
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 72a79d458a5388d37f3103e6faee1a81
+MD5sum: 29b75becd63123b8e157ab06e85b3b03
 NeedsCompilation: no
 
 Package: FLEDA
