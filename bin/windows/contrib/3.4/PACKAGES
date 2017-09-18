@@ -107,10 +107,10 @@ Suggests: knitr, rmarkdown
 License: GPL-2
 
 Package: kobe
-Version: 2.1.0
+Version: 2.1.1
 Depends: R(>= 3.0.1), methods
 Imports: plyr, ggplot2, MASS, emdbook, coda
-Suggests: akima, knitr, rmarkdown
+Suggests: akima, knitr, rmarkdown, FLCore
 License: GPL (>= 2)
 
 Package: mpb

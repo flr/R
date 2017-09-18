@@ -138,3 +138,12 @@ Suggests: knitr, rmarkdown
 License: GPL-2
 MD5sum: c1546c33f771bc8470972947db984a2d
 NeedsCompilation: no
+
+Package: kobe
+Version: 2.1.1
+Depends: R(>= 3.0.1), methods
+Imports: plyr, ggplot2, MASS, emdbook, coda
+Suggests: akima, knitr, rmarkdown, FLCore
+License: GPL (>= 2)
+MD5sum: 0bdc2192221c1814e2f880b2a9581e8d
+NeedsCompilation: no
