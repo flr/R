@@ -1,22 +1,30 @@
 Package: diags
-Version: 2.2.0
+Version: 2.2.1
 Depends: R(>= 2.15.1),
-Suggests: methods, RCurl, gam, GGally
+Suggests: methods, RCurl, gam, GGally, knitr
 License: GPL-2
 
 Package: FLa4a
-Version: 1.1.2
-Depends: R (>= 3.2.0), FLCore (>= 2.6.0.20161214), triangle, copula,
-        coda
+Version: 1.1.3
+Depends: R (>= 3.2.0), FLCore (>= 2.6.4), triangle, copula, coda
 Imports: methods, lattice, Matrix, mgcv
 Suggests: latticeExtra, knitr, formatR, XML, reshape2, testthat
-License: file LICENSE
+License: EUPL
 
 Package: FLash
 Version: 2.5.8
 Depends: R(>= 3.2.0), FLCore(>= 2.6.0.20170228), methods
 License: GPL-2
 Archs: i386
+
+Package: FLasher
+Version: 0.0.3
+Depends: FLCore(>= 2.6.5), FLFishery(>= 0.1)
+Imports: methods, Rcpp (>= 0.12.0)
+LinkingTo: Rcpp
+Suggests: testthat, knitr, ggplotFL
+License: EUPL
+Archs: x64
 
 Package: FLAssess
 Version: 2.6.1
@@ -26,13 +34,14 @@ License: GPL-2
 Archs: i386
 
 Package: FLBEIA
-Version: 1.15
-Depends: methods, R(>= 3.2.3),FLCore (>= 2.6.0), FLFleet, ggplot2
-Suggests: R.rsp
+Version: 1.15.1
+Depends: methods, R(>= 3.2.3), FLCore (>= 2.6.5), FLFleet, ggplot2
+Imports: FLash, FLAssess, nloptr, triangle, mvtnorm
+Suggests: R.rsp, FLXSA, FLa4a, Matrix, spict
 License: GPL-2
 
 Package: FLBRP
-Version: 2.5.20170307
+Version: 2.5.2
 Depends: FLCore(>= 2.6.0.20170228), FLash, ggplotFL
 Imports: methods, plyr, reshape
 LinkingTo: FLash
@@ -40,10 +49,9 @@ License: GPL-2
 Archs: i386
 
 Package: FLCore
-Version: 2.6.4
+Version: 2.6.5
 Depends: R(>= 3.2), MASS, lattice
-Imports: methods, utils, Matrix, grid, stats, stats4, graphics,
-        latticeExtra
+Imports: methods, utils, Matrix, grid, stats, stats4, graphics
 Suggests: testthat
 License: GPL (>= 2)
 
@@ -53,17 +61,31 @@ Depends: FLCore(>= 2.5.0), methods
 License: GPL-2
 
 Package: FLFishery
-Version: 0.1.1.9001
+Version: 0.1.2
 Depends: R(>= 3.3.0), methods, FLCore(>= 2.6.1), ggplotFL
+Imports: ggplot2
 Suggests: knitr, testthat
-License: file LICENSE
-License_is_FOSS: yes
+License: EUPL
 
 Package: FLFleet
-Version: 2.5.20150311
+Version: 2.6.0
 Depends: methods, FLCore, R(>= 2.15.1),
 Imports: FLCore
 License: GPL-2
+
+Package: FLife
+Version: 2.1.2
+Depends: R(>= 3.1), FLCore (>= 2.6),
+Imports: FLBRP, methods, popbio, plyr, reshape
+Suggests: ggplotFL (>= 2.5), testthat
+License: GPL (>= 2)
+
+Package: FLRP
+Version: 0.0.2
+Depends: FLCore(>= 2.6.4), ggplotFL, ggplot2
+Imports: methods
+License: GPL-3
+Archs: x64
 
 Package: FLSAM
 Version: 1.02
@@ -78,10 +100,10 @@ License: GPL-2
 Archs: i386
 
 Package: ggplotFL
-Version: 2.6.1
+Version: 2.6.2
 Depends: R(>= 3.2.0), ggplot2(>= 2.0.0), FLCore(>= 2.6.1.9001)
 Imports: methods, gridExtra, stats
-Suggests: knitr, rmarkdown, reshape2
+Suggests: knitr, rmarkdown
 License: GPL-2
 
 Package: kobe
