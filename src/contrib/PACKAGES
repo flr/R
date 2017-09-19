@@ -124,10 +124,10 @@ MD5sum: 54a3d3455a2ca06559ea353d9a1524cf
 NeedsCompilation: no
 
 Package: FLXSA
-Version: 2.5.20140808
+Version: 2.6.0
 Depends: FLCore(>= 2.5), FLAssess(>= 2.5)
 License: GPL-2
-MD5sum: cb844f04db402d0df9ad16bca6b38fdc
+MD5sum: be9aee4402a49e2faf44382df88d6ece
 NeedsCompilation: yes
 
 Package: ggplotFL

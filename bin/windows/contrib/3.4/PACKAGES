@@ -94,7 +94,7 @@ Suggests: methods, reshape, plyr, ellipse
 License: GPL
 
 Package: FLXSA
-Version: 2.5.20140808
+Version: 2.6.0
 Depends: FLCore(>= 2.5), FLAssess(>= 2.5)
 License: GPL-2
 Archs: i386
