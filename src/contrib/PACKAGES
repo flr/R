@@ -92,12 +92,12 @@ MD5sum: d140b4dde5159a56ab357b7bcd28e6de
 NeedsCompilation: no
 
 Package: FLife
-Version: 2.1.2
+Version: 2.1.3
 Depends: R(>= 3.1), FLCore (>= 2.6),
 Imports: FLBRP, methods, popbio, plyr, reshape
-Suggests: ggplotFL (>= 2.5), testthat
+Suggests: ggplotFL (>= 2.5), testthat, knitr
 License: GPL (>= 2)
-MD5sum: 575b4747d689b87686c3c853e52e2ffd
+MD5sum: 44c1c5391bc968a0385dcb1e7cfa98a1
 NeedsCompilation: no
 
 Package: FLRDynState
