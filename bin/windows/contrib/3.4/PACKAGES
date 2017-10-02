@@ -34,10 +34,10 @@ License: GPL-2
 Archs: i386
 
 Package: FLBEIA
-Version: 1.15.1
+Version: 1.15.2
 Depends: methods, R(>= 3.2.3), FLCore (>= 2.6.5), FLFleet, ggplot2
-Imports: FLash, FLAssess, nloptr, triangle, mvtnorm
-Suggests: R.rsp, FLXSA, FLa4a, Matrix, spict
+Suggests: R.rsp, FLXSA, FLa4a, Matrix, spict, FLash, FLAssess, nloptr,
+        triangle, mvtnorm
 License: GPL-2
 
 Package: FLBRP
