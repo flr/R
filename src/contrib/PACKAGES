@@ -147,3 +147,13 @@ Suggests: akima, knitr, rmarkdown, FLCore
 License: GPL (>= 2)
 MD5sum: 0bdc2192221c1814e2f880b2a9581e8d
 NeedsCompilation: no
+
+Package: mpb
+Version: 2.1.1
+Depends: R(>= 3.3.1), FLCore(>= 2.5.2)
+Imports: methods, stringr, ggplotFL, plyr, reshape, Rcpp
+LinkingTo: Rcpp
+Suggests: rmarkdown, knitr
+License: GPL-2
+MD5sum: 70a24b89a9e8ed48c7a12eed662a5544
+NeedsCompilation: yes

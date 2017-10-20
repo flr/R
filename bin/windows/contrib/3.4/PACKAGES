@@ -116,7 +116,7 @@ License: GPL (>= 2)
 Package: mpb
 Version: 2.1.1
 Depends: R(>= 3.3.1), FLCore(>= 2.5.2)
-Imports: methods, stringr, ggplotFL, ggplot2, plyr, reshape, Rcpp
+Imports: methods, stringr, ggplotFL, plyr, reshape, Rcpp
 LinkingTo: Rcpp
 Suggests: rmarkdown, knitr
 License: GPL-2
