@@ -1,4 +1,4 @@
-# FLR repository
+# The FLR repository
 
 CRAN-style **repository** for FLR packages, accesible by calling
 
@@ -6,7 +6,7 @@ CRAN-style **repository** for FLR packages, accesible by calling
 install.packages(repos="http://flr-project.org/R")
 ```
 
-To install packahe while solving all the **package dependencies**, you can source the [FLR installation script](https://github.com/flr/R/blob/master/instFLR.R)
+To install packages while solving all the **package dependencies**, you can source the [FLR installation script](https://github.com/flr/R/blob/master/instFLR.R)
 
 ```r
 source("http://flr-project.org/R/instFLR.R")
