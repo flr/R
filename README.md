@@ -1,10 +1,16 @@
-R
-========
+# FLR repository
 
-CRAN-style repository for FLR packages, accesible via <http://flr-project.org/R>
+CRAN-style **repository** for FLR packages, accesible by calling
 
-The master branch can be synced automagically with gh-pages, the branch that gets pushed to <http://flr.github.io/packages>, by adding to the `.git/config` file the following two lines at the `[remote "origin"]` section
+```r
+install.packages(repos="http://flr-project.org/R")
+```
 
-	push = +refs/heads/master:refs/heads/gh-pages
-	push = +refs/heads/master:refs/heads/master
+To install packahe while solving all the **package dependencies**, you can source the [FLR installation script](https://github.com/flr/R/blob/master/instFLR.R)
+
+```r
+source("http://flr-project.org/R/instFLR.R")
+```
+
+Get individuals packages for [Linux](https://github.com/flr/R/tree/master/src/contrib) and [Windows](https://github.com/flr/R/tree/master/bin/windows/contrib).
 
