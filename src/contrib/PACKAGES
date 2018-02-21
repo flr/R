@@ -64,7 +64,7 @@ Depends: R(>= 3.2), MASS, lattice
 Imports: methods, utils, Matrix, grid, stats, stats4, graphics
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 1d2a9a69d91e405a1f7bfe376a1494d2
+MD5sum: bfb3091940ac7665a04bc5b05d2fb6d4
 NeedsCompilation: no
 
 Package: FLEDA
