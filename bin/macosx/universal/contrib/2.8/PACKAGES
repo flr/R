@@ -1,7 +1,0 @@
-Package: FLCore
-Version: 2.0
-Depends: R (>= 2.8.0), methods, graphics, stats, lattice
-
-Package: FLEDA
-Version: 2.0
-Depends: R (>= 2.8.0), FLCore (>= 2.0)

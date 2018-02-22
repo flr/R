@@ -1,0 +1,7 @@
+Package: FLCore
+Version: 2.6.6
+Depends: R(>= 3.2), MASS, lattice
+Imports: methods, utils, Matrix, grid, stats, stats4, graphics
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: cd3cbcc1594f021ac490919541a3776a
