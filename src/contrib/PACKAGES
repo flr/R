@@ -133,12 +133,12 @@ MD5sum: be9aee4402a49e2faf44382df88d6ece
 NeedsCompilation: yes
 
 Package: ggplotFL
-Version: 2.6.2
-Depends: R(>= 3.2.0), ggplot2(>= 2.0.0), FLCore(>= 2.6.1.9001)
+Version: 2.6.3
+Depends: R(>= 3.2.0), ggplot2(>= 2.0.0), FLCore(>= 2.6.5)
 Imports: methods, gridExtra, stats
 Suggests: knitr, rmarkdown
 License: GPL-2
-MD5sum: c1546c33f771bc8470972947db984a2d
+MD5sum: f5232516354d7c60987bd6aeab516f35
 NeedsCompilation: no
 
 Package: kobe

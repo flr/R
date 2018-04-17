@@ -102,8 +102,8 @@ License: GPL-2
 Archs: i386
 
 Package: ggplotFL
-Version: 2.6.2
-Depends: R(>= 3.2.0), ggplot2(>= 2.0.0), FLCore(>= 2.6.1.9001)
+Version: 2.6.3
+Depends: R(>= 3.2.0), ggplot2(>= 2.0.0), FLCore(>= 2.6.5)
 Imports: methods, gridExtra, stats
 Suggests: knitr, rmarkdown
 License: GPL-2
