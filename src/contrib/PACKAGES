@@ -23,13 +23,13 @@ MD5sum: 87d56a5c70d0320ed718104a255056a4
 NeedsCompilation: yes
 
 Package: FLasher
-Version: 0.0.3
-Depends: FLCore(>= 2.6.5), FLFishery(>= 0.1)
+Version: 0.0.4
+Depends: FLCore(> 2.6.5), FLFishery(>= 0.1)
 Imports: methods, Rcpp (>= 0.12.0)
 LinkingTo: Rcpp
 Suggests: testthat, knitr, ggplotFL
 License: EUPL
-MD5sum: ed3e95d3d02396ecdeb24f3506e143d7
+MD5sum: b698e36de3814d1518b90b652b474997
 NeedsCompilation: yes
 
 Package: FLAssess
@@ -112,9 +112,9 @@ Package: FLRP
 Version: 1.0.0
 Depends: R (>= 2.10), FLCore (>= 2.6.7), ggplot2
 Imports: methods, ggplotFL
-Suggests: knitr
+Suggests: knitr, glmnet
 License: GPL-3
-MD5sum: 7b99bd2260d02a95dd6c2b8c829b1f0f
+MD5sum: 2f65cfd7da48c08d7a1436c12e1ce96f
 NeedsCompilation: yes
 
 Package: FLSAM

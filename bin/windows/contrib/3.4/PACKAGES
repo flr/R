@@ -18,8 +18,8 @@ License: GPL-2
 Archs: i386
 
 Package: FLasher
-Version: 0.0.3
-Depends: FLCore(>= 2.6.5), FLFishery(>= 0.1)
+Version: 0.0.4
+Depends: FLCore(> 2.6.5), FLFishery(>= 0.1)
 Imports: methods, Rcpp (>= 0.12.0)
 LinkingTo: Rcpp
 Suggests: testthat, knitr, ggplotFL
@@ -85,7 +85,7 @@ Package: FLRP
 Version: 1.0.0
 Depends: R (>= 2.10), FLCore (>= 2.6.7), ggplot2
 Imports: methods, ggplotFL
-Suggests: knitr
+Suggests: knitr, glmnet
 License: GPL-3
 Archs: x64
 
