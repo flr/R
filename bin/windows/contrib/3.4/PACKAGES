@@ -20,9 +20,9 @@ Archs: i386
 Package: FLasher
 Version: 0.0.4
 Depends: FLCore(> 2.6.5), FLFishery(>= 0.1)
-Imports: methods, Rcpp (>= 0.12.0)
+Imports: methods, Rcpp (>= 0.12.0), ggplotFL
 LinkingTo: Rcpp
-Suggests: testthat, knitr, ggplotFL
+Suggests: testthat, knitr
 License: EUPL
 Archs: x64
 
