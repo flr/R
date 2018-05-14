@@ -74,11 +74,11 @@ Imports: FLCore
 License: GPL-2
 
 Package: FLife
-Version: 3.1.0
+Version: 3.2.0
 Depends: R(>= 3.1), FLCore (>= 2.6.7)
-Imports: FLRP(>= 1.0.0), ggplotFL, methods, plyr
-Suggests: ggplot2, FLash(>= 2.5.7), FLAssess, testthat, knitr, GGally,
-        reshape, popbio
+Imports: FLRP(>= 1.0.0), ggplotFL, methods, plyr, dplyr
+Suggests: ggplot2, FLasher, FLAssess, testthat, knitr, GGally, reshape,
+        popbio
 License: GPL (>= 2)
 
 Package: FLRP
