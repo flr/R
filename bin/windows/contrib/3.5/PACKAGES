@@ -1,0 +1,111 @@
+Package: diags
+Version: 2.2.1
+Depends: R(>= 2.15.1),
+Suggests: methods, RCurl, gam, GGally, knitr
+License: GPL-2
+
+Package: FLa4a
+Version: 1.5.1
+Depends: R (>= 3.2.0), FLCore (>= 2.6.4), triangle, copula, coda
+Imports: methods, lattice, Matrix, mgcv
+Suggests: latticeExtra, knitr, formatR, XML, reshape2, testthat
+License: EUPL
+
+Package: FLash
+Version: 2.5.9
+Depends: R(>= 3.4.0), FLCore(>= 2.6.5), methods
+Suggests: knitr
+License: GPL-2
+Archs: x64
+
+Package: FLasher
+Version: 0.5.0
+Depends: FLCore(> 2.6.5), FLFishery(>= 0.1)
+Imports: methods, Rcpp (>= 0.12.0), ggplot2, ggplotFL
+LinkingTo: Rcpp
+Suggests: testthat, knitr
+License: EUPL
+Archs: x64
+
+Package: FLAssess
+Version: 2.6.2
+Depends: methods, FLCore(>= 2.5.0)
+Imports: lattice
+License: GPL-2
+Archs: x64
+
+Package: FLBEIA
+Version: 1.15.2
+Depends: methods, R(>= 3.2.3), FLCore (>= 2.6.5), FLFleet, ggplot2
+Suggests: R.rsp, FLXSA, FLa4a, Matrix, spict, FLash, FLAssess, nloptr,
+        triangle, mvtnorm
+License: GPL-2
+
+Package: FLBRP
+Version: 2.5.3
+Depends: R (>= 2.10), FLCore (>= 2.6.7), ggplot2
+Imports: methods, ggplotFL
+Suggests: knitr
+License: GPL-3
+Archs: x64
+
+Package: FLCore
+Version: 2.6.9
+Depends: R(>= 3.4), lattice
+Imports: graphics, grid, methods, Matrix, MASS, stats, stats4, utils
+Suggests: testthat
+License: GPL (>= 2)
+
+Package: FLEDA
+Version: 2.5.2
+Depends: FLCore(>= 2.5.0), methods
+License: GPL-2
+
+Package: FLFishery
+Version: 0.1.5
+Depends: R(>= 3.3.0), methods, FLCore(>= 2.6.5)
+Imports: ggplotFL, ggplot2
+Suggests: knitr, testthat
+License: EUPL
+
+Package: FLFleet
+Version: 2.6.1
+Depends: R(>= 2.15.1), methods, FLCore
+License: GPL-2
+
+Package: FLife
+Version: 3.2.1
+Depends: R(>= 3.1), FLCore (>= 2.6.7)
+Imports: FLBRP, ggplotFL, methods, plyr, dplyr
+Suggests: ggplot2, FLasher, FLAssess, testthat, knitr, GGally, reshape,
+        popbio
+License: GPL (>= 2)
+
+Package: FLXSA
+Version: 2.6.2
+Depends: methods, FLCore(>= 2.6), FLAssess(>= 2.5)
+Suggests: testthat
+License: GPL-2
+Archs: x64
+
+Package: ggplotFL
+Version: 2.6.4
+Depends: R(>= 3.2.0), ggplot2(>= 2.0.0), FLCore(>= 2.6.5)
+Imports: methods, gridExtra, rlang, stats, scales
+Suggests: knitr, rmarkdown
+License: GPL-2
+
+Package: kobe
+Version: 2.1.2
+Depends: R(>= 3.0.1), methods
+Imports: plyr, ggplot2, MASS, emdbook, coda
+Suggests: akima, knitr, rmarkdown, FLCore
+License: GPL (>= 2)
+
+Package: mpb
+Version: 3.0.1
+Depends: R(>= 3.3.1), FLCore(>= 2.5.2)
+Imports: methods, stringr, ggplotFL, plyr, reshape, Rcpp, FLBRP
+LinkingTo: Rcpp
+Suggests: rmarkdown, knitr
+License: GPL-2

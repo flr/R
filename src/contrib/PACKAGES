@@ -3,41 +3,42 @@ Version: 2.2.1
 Depends: R(>= 2.15.1),
 Suggests: methods, RCurl, gam, GGally, knitr
 License: GPL-2
-MD5sum: 859b941f7a53b451f3d8c9ad9c44c3b5
+MD5sum: 95c0d4492e568508913d32a8c8b62968
 NeedsCompilation: no
 
 Package: FLa4a
-Version: 1.1.3
+Version: 1.5.1
 Depends: R (>= 3.2.0), FLCore (>= 2.6.4), triangle, copula, coda
 Imports: methods, lattice, Matrix, mgcv
 Suggests: latticeExtra, knitr, formatR, XML, reshape2, testthat
 License: EUPL
-MD5sum: 393b620815ed857b170ed489dd033a4a
+MD5sum: c5a797ec2157cfa1b69b69e79d59143f
 NeedsCompilation: no
 
 Package: FLash
-Version: 2.5.8
-Depends: R(>= 3.2.0), FLCore(>= 2.6.0.20170228), methods
+Version: 2.5.9
+Depends: R(>= 3.4.0), FLCore(>= 2.6.5), methods
+Suggests: knitr
 License: GPL-2
-MD5sum: 87d56a5c70d0320ed718104a255056a4
+MD5sum: 348a16ee8ad3c5ce08bcfe800834f2c8
 NeedsCompilation: yes
 
 Package: FLasher
-Version: 0.0.5
+Version: 0.5.0
 Depends: FLCore(> 2.6.5), FLFishery(>= 0.1)
 Imports: methods, Rcpp (>= 0.12.0), ggplot2, ggplotFL
 LinkingTo: Rcpp
 Suggests: testthat, knitr
 License: EUPL
-MD5sum: f6c5f4de80580ebc301c588986a07052
+MD5sum: f37a9bd0c693ff92d71f6816c4ce433f
 NeedsCompilation: yes
 
 Package: FLAssess
-Version: 2.6.1
-Depends: FLCore(>= 2.5.0), FLash(>= 2.5.0)
-LinkingTo: FLash
+Version: 2.6.2
+Depends: methods, FLCore(>= 2.5.0)
+Imports: lattice
 License: GPL-2
-MD5sum: e2d4ef4c6162da134ceb380779c057b5
+MD5sum: f44d8d87368a9f9ad8bb9892ddad0795
 NeedsCompilation: yes
 
 Package: FLBEIA
@@ -46,116 +47,92 @@ Depends: methods, R(>= 3.2.3), FLCore (>= 2.6.5), FLFleet, ggplot2
 Suggests: R.rsp, FLXSA, FLa4a, Matrix, spict, FLash, FLAssess, nloptr,
         triangle, mvtnorm
 License: GPL-2
-MD5sum: 349ab5b6797951de9c6960c33cf873ed
+MD5sum: 4e5bcbc1911c8581a4aaffe6b7aca79c
 NeedsCompilation: no
 
 Package: FLBRP
-Version: 2.5.2
-Depends: FLCore(>= 2.6.0.20170228), FLash, ggplotFL
-Imports: methods, plyr, reshape
-LinkingTo: FLash
-License: GPL-2
-MD5sum: 9de290e04b333bf2dd2a8ff49d3f5140
-NeedsCompilation: yes
-
-Package: FLCore
-Version: 2.6.8
-Depends: R(>= 3.2), lattice
-Imports: graphics, grid, methods, Matrix, MASS, stats, stats4, utils
-Suggests: testthat
-License: GPL (>= 2)
-MD5sum: 33fe8ca86bddea75a42b639d1c038db8
-NeedsCompilation: no
-
-Package: FLEDA
-Version: 2.5.1
-Depends: FLCore(>= 2.5.0), methods
-License: GPL-2
-MD5sum: 63b113bee4d4b03a89b7a5aa0a97ceb2
-NeedsCompilation: no
-
-Package: FLFishery
-Version: 0.1.3
-Depends: R(>= 3.3.0), methods, FLCore(>= 2.6.5)
-Imports: ggplotFL, ggplot2
-Suggests: knitr, testthat
-License: EUPL
-MD5sum: 0c40853def926c240a2a32914dfa157c
-NeedsCompilation: no
-
-Package: FLFleet
-Version: 2.6.0
-Depends: methods, FLCore, R(>= 2.15.1),
-Imports: FLCore
-License: GPL-2
-MD5sum: d140b4dde5159a56ab357b7bcd28e6de
-NeedsCompilation: no
-
-Package: FLife
-Version: 3.2.0
-Depends: R(>= 3.1), FLCore (>= 2.6.7)
-Imports: FLRP(>= 1.0.0), ggplotFL, methods, plyr, dplyr
-Suggests: ggplot2, FLasher, FLAssess, testthat, knitr, GGally, reshape,
-        popbio
-License: GPL (>= 2)
-MD5sum: ba108bc9d831acbc3d54d48c160216ee
-NeedsCompilation: no
-
-Package: FLRDynState
-Version: 2.5.1
-Depends: FLCore(>= 2.4), methods
-License: GPL-2
-MD5sum: f67418e05dd2cf36bd6cb665b1fdd8c4
-NeedsCompilation: yes
-
-Package: FLRP
-Version: 1.0.1
+Version: 2.5.3
 Depends: R (>= 2.10), FLCore (>= 2.6.7), ggplot2
 Imports: methods, ggplotFL
 Suggests: knitr
 License: GPL-3
-MD5sum: fd2de905bb644a9c7eb362b1ec5469c5
+MD5sum: 8dab18551e693de411c05c0cdba945be
 NeedsCompilation: yes
 
-Package: FLSAM
-Version: 1.02
-Depends: R(>= 2.13.0), FLCore(>= 2.4), utils, MASS
-Suggests: methods, reshape, plyr, ellipse
-License: GPL
-MD5sum: 54a3d3455a2ca06559ea353d9a1524cf
+Package: FLCore
+Version: 2.6.9
+Depends: R(>= 3.4), lattice
+Imports: graphics, grid, methods, Matrix, MASS, stats, stats4, utils
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 5e4c6bbed05f4d66e6c7a9ce651017da
+NeedsCompilation: no
+
+Package: FLEDA
+Version: 2.5.2
+Depends: FLCore(>= 2.5.0), methods
+License: GPL-2
+MD5sum: ca5b47667b93c3d345db6de904d5c445
+NeedsCompilation: no
+
+Package: FLFishery
+Version: 0.1.5
+Depends: R(>= 3.3.0), methods, FLCore(>= 2.6.5)
+Imports: ggplotFL, ggplot2
+Suggests: knitr, testthat
+License: EUPL
+MD5sum: b3ef4886dc7b81270cf4b459a69e4de3
+NeedsCompilation: no
+
+Package: FLFleet
+Version: 2.6.1
+Depends: R(>= 2.15.1), methods, FLCore
+License: GPL-2
+MD5sum: abf9ee0e7e4448b41d0f5f2dbfe26127
+NeedsCompilation: no
+
+Package: FLife
+Version: 3.2.1
+Depends: R(>= 3.1), FLCore (>= 2.6.7)
+Imports: FLBRP, ggplotFL, methods, plyr, dplyr
+Suggests: ggplot2, FLasher, FLAssess, testthat, knitr, GGally, reshape,
+        popbio
+License: GPL (>= 2)
+MD5sum: d597eb203d8fcaee89e2a3d44425242d
 NeedsCompilation: no
 
 Package: FLXSA
-Version: 2.6.0
-Depends: FLCore(>= 2.5), FLAssess(>= 2.5)
+Version: 2.6.2
+Depends: methods, FLCore(>= 2.6), FLAssess(>= 2.5)
+Suggests: testthat
 License: GPL-2
-MD5sum: be9aee4402a49e2faf44382df88d6ece
+MD5sum: 183a4196013749b549f2db3ae0e3612e
 NeedsCompilation: yes
 
 Package: ggplotFL
-Version: 2.6.3
+Version: 2.6.4
 Depends: R(>= 3.2.0), ggplot2(>= 2.0.0), FLCore(>= 2.6.5)
-Imports: methods, gridExtra, stats
+Imports: methods, gridExtra, rlang, stats, scales
 Suggests: knitr, rmarkdown
 License: GPL-2
-MD5sum: f5232516354d7c60987bd6aeab516f35
+MD5sum: bb1baf39f6c65cc62de3ff0a30d435f7
 NeedsCompilation: no
 
 Package: kobe
-Version: 2.1.1
+Version: 2.1.2
 Depends: R(>= 3.0.1), methods
 Imports: plyr, ggplot2, MASS, emdbook, coda
 Suggests: akima, knitr, rmarkdown, FLCore
 License: GPL (>= 2)
-MD5sum: 0bdc2192221c1814e2f880b2a9581e8d
+MD5sum: 7b0b70067740cd4f107266a20424af99
 NeedsCompilation: no
 
 Package: mpb
-Version: 2.1.1
+Version: 3.0.1
 Depends: R(>= 3.3.1), FLCore(>= 2.5.2)
-Imports: methods, stringr, ggplotFL, plyr, reshape, Rcpp
+Imports: methods, stringr, ggplotFL, plyr, reshape, Rcpp, FLBRP
 LinkingTo: Rcpp
 Suggests: rmarkdown, knitr
 License: GPL-2
-MD5sum: 70a24b89a9e8ed48c7a12eed662a5544
+MD5sum: 6bd63f81b1d137a90b57cdc682e83d3d
 NeedsCompilation: yes
