@@ -15,9 +15,6 @@ pkgs <- select.list(rownames(flr), multiple=TRUE, title="FLR Packages")
 # ---- FLash CHECK platform OS and arch
 arch <- .Platform
 
-if("FLash" %in% pkgs & arch$OS.type == "windows" & arch$r_arch != "i386")
-		stop("WARNING: FLash pkg requires 32 bit R in Windows!")
-
 if("FLasher" %in% pkgs & arch$OS.type == "windows" & arch$r_arch != "x64")
 		stop("WARNING: FLasher pkg requires 64 bit R in Windows!")
 
