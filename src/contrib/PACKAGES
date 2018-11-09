@@ -12,15 +12,15 @@ Depends: R (>= 3.2.0), FLCore (>= 2.6.4), triangle, copula, coda
 Imports: methods, lattice, Matrix, mgcv
 Suggests: latticeExtra, knitr, formatR, XML, reshape2, testthat
 License: EUPL
-MD5sum: 12ab4a66b6e7e08f6286e06fc7ed4c86
+MD5sum: 77b5b17c093c3abc4b19135cdcb4a57c
 NeedsCompilation: no
 
 Package: FLash
-Version: 2.5.9
+Version: 2.5.11
 Depends: R(>= 3.4.0), FLCore(>= 2.6.5), methods
 Suggests: knitr
 License: GPL-2
-MD5sum: 348a16ee8ad3c5ce08bcfe800834f2c8
+MD5sum: 41dd274cb96f2c8b7a53d9c5f7335aa6
 NeedsCompilation: yes
 
 Package: FLasher
@@ -60,12 +60,12 @@ MD5sum: 8dab18551e693de411c05c0cdba945be
 NeedsCompilation: yes
 
 Package: FLCore
-Version: 2.6.9
+Version: 2.6.10
 Depends: R(>= 3.4), lattice
 Imports: graphics, grid, methods, Matrix, MASS, stats, stats4, utils
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 5e4c6bbed05f4d66e6c7a9ce651017da
+MD5sum: 47223f441a3141fd055ac5d76b432805
 NeedsCompilation: no
 
 Package: FLEDA
@@ -110,12 +110,12 @@ MD5sum: 183a4196013749b549f2db3ae0e3612e
 NeedsCompilation: yes
 
 Package: ggplotFL
-Version: 2.6.4
+Version: 2.6.5
 Depends: R(>= 3.2.0), ggplot2(>= 2.0.0), FLCore(>= 2.6.5)
 Imports: methods, gridExtra, rlang, stats, scales
 Suggests: knitr, rmarkdown
 License: GPL-2
-MD5sum: bb1baf39f6c65cc62de3ff0a30d435f7
+MD5sum: 0ebd799b1d82234e4f860c935510dfa9
 NeedsCompilation: no
 
 Package: kobe
