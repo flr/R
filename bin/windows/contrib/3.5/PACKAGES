@@ -109,3 +109,10 @@ Imports: methods, stringr, ggplotFL, plyr, reshape, Rcpp, FLBRP
 LinkingTo: Rcpp
 Suggests: rmarkdown, knitr
 License: GPL-2
+
+Package: mse
+Version: 0.7.0
+Depends: R(>= 3.5), methods, FLCore, ggplotFL, data.table, FLash, FLBRP
+Imports: foreach, parallel
+Suggests: testthat, knitr, rmarkdown, FLa4a
+License: EUPL

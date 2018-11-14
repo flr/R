@@ -136,3 +136,12 @@ Suggests: rmarkdown, knitr
 License: GPL-2
 MD5sum: 6bd63f81b1d137a90b57cdc682e83d3d
 NeedsCompilation: yes
+
+Package: mse
+Version: 0.7.0
+Depends: R(>= 3.5), methods, FLCore, ggplotFL, data.table, FLash, FLBRP
+Imports: foreach, parallel
+Suggests: testthat, knitr, rmarkdown, FLa4a
+License: EUPL
+MD5sum: 78bddd8f29a2ba9a923901b9a78cd541
+NeedsCompilation: no
