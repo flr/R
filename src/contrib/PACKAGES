@@ -24,13 +24,13 @@ MD5sum: 41dd274cb96f2c8b7a53d9c5f7335aa6
 NeedsCompilation: yes
 
 Package: FLasher
-Version: 0.5.0
+Version: 0.5.1
 Depends: FLCore(> 2.6.5), FLFishery(>= 0.1)
 Imports: methods, Rcpp (>= 0.12.0), ggplot2, ggplotFL
 LinkingTo: Rcpp
 Suggests: testthat, knitr
 License: EUPL
-MD5sum: f37a9bd0c693ff92d71f6816c4ce433f
+MD5sum: 78aef3de578ab7ec62e690937c6aeaad
 NeedsCompilation: yes
 
 Package: FLAssess
@@ -60,12 +60,12 @@ MD5sum: 8dab18551e693de411c05c0cdba945be
 NeedsCompilation: yes
 
 Package: FLCore
-Version: 2.6.10
-Depends: R(>= 3.4), lattice
+Version: 2.6.11
+Depends: R(>= 3.4), lattice, iterators
 Imports: graphics, grid, methods, Matrix, MASS, stats, stats4, utils
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 47223f441a3141fd055ac5d76b432805
+MD5sum: e1180ddfeecc51e98056021675ea00db
 NeedsCompilation: no
 
 Package: FLEDA
@@ -138,10 +138,11 @@ MD5sum: 6bd63f81b1d137a90b57cdc682e83d3d
 NeedsCompilation: yes
 
 Package: mse
-Version: 0.7.0
-Depends: R(>= 3.5), methods, FLCore, ggplotFL, data.table, FLash, FLBRP
-Imports: foreach, parallel
-Suggests: testthat, knitr, rmarkdown, FLa4a
+Version: 0.10.0
+Depends: R(>= 3.5), methods, FLCore(>= 2.6.11), ggplotFL, data.table,
+        FLash, FLBRP
+Imports: foreach
+Suggests: testthat, knitr, rmarkdown, FLa4a, doParallel
 License: EUPL
-MD5sum: 78bddd8f29a2ba9a923901b9a78cd541
+MD5sum: f879c8352723329d6e3ecd10aaec297e
 NeedsCompilation: no

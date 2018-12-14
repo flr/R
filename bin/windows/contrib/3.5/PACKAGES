@@ -19,7 +19,7 @@ License: GPL-2
 Archs: x64
 
 Package: FLasher
-Version: 0.5.0
+Version: 0.5.1
 Depends: FLCore(> 2.6.5), FLFishery(>= 0.1)
 Imports: methods, Rcpp (>= 0.12.0), ggplot2, ggplotFL
 LinkingTo: Rcpp
@@ -50,8 +50,8 @@ License: GPL-3
 Archs: x64
 
 Package: FLCore
-Version: 2.6.10
-Depends: R(>= 3.4), lattice
+Version: 2.6.11
+Depends: R(>= 3.4), lattice, iterators
 Imports: graphics, grid, methods, Matrix, MASS, stats, stats4, utils
 Suggests: testthat
 License: GPL (>= 2)
@@ -111,8 +111,9 @@ Suggests: rmarkdown, knitr
 License: GPL-2
 
 Package: mse
-Version: 0.7.0
-Depends: R(>= 3.5), methods, FLCore, ggplotFL, data.table, FLash, FLBRP
-Imports: foreach, parallel
-Suggests: testthat, knitr, rmarkdown, FLa4a
+Version: 0.10.0
+Depends: R(>= 3.5), methods, FLCore(>= 2.6.11), ggplotFL, data.table,
+        FLash, FLBRP
+Imports: foreach
+Suggests: testthat, knitr, rmarkdown, FLa4a, doParallel
 License: EUPL
