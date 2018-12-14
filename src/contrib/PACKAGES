@@ -138,11 +138,11 @@ MD5sum: 6bd63f81b1d137a90b57cdc682e83d3d
 NeedsCompilation: yes
 
 Package: mse
-Version: 0.10.0
+Version: 0.9.1
 Depends: R(>= 3.5), methods, FLCore(>= 2.6.11), ggplotFL, data.table,
         FLash, FLBRP
 Imports: foreach
 Suggests: testthat, knitr, rmarkdown, FLa4a, doParallel
 License: EUPL
-MD5sum: f879c8352723329d6e3ecd10aaec297e
+MD5sum: f83d45652b62b8e6f36676d0f61f8b94
 NeedsCompilation: no
