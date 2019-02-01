@@ -7,12 +7,12 @@ MD5sum: 95c0d4492e568508913d32a8c8b62968
 NeedsCompilation: no
 
 Package: FLa4a
-Version: 1.6.3
+Version: 1.6.4
 Depends: R (>= 3.2.0), FLCore (>= 2.6.4), triangle, copula, coda
 Imports: methods, lattice, Matrix, mgcv
 Suggests: latticeExtra, knitr, formatR, XML, reshape2, testthat
 License: EUPL
-MD5sum: 07e37086ae1b7149f23d58f823e5f1ac
+MD5sum: 41056e33af121d53de92659feafd1f66
 NeedsCompilation: no
 
 Package: FLash
@@ -60,12 +60,12 @@ MD5sum: 8dab18551e693de411c05c0cdba945be
 NeedsCompilation: yes
 
 Package: FLCore
-Version: 2.6.11
+Version: 2.6.12
 Depends: R(>= 3.4), lattice, iterators
 Imports: graphics, grid, methods, Matrix, MASS, stats, stats4, utils
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: e1180ddfeecc51e98056021675ea00db
+MD5sum: 591d65e340da6b3194f240319601a842
 NeedsCompilation: no
 
 Package: FLEDA
