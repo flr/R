@@ -81,6 +81,13 @@ Suggests: ggplot2, FLasher, FLAssess, testthat, knitr, GGally, reshape,
         popbio
 License: GPL (>= 2)
 
+Package: FLSAM
+Version: 2.1.0
+Depends: R (>= 2.10), FLCore
+Imports: methods, utils, TMB, ellipse, MASS, stockassessment
+Suggests: reshape, plyr, RColorBrewer
+License: GPL
+
 Package: FLXSA
 Version: 2.6.2
 Depends: methods, FLCore(>= 2.6), FLAssess(>= 2.5)
