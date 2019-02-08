@@ -101,6 +101,15 @@ License: GPL (>= 2)
 MD5sum: d597eb203d8fcaee89e2a3d44425242d
 NeedsCompilation: no
 
+Package: FLSAM
+Version: 2.1.0
+Depends: R (>= 2.10), FLCore
+Imports: methods, utils, TMB, ellipse, MASS, stockassessment
+Suggests: reshape, plyr, RColorBrewer
+License: GPL
+MD5sum: 8040165424411148aaedb81bc365f384
+NeedsCompilation: no
+
 Package: FLXSA
 Version: 2.6.2
 Depends: methods, FLCore(>= 2.6), FLAssess(>= 2.5)

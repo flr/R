@@ -1,0 +1,38 @@
+FLBDsim                 FLBDsim class and methods
+FLBEIA                  Run the FLBEIA bio-economic simulation model
+FLCatchesExt-class      FLCatchExt and FLCatchesExt classes and the
+                        methods to construct it.
+FLFleetsExt-class       FLFleetExt and FLFleetsExt classes and the
+                        methods to construct it.
+FLMetiersExt-class      FLMetierExt and FLMetiersExt classes and the
+                        methods to construct it.
+FLSRsim                 FLSRsim class
+F_flbeia                Biological summary functions
+annualTAC               Harvest Control Rules (HCRs)
+bioSum                  Summary of the FLBEIA output
+create.BDs.data         FLBEIA easy conditioning: BDs argument creator
+create.SRs.data         FLBEIA easy conditioning: SRs argument creator
+create.advice.ctrl      advice.ctrl object creator
+create.advice.data      FLBEIA easy conditioning: advice argument
+                        creator
+create.assess.ctrl      assess.ctrl object creator
+create.biol.arrays      Function to generate an FLBiol object given
+                        inputs as arrays
+create.biols.ctrl       biols.ctrl object creator
+create.biols.data       FLBEIA easy conditioning: biols argument
+                        creator
+create.fleets.ctrl      fleets.ctrl object creator
+create.fleets.data      FLBEIA easy conditioning: fleets argument
+                        creator
+create.indices.data     FLBEIA easy conditioning: indices argument
+                        creator
+create.obs.ctrl         obs.ctrl object creator
+datasets                FLBEIA datasets
+plotEco                 Plots with fleets data
+plotFLBiols             Plots with biological data
+plotFLFleets            Plots with fleets data
+plotbioSum              Summary plots of the FLBEIA output
+plotfltStkSum           Plots with fltStkSum data
+revenue_flbeia          Economic summary functions.
+stock.fleetInfo         stock.fleetInfo
+tlandStock              Extract landings, discard or catch at age

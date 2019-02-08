@@ -1,0 +1,257 @@
+* using log directory ‘/home/mosquia/Projects/flr/web/R/src/contrib/FLBEIA.Rcheck’
+* using R version 3.5.2 (2018-12-20)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* checking for file ‘FLBEIA/DESCRIPTION’ ... OK
+* this is package ‘FLBEIA’ version ‘1.15.2’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘FLBEIA’ can be installed ... WARNING
+Found the following significant warnings:
+  Note: next used in wrong context: no loop is visible 
+  Warning: replacing previous import ‘FLCore::%+%’ by ‘ggplot2::%+%’ when loading ‘FLBEIA’
+See ‘/home/mosquia/Projects/flr/web/R/src/contrib/FLBEIA.Rcheck/00install.out’ for details.
+Information on the location(s) of code generating the ‘Note’s can be
+obtained by re-running with environment variable R_KEEP_PKG_SOURCE set
+to ‘yes’.
+* checking installed package size ... NOTE
+  installed size is  6.0Mb
+  sub-directories of 1Mb or more:
+    data   2.0Mb
+    doc    2.0Mb
+    R      1.8Mb
+* checking package directory ... OK
+* checking ‘build’ directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... NOTE
+Missing or unexported object: ‘FLAssess::stf’
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+advSum: no visible binding for global variable ‘biols’
+cbbmInd: no visible binding for global variable ‘fleets’
+create.biol.arrays: no visible global function definition for
+  ‘loadWorkbook’
+create.biol.arrays: no visible global function definition for
+  ‘getSheets’
+create.biol.arrays: no visible global function definition for
+  ‘readWorksheet’
+create.biol.arrays: no visible global function definition for
+  ‘loadToEnv’
+create.fleets.arrays: no visible global function definition for
+  ‘loadWorkbook’
+create.fleets.arrays: no visible global function definition for
+  ‘readWorksheet’
+create.fleets.arrays: no visible global function definition for
+  ‘read.csv’
+create.fleets.arrays: no visible binding for global variable ‘year’
+create.fleets.arrays: no visible global function definition for ‘ddply’
+create.fleets.arrays: no visible binding for global variable ‘fleet’
+create.fleets.arrays: no visible global function definition for
+  ‘getSheets’
+create.fleets.arrays: no visible global function definition for
+  ‘loadToEnv’
+create.fleets.arrays: no visible global function definition for
+  ‘xlcFreeMemory’
+create.fleets.arrays: no visible binding for global variable ‘category’
+create.fleets.arrays: no visible binding for global variable
+  ‘fleet_flbeia’
+create.fleets.arrays: no visible binding for global variable
+  ‘metier_flbeia’
+create.fleets.data: no visible binding for global variable ‘stks’
+f_MP_nloptr_penalized: no visible binding for global variable ‘biols’
+MAPHCR: no visible binding for global variable ‘nyears’
+MaxProfit: no visible binding for global variable ‘biols.ctrl’
+MaxProfit: no visible binding for global variable ‘q.m’
+MaxProfit: no visible binding for global variable ‘N’
+MaxProfit: no visible binding for global variable ‘alpha.m’
+MaxProfit: no visible binding for global variable ‘beta.m’
+MaxProfit: no visible binding for global variable ‘ret.m’
+MaxProfit: no visible binding for global variable ‘wl.m’
+MaxProfit: no visible binding for global variable ‘wd.m’
+MaxProfit : <anonymous>: no visible binding for global variable ‘q.m’
+MaxProfit: no visible binding for global variable ‘K’
+MaxProfit: no visible global function definition for ‘optim’
+MaxProfit: no visible binding for global variable ‘pr.m’
+MaxProfit: no visible binding for global variable ‘B’
+MaxProfit: no visible binding for global variable ‘fc’
+MaxProfit: no visible binding for global variable ‘vc.m’
+MaxProfit: no visible binding for global variable ‘crewS’
+MaxProfit: no visible binding for global variable ‘tacos’
+MaxProfit: no visible binding for global variable ‘rho’
+MaxProfit: no visible binding for global variable ‘TAC.yr’
+MaxProfit_Extra_LO: no visible global function definition for ‘optim’
+npv: no visible binding for global variable ‘year’
+plotbioSum: no visible binding for global variable ‘indicator’
+plotbioSum: no visible binding for global variable ‘year’
+plotbioSum: no visible binding for global variable ‘q50’
+plotbioSum: no visible binding for global variable ‘scenario’
+plotbioSum: no visible binding for global variable ‘q05’
+plotbioSum: no visible binding for global variable ‘q95’
+plotbioSum: no visible binding for global variable ‘Bref’
+plotEco: no visible binding for global variable ‘year’
+plotEco: no visible binding for global variable ‘q50’
+plotEco: no visible binding for global variable ‘q05’
+plotEco: no visible binding for global variable ‘q95’
+plotFLBiols: no visible binding for global variable ‘year’
+plotFLBiols: no visible binding for global variable ‘q50’
+plotFLBiols: no visible binding for global variable ‘age’
+plotFLBiols: no visible binding for global variable ‘q05’
+plotFLBiols: no visible binding for global variable ‘q95’
+plotFLFleets: no visible binding for global variable ‘year’
+plotFLFleets: no visible binding for global variable ‘q50’
+plotFLFleets: no visible binding for global variable ‘species’
+plotFLFleets: no visible binding for global variable ‘q05’
+plotFLFleets: no visible binding for global variable ‘q95’
+plotFLFleets: no visible binding for global variable ‘indicator’
+plotFLFleets: no visible binding for global variable ‘age’
+plotfltStkSum: no visible binding for global variable ‘year’
+plotfltStkSum: no visible binding for global variable ‘q50’
+plotfltStkSum: no visible binding for global variable ‘q05’
+plotfltStkSum: no visible binding for global variable ‘q95’
+plotfltSum: no visible binding for global variable ‘fleet’
+plotfltSum: no visible binding for global variable ‘indicator’
+plotfltSum: no visible binding for global variable ‘year’
+plotfltSum: no visible binding for global variable ‘q50’
+plotfltSum: no visible binding for global variable ‘scenario’
+plotfltSum: no visible binding for global variable ‘q05’
+plotfltSum: no visible binding for global variable ‘q95’
+sca2flbeia: no visible global function definition for ‘sca’
+spict2flbeia: no visible global function definition for ‘fit.spict’
+spict2flbeia: no visible global function definition for ‘get.par’
+stf.TAC: no visible binding for global variable ‘res.opt’
+vesselSum: no visible binding for global variable ‘indicator’
+Undefined global functions or variables:
+  age alpha.m B beta.m biols biols.ctrl Bref category crewS ddply fc
+  fit.spict fleet fleet_flbeia fleets get.par getSheets indicator K
+  loadToEnv loadWorkbook metier_flbeia N nyears optim pr.m q.m q05 q50
+  q95 read.csv readWorksheet res.opt ret.m rho sca scenario species
+  stks TAC.yr tacos vc.m wd.m wl.m xlcFreeMemory year
+Consider adding
+  importFrom("stats", "optim")
+  importFrom("utils", "read.csv")
+to your NAMESPACE file.
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... WARNING
+Missing link or links in documentation object 'create.biol.arrays.Rd':
+  ‘create.fleets.arrays’
+
+Missing link or links in documentation object 'datasets.Rd':
+  ‘FLSRSim-class’
+
+See section 'Cross-references' in the 'Writing R Extensions' manual.
+
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  ‘catchNames<-’ ‘create.covars.ctrl’ ‘create.fleets.arrays’
+  ‘ecoSum_damara’ ‘joinIter’ ‘SelAtAge’ ‘unit2age’ ‘updateFLBiols’
+  ‘wtadStock’ ‘wtalStock’ ‘XSAboot’ ‘xtabs2’
+Undocumented data sets:
+  ‘multiAdv’ ‘multiAdvC’ ‘multiAssC’ ‘multiBD’ ‘multiBio’ ‘multiBioC’
+  ‘multiCv’ ‘multiCvC’ ‘multiFl’ ‘multiFlC’ ‘multiMainC’ ‘multiObsC’
+  ‘multiSR’ ‘catch’ ‘evhoe’ ‘oneAdv’ ‘oneAdvC’ ‘oneAssC’ ‘oneBio’
+  ‘oneBioC’ ‘oneCv’ ‘oneCvC’ ‘oneFl’ ‘oneFlC’ ‘oneIndAge’ ‘oneIndBio’
+  ‘oneMainC’ ‘oneObsC’ ‘oneObsCIndAge’ ‘oneObsCIndBio’ ‘oneSR’
+  ‘oneItAdv’ ‘oneItAdvC’ ‘oneItAssC’ ‘oneItBio’ ‘oneItBioC’ ‘oneItCv’
+  ‘oneItCvC’ ‘oneItFl’ ‘oneItFlC’ ‘oneItIndAge’ ‘oneItIndBio’
+  ‘oneItMainC’ ‘oneItObsC’ ‘oneItObsCIndAge’ ‘oneItObsCIndBio’
+  ‘oneItSR’ ‘multiRes’ ‘oneItRes’ ‘oneRes’
+Undocumented S4 classes:
+  ‘FLSRsim’ ‘FLBDsim’
+Undocumented S4 methods:
+  generic 'catchNames' and siglist 'FLCatchesExt'
+  generic 'catchNames' and siglist 'FLFleetExt'
+  generic 'catchNames' and siglist 'FLFleetsExt'
+  generic 'catchNames' and siglist 'FLMetierExt'
+  generic 'catchNames' and siglist 'FLMetiersExt'
+  generic 'dimnames<-' and siglist 'FLStock,list'
+All user-level objects in a package (including S4 classes and methods)
+should have documentation entries.
+See chapter ‘Writing R documentation files’ in the ‘Writing R
+Extensions’ manual.
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... WARNING
+Undocumented arguments in documentation object 'FLCatchesExt-class'
+  ‘e1’ ‘e2’ ‘value’
+
+Undocumented arguments in documentation object 'FLFleetsExt-class'
+  ‘x’ ‘i’ ‘drop’ ‘j’
+Documented arguments not in \usage in documentation object 'FLFleetsExt-class':
+  ‘range’ ‘name’ ‘desc’ ‘metiers’
+
+Undocumented arguments in documentation object 'FLMetiersExt-class'
+  ‘x’ ‘i’ ‘drop’
+Documented arguments not in \usage in documentation object 'FLMetiersExt-class':
+  ‘range’ ‘name’ ‘desc’
+
+Undocumented arguments in documentation object 'bioSum'
+  ‘InterestRate’ ‘discF’ ‘y0’
+
+Documented arguments not in \usage in documentation object 'create.advice.ctrl':
+  ‘first.year’ ‘last.year’
+
+Undocumented arguments in documentation object 'plotEco'
+  ‘prob’
+
+Undocumented arguments in documentation object 'plotFLFleets'
+  ‘prob’
+
+Functions with \usage entries need to have the appropriate \alias
+entries, and all their arguments documented.
+The \usage entries must correspond to syntactically valid R code.
+See chapter ‘Writing R documentation files’ in the ‘Writing R
+Extensions’ manual.
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... NOTE
+Files named as vignettes but with no recognized vignette engine:
+   ‘vignettes/01_Introduction.tex’
+   ‘vignettes/02_Concept_Of_FLBEIA.tex’
+   ‘vignettes/03_Running_FLBEIA.tex’
+   ‘vignettes/04_FLBEIA_FIRST_level_Func.tex’
+   ‘vignettes/05_FLBEIA_SECOND_level_Funcs.tex’
+   ‘vignettes/06_FLBEIA_THIRD_level_Funcs.tex’
+   ‘vignettes/07_FLBEIA_FOURTH_level_Funcs.tex’
+   ‘vignettes/08_FLBEIA_Smart_Conditioning.tex’
+   ‘vignettes/09_FLBEIA_Output_Summary.tex’
+   ‘vignettes/10_Acknowledgements.tex’
+   ‘vignettes/A1_New_Classes.tex’
+   ‘vignettes/A2_FLR_objects_Graphics.tex’
+   ‘vignettes/A3_Control_objects_tables.tex’
+   ‘vignettes/A4_SmartConditioning_tables.tex’
+   ‘vignettes/FLBEIA_manual-concordance.tex’
+   ‘vignettes/FLBEIA_manual.Rnw’
+(Is a VignetteBuilder field missing?)
+* checking examples ... OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ... NONE
+* checking re-building of vignette outputs ... OK
+* checking PDF version of manual ... OK
+* DONE
+Status: 4 WARNINGs, 4 NOTEs

@@ -1,0 +1,26 @@
+Package: FLBEIA
+Title: Bio-Economic Impact Assessment of Management Strategies using
+        FLR
+Version: 1.15.2
+Date: 2017-10-02
+Authors@R: c(person("Dorleta", "Garcia", email = "dgarcia@azti.es", role = c("aut","cre")))
+Description: A simulation toolbox that describes a fishery system under
+    a Management Strategy Estrategy approach. The objective of the model is
+    to facilitate the Bio-Economic evaluation of Management strategies. It is
+    multistock, multifleet and seasonal. The simulation is divided in 2 main blocks,
+    the Operating Model (OM) and the Management Procedure (MP). In turn, each of these
+    two blocks is divided in 3 components: the biological, the fleets and the
+    covariables on the one hand, and the observation, the assessment and
+    the advice on the other.
+Depends: methods, R(>= 3.2.3), FLCore (>= 2.6.5), FLFleet, ggplot2
+Suggests: R.rsp, FLXSA, FLa4a, Matrix, spict, FLash, FLAssess, nloptr,
+        triangle, mvtnorm
+Additional_repositories: http://flr-project.org/R
+License: GPL-2
+VignetteBuilder: R.rsp
+RoxygenNote: 6.0.1
+NeedsCompilation: no
+Packaged: 2018-07-19 09:34:08 UTC; mosquia
+Author: Dorleta Garcia [aut, cre]
+Maintainer: Dorleta Garcia <dgarcia@azti.es>
+Built: R 3.5.2; ; 2019-02-01 12:05:07 UTC; unix
