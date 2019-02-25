@@ -34,20 +34,21 @@ MD5sum: 78aef3de578ab7ec62e690937c6aeaad
 NeedsCompilation: yes
 
 Package: FLAssess
-Version: 2.6.2
+Version: 2.6.3
 Depends: methods, FLCore(>= 2.5.0)
 Imports: lattice
 License: GPL-2
-MD5sum: f44d8d87368a9f9ad8bb9892ddad0795
+MD5sum: 26cb8ab6d77615b03fbb1d84a22ecc03
 NeedsCompilation: yes
 
 Package: FLBEIA
-Version: 1.15.2
+Version: 1.15.3
 Depends: methods, R(>= 3.2.3), FLCore (>= 2.6.5), FLFleet, ggplot2
-Suggests: R.rsp, FLXSA, FLa4a, Matrix, spict, FLash, FLAssess, nloptr,
-        triangle, mvtnorm
+Imports: stats, utils, FLXSA, FLa4a, Matrix, FLash, FLAssess, mvtnorm,
+        triangle, nloptr, plyr, XLConnect
+Suggests: R.rsp, spict
 License: GPL-2
-MD5sum: 4e5bcbc1911c8581a4aaffe6b7aca79c
+MD5sum: f5e6a12fa091e0dd3fd7888fae5445a6
 NeedsCompilation: no
 
 Package: FLBRP

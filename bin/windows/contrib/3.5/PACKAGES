@@ -28,17 +28,18 @@ License: EUPL
 Archs: x64
 
 Package: FLAssess
-Version: 2.6.2
+Version: 2.6.3
 Depends: methods, FLCore(>= 2.5.0)
 Imports: lattice
 License: GPL-2
 Archs: x64
 
 Package: FLBEIA
-Version: 1.15.2
+Version: 1.15.3
 Depends: methods, R(>= 3.2.3), FLCore (>= 2.6.5), FLFleet, ggplot2
-Suggests: R.rsp, FLXSA, FLa4a, Matrix, spict, FLash, FLAssess, nloptr,
-        triangle, mvtnorm
+Imports: stats, utils, FLXSA, FLa4a, Matrix, FLash, FLAssess, mvtnorm,
+        triangle, nloptr, plyr, XLConnect
+Suggests: R.rsp, spict
 License: GPL-2
 
 Package: FLBRP
