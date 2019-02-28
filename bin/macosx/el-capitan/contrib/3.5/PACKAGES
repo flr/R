@@ -6,6 +6,14 @@ Suggests: testthat
 License: GPL (>= 2)
 MD5sum: 3ba4c93f33e8e9f0ebe8c3c3be5b6f5f
 
+Package: FLFishery
+Version: 0.1.6
+Depends: R(>= 3.3.0), methods, FLCore(>= 2.6.5)
+Imports: ggplotFL, ggplot2
+Suggests: knitr, testthat
+License: EUPL
+MD5sum: f3aca906b00955adbba259ff71bb69be
+
 Package: ggplotFL
 Version: 2.6.5
 Depends: R(>= 3.2.0), ggplot2(>= 2.0.0), FLCore(>= 2.6.5)
