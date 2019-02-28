@@ -45,3 +45,12 @@ Imports: methods, gridExtra, rlang, stats, scales
 Suggests: knitr, rmarkdown
 License: GPL-2
 MD5sum: 4b6ad18414b17a9c5f9a09758c4d1865
+
+Package: mse
+Version: 0.9.2
+Depends: R(>= 3.5), methods, FLCore(>= 2.6.11), ggplotFL, data.table,
+        FLash, FLBRP
+Imports: foreach
+Suggests: testthat, knitr, rmarkdown, FLa4a, doParallel
+License: EUPL
+MD5sum: ff19a3dc2f10e7339d69fad49b7d85f7
