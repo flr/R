@@ -1,3 +1,10 @@
+Package: FLash
+Version: 2.5.11
+Depends: R(>= 3.4.0), FLCore(>= 2.6.5), methods
+Suggests: knitr
+License: GPL-2
+MD5sum: ed2df4fa6e407c773296b7046c74b38b
+
 Package: FLasher
 Version: 0.5.1
 Depends: FLCore(> 2.6.5), FLFishery(>= 0.1)
@@ -6,6 +13,14 @@ LinkingTo: Rcpp
 Suggests: testthat, knitr
 License: EUPL
 MD5sum: aeecc87f4fc760ced1f95872927cc789
+
+Package: FLBRP
+Version: 2.5.3
+Depends: R (>= 2.10), FLCore (>= 2.6.7), ggplot2
+Imports: methods, ggplotFL
+Suggests: knitr
+License: GPL-3
+MD5sum: 8b695984de12b8b0bbee9bec2b678e5d
 
 Package: FLCore
 Version: 2.6.12
