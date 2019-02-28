@@ -5,3 +5,11 @@ Imports: graphics, grid, methods, Matrix, MASS, stats, stats4, utils
 Suggests: testthat
 License: GPL (>= 2)
 MD5sum: 3ba4c93f33e8e9f0ebe8c3c3be5b6f5f
+
+Package: ggplotFL
+Version: 2.6.5
+Depends: R(>= 3.2.0), ggplot2(>= 2.0.0), FLCore(>= 2.6.5)
+Imports: methods, gridExtra, rlang, stats, scales
+Suggests: knitr, rmarkdown
+License: GPL-2
+MD5sum: 4b6ad18414b17a9c5f9a09758c4d1865
