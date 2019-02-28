@@ -1,3 +1,12 @@
+Package: FLasher
+Version: 0.5.1
+Depends: FLCore(> 2.6.5), FLFishery(>= 0.1)
+Imports: methods, Rcpp (>= 0.12.0), ggplot2, ggplotFL
+LinkingTo: Rcpp
+Suggests: testthat, knitr
+License: EUPL
+MD5sum: aeecc87f4fc760ced1f95872927cc789
+
 Package: FLCore
 Version: 2.6.12
 Depends: R(>= 3.4), lattice, iterators
