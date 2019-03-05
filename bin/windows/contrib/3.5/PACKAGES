@@ -97,10 +97,10 @@ License: GPL-2
 Archs: x64
 
 Package: ggplotFL
-Version: 2.6.5
+Version: 2.6.6
 Depends: R(>= 3.2.0), ggplot2(>= 2.0.0), FLCore(>= 2.6.5)
 Imports: methods, gridExtra, rlang, stats, scales
-Suggests: knitr, rmarkdown
+Suggests: knitr, rmarkdown, testthat
 License: GPL-2
 
 Package: kobe

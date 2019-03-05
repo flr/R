@@ -47,12 +47,12 @@ License: EUPL
 MD5sum: f3aca906b00955adbba259ff71bb69be
 
 Package: ggplotFL
-Version: 2.6.5
+Version: 2.6.6
 Depends: R(>= 3.2.0), ggplot2(>= 2.0.0), FLCore(>= 2.6.5)
 Imports: methods, gridExtra, rlang, stats, scales
-Suggests: knitr, rmarkdown
+Suggests: knitr, rmarkdown, testthat
 License: GPL-2
-MD5sum: 4b6ad18414b17a9c5f9a09758c4d1865
+MD5sum: abebefb9c584076475450b60c5163ba2
 
 Package: mse
 Version: 0.9.2

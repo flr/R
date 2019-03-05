@@ -120,12 +120,12 @@ MD5sum: 183a4196013749b549f2db3ae0e3612e
 NeedsCompilation: yes
 
 Package: ggplotFL
-Version: 2.6.5
+Version: 2.6.6
 Depends: R(>= 3.2.0), ggplot2(>= 2.0.0), FLCore(>= 2.6.5)
 Imports: methods, gridExtra, rlang, stats, scales
-Suggests: knitr, rmarkdown
+Suggests: knitr, rmarkdown, testthat
 License: GPL-2
-MD5sum: 0ebd799b1d82234e4f860c935510dfa9
+MD5sum: 9fdee970f1c23d93601fd14e8b759dbd
 NeedsCompilation: no
 
 Package: kobe
