@@ -35,11 +35,11 @@ License: GPL-2
 Archs: x64
 
 Package: FLBEIA
-Version: 1.15.3
+Version: 1.15.4
 Depends: methods, R(>= 3.2.3), FLCore (>= 2.6.5), FLFleet, ggplot2
 Imports: stats, utils, FLXSA, FLa4a, Matrix, FLash, mvtnorm, triangle,
         plyr
-Suggests: R.rsp, spict
+Suggests: R.rsp, spict, XLConnect
 License: GPL-2
 
 Package: FLBRP

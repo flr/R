@@ -42,13 +42,13 @@ MD5sum: 26cb8ab6d77615b03fbb1d84a22ecc03
 NeedsCompilation: yes
 
 Package: FLBEIA
-Version: 1.15.3
+Version: 1.15.4
 Depends: methods, R(>= 3.2.3), FLCore (>= 2.6.5), FLFleet, ggplot2
 Imports: stats, utils, FLXSA, FLa4a, Matrix, FLash, mvtnorm, triangle,
         plyr
-Suggests: R.rsp, spict
+Suggests: R.rsp, spict, XLConnect
 License: GPL-2
-MD5sum: ada7f4b45dc445d1bae2881a228a331e
+MD5sum: 3736b2bea3f0dbea00b7ece4da66c814
 NeedsCompilation: no
 
 Package: FLBRP
