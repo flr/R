@@ -46,6 +46,13 @@ Suggests: knitr, testthat
 License: EUPL
 MD5sum: f3aca906b00955adbba259ff71bb69be
 
+Package: FLXSA
+Version: 2.6.3
+Depends: methods, FLCore(>= 2.6), FLAssess(>= 2.5)
+Suggests: testthat
+License: GPL-2
+MD5sum: 9f07b844ac40f6c0616dc9c65a714f48
+
 Package: ggplotFL
 Version: 2.6.6
 Depends: R(>= 3.2.0), ggplot2(>= 2.0.0), FLCore(>= 2.6.5)
