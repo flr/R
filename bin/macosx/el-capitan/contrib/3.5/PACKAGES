@@ -53,6 +53,12 @@ Suggests: knitr, testthat
 License: EUPL
 MD5sum: f3aca906b00955adbba259ff71bb69be
 
+Package: FLFleet
+Version: 2.6.1
+Depends: R(>= 3.5.0), methods, FLCore
+License: GPL-2
+MD5sum: a7f10585afebbecf852adf7c79f5128c
+
 Package: FLXSA
 Version: 2.6.3
 Depends: methods, FLCore(>= 2.6), FLAssess(>= 2.5)
