@@ -29,6 +29,15 @@ Imports: lattice
 License: GPL-2
 MD5sum: c3fa7709f645112beb97fa0e80524548
 
+Package: FLBEIA
+Version: 1.15.4
+Depends: methods, R(>= 3.2.3), FLCore (>= 2.6.5), FLFleet, ggplot2
+Imports: stats, utils, FLXSA, FLa4a, Matrix, FLash, mvtnorm, triangle,
+        plyr
+Suggests: R.rsp, spict, XLConnect
+License: GPL-2
+MD5sum: 49140b7b06bab67156b3146e620bf27c
+
 Package: FLBRP
 Version: 2.5.3
 Depends: R (>= 2.10), FLCore (>= 2.6.7), ggplot2
