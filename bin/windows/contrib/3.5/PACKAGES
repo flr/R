@@ -5,7 +5,7 @@ Suggests: methods, RCurl, gam, GGally, knitr
 License: GPL-2
 
 Package: FLa4a
-Version: 1.6.4
+Version: 1.6.7
 Depends: R (>= 3.2.0), FLCore (>= 2.6.4), triangle, copula, coda
 Imports: methods, lattice, Matrix, mgcv
 Suggests: latticeExtra, knitr, formatR, XML, reshape2, testthat
@@ -19,7 +19,7 @@ License: GPL-2
 Archs: x64
 
 Package: FLasher
-Version: 0.5.1
+Version: 0.5.3
 Depends: FLCore(> 2.6.5), FLFishery(>= 0.1)
 Imports: methods, Rcpp (>= 0.12.0), ggplot2, ggplotFL
 LinkingTo: Rcpp
@@ -51,7 +51,7 @@ License: GPL-3
 Archs: x64
 
 Package: FLCore
-Version: 2.6.12
+Version: 2.6.13
 Depends: R(>= 3.4), lattice, iterators
 Imports: graphics, grid, methods, Matrix, MASS, stats, stats4, utils
 Suggests: testthat
@@ -119,7 +119,7 @@ Suggests: rmarkdown, knitr
 License: GPL-2
 
 Package: mse
-Version: 0.9.1
+Version: 0.9.9
 Depends: R(>= 3.5), methods, FLCore(>= 2.6.11), ggplotFL, data.table,
         FLash, FLBRP
 Imports: foreach
