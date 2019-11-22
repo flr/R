@@ -10,7 +10,8 @@
 flr  <- available.packages(contriburl = contrib.url("http://flr-project.org/R"))
 
 # OFFER FLR pkgs
-pkgs <- select.list(rownames(flr), multiple=TRUE, title="FLR Packages")
+pkgs <- select.list(rownames(flr), multiple=TRUE, title="FLR Packages",
+  preselect=rownames(flr))
 
 # ---- FLash CHECK platform OS and arch
 arch <- .Platform
