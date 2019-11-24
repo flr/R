@@ -102,13 +102,13 @@ MD5sum: abf9ee0e7e4448b41d0f5f2dbfe26127
 NeedsCompilation: no
 
 Package: FLife
-Version: 3.5.0
+Version: 3.5.1
 Depends: R(>= 3.6.0), FLCore (>= 2.6.13)
 Imports: methods, plyr, ggplotFL, FLBRP
 Suggests: ggplot2, FLasher, FLAssess, testthat, knitr, GGally, reshape,
         popbio
 License: GPL (>= 2)
-MD5sum: 2ca73320e4f330f9dbeed54d9cd466b4
+MD5sum: 2d6930fba2762652adfabdc00c839ac5
 NeedsCompilation: no
 
 Package: FLSAM
