@@ -162,5 +162,5 @@ Depends: R(>= 3.5), methods, FLCore(>= 2.6.11), ggplotFL, data.table,
 Imports: foreach
 Suggests: testthat, knitr, rmarkdown, FLa4a, doParallel
 License: EUPL
-MD5sum: 4a30645b5e4292323fb328b3144fdedd
+MD5sum: 9d7cefabc9b98911332be1fce6400e4a
 NeedsCompilation: no
