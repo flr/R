@@ -84,7 +84,7 @@ Depends: R(>= 2.15.1), methods, FLCore
 License: GPL-2
 
 Package: FLife
-Version: 3.5.0
+Version: 3.5.1
 Depends: R(>= 3.6.0), FLCore (>= 2.6.13)
 Imports: methods, plyr, ggplotFL, FLBRP
 Suggests: ggplot2, FLasher, FLAssess, testthat, knitr, GGally, reshape,
