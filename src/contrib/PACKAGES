@@ -17,12 +17,12 @@ MD5sum: d415b586c1a38099ff4a67afc1c76a2a
 NeedsCompilation: no
 
 Package: FLa4a
-Version: 1.7.0
+Version: 1.7.1
 Depends: R (>= 3.2.0), FLCore (>= 2.6.4), triangle, copula, coda
 Imports: methods, lattice, Matrix, mgcv
 Suggests: latticeExtra, knitr, formatR, XML, reshape2, testthat
 License: EUPL
-MD5sum: 0474ae3e6c1a1401db4581117626bca7
+MD5sum: 8ae25f1725f42bdd72e11a3a4f8ff73d
 NeedsCompilation: no
 
 Package: FLash

@@ -14,7 +14,7 @@ Suggests: methods, RCurl, gam, GGally, knitr
 License: GPL-2
 
 Package: FLa4a
-Version: 1.7.0
+Version: 1.7.1
 Depends: R (>= 3.2.0), FLCore (>= 2.6.4), triangle, copula, coda
 Imports: methods, lattice, Matrix, mgcv
 Suggests: latticeExtra, knitr, formatR, XML, reshape2, testthat
