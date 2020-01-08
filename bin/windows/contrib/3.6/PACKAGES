@@ -133,3 +133,10 @@ Depends: R(>= 3.5), methods, FLCore(>= 2.6.11), ggplotFL, data.table,
 Imports: foreach
 Suggests: testthat, knitr, rmarkdown, FLa4a, doParallel
 License: EUPL
+
+Package: mydas
+Version: 1.1.6
+Depends: R(>= 3.6.0), FLCore (>= 2.6.13)
+Imports: methods, FLBRP, FLasher, popbio, plyr, reshape
+Suggests: stats,
+License: GPL (>= 2)

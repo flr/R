@@ -164,3 +164,12 @@ Suggests: testthat, knitr, rmarkdown, FLa4a, doParallel
 License: EUPL
 MD5sum: 9d7cefabc9b98911332be1fce6400e4a
 NeedsCompilation: no
+
+Package: mydas
+Version: 1.1.6
+Depends: R(>= 3.6.0), FLCore (>= 2.6.13)
+Imports: methods, FLBRP, FLasher, popbio, plyr, reshape
+Suggests: stats,
+License: GPL (>= 2)
+MD5sum: df0657676249490d6b6b8243ab69c101
+NeedsCompilation: no
