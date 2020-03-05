@@ -156,13 +156,13 @@ MD5sum: 6bd63f81b1d137a90b57cdc682e83d3d
 NeedsCompilation: yes
 
 Package: mse
-Version: 2.0.2
+Version: 2.0.3
 Depends: R(>= 3.5), methods, FLCore(>= 2.6.11), ggplotFL, data.table,
         FLash, FLBRP
 Imports: foreach
 Suggests: testthat, knitr, rmarkdown, FLa4a, doParallel
 License: EUPL
-MD5sum: 8c01e9e811641ba1d0548a0aee9fc210
+MD5sum: 3ddb355a534577d7f43e7fcafd20c022
 NeedsCompilation: no
 
 Package: mydas

@@ -127,7 +127,7 @@ Suggests: rmarkdown, knitr
 License: GPL-2
 
 Package: mse
-Version: 2.0.2
+Version: 2.0.3
 Depends: R(>= 3.5), methods, FLCore(>= 2.6.11), ggplotFL, data.table,
         FLash, FLBRP
 Imports: foreach
