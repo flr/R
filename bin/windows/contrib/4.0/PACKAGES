@@ -1,0 +1,21 @@
+Package: FLBRP
+Version: 2.5.4
+Depends: R (>= 2.10), FLCore (>= 2.6.7), ggplot2
+Imports: methods, ggplotFL
+Suggests: knitr
+License: GPL-3
+Archs: x64
+
+Package: FLCore
+Version: 2.6.15
+Depends: R(>= 3.5), lattice, iterators
+Imports: graphics, grid, methods, Matrix, MASS, stats, stats4, utils
+Suggests: testthat
+License: GPL (>= 2)
+
+Package: ggplotFL
+Version: 2.6.7.9006
+Depends: R(>= 3.2.0), ggplot2(>= 2.0.0), FLCore(>= 2.6.5)
+Imports: methods, gridExtra, rlang, stats, scales
+Suggests: knitr, rmarkdown, testthat
+License: GPL-2
