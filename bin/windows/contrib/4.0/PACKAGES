@@ -1,7 +1,62 @@
+Package: bbm
+Version: 0.0.3
+Depends: R(>= 3.4.0), methods, FLCore, ggplotFL
+Imports: TMB, stats
+LinkingTo: TMB, RcppEigen
+Suggests: testthat, knitr, rmarkdown
+License: EUPL
+Archs: x64
+
+Package: diags
+Version: 2.2.1
+Depends: R(>= 2.15.1),
+Suggests: methods, RCurl, gam, GGally, knitr
+License: GPL-2
+
+Package: FLa4a
+Version: 1.8.2
+Depends: R (>= 3.2.0), FLCore (>= 2.6.4), triangle, copula, coda, grid,
+        gridExtra, latticeExtra
+Imports: methods, lattice, Matrix, mgcv
+Suggests: knitr, formatR, XML, reshape2, testthat
+License: EUPL
+
+Package: FLash
+Version: 2.5.11
+Depends: R(>= 3.4.0), FLCore(>= 2.6.5), methods
+Suggests: knitr
+License: GPL-2
+Archs: x64
+
+Package: FLasher
+Version: 0.6.2
+Depends: R(>= 3.5.0), FLCore(> 2.6.5), FLFishery(>= 0.1), ggplotFL
+Imports: methods, Rcpp (>= 0.12.0)
+LinkingTo: Rcpp
+Suggests: testthat, knitr
+License: EUPL
+Archs: x64
+
+Package: FLAssess
+Version: 2.6.3
+Depends: methods, FLCore(>= 2.5.0)
+Imports: lattice
+License: GPL-2
+Archs: x64
+
+Package: FLBEIA
+Version: 1.15.5
+Depends: methods, R(>= 3.5.0), ggplot2, FLCore (>= 2.6.5), FLFleet
+Imports: stats, utils, FLXSA, FLa4a, Matrix, FLash, mvtnorm, mlogit,
+        nloptr, triangle, arrayhelpers, dplyr, plyr, purrr, tidyr,
+        tidyverse
+Suggests: R.rsp, spict, XLConnect
+License: GPL (>= 2)
+
 Package: FLBRP
-Version: 2.5.4
-Depends: R (>= 2.10), FLCore (>= 2.6.7), ggplot2
-Imports: methods, ggplotFL
+Version: 2.5.5
+Depends: R (>= 3.5.0), FLCore (>= 2.6.7), ggplotFL
+Imports: methods
 Suggests: knitr
 License: GPL-3
 Archs: x64
@@ -9,13 +64,94 @@ Archs: x64
 Package: FLCore
 Version: 2.6.15
 Depends: R(>= 3.5), lattice, iterators
-Imports: graphics, grid, methods, Matrix, MASS, stats, stats4, utils
-Suggests: testthat
+Imports: graphics, grid, methods, Matrix, MASS, stats, stats4, utils,
+        ggplot2
+Suggests: testthat, rlang
 License: GPL (>= 2)
 
+Package: FLEDA
+Version: 2.5.2
+Depends: FLCore(>= 2.5.0), methods
+License: GPL-2
+
+Package: FLFishery
+Version: 0.3.3
+Depends: R(>= 3.5.0), methods, FLCore(>= 2.6.5), ggplotFL
+Suggests: knitr, testthat
+License: EUPL
+
+Package: FLFleet
+Version: 2.6.1
+Depends: R(>= 3.5.0), methods, FLCore
+License: GPL-2
+
+Package: FLife
+Version: 3.4.0
+Depends: R(>= 3.6.0), FLCore (>= 2.6.13), ggplotFL
+Imports: methods, plyr, FLBRP
+Suggests: FLasher, FLAssess, testthat, knitr, GGally, reshape, popbio
+License: GPL (>= 2)
+
+Package: FLSAM
+Version: 2.1.1
+Depends: R (>= 3.5.0), FLCore (>= 2.6.0)
+Imports: methods, utils, TMB, ellipse, MASS, stockassessment
+Suggests: reshape, plyr, RColorBrewer, doParallel
+License: GPL
+
+Package: FLXSA
+Version: 2.6.4
+Depends: R(>= 3.5.0), methods, FLCore(>= 2.6), FLAssess(>= 2.5)
+Suggests: testthat
+License: GPL-2
+Archs: x64
+
 Package: ggplotFL
-Version: 2.6.7.9006
+Version: 2.6.8
 Depends: R(>= 3.2.0), ggplot2(>= 2.0.0), FLCore(>= 2.6.5)
 Imports: methods, gridExtra, rlang, stats, scales
 Suggests: knitr, rmarkdown, testthat
 License: GPL-2
+
+Package: kobe
+Version: 2.2.0
+Depends: R(>= 3.5.1)
+Imports: methods, MASS, emdbook, coda, ggplot2, plyr
+License: GPL (>= 2)
+
+Package: mpb
+Version: 3.4.0
+Depends: R(>= 3.6.0), FLCore (>= 2.6.13), ggplotFL
+Imports: methods, stringr, plyr, reshape, Rcpp, FLBRP
+LinkingTo: Rcpp
+Suggests: rmarkdown, knitr
+License: GPL-2
+
+Package: mse
+Version: 2.0.3
+Depends: R(>= 3.5), methods, FLCore(>= 2.6.11), ggplotFL, data.table,
+        FLash, FLBRP
+Imports: foreach
+Suggests: testthat, knitr, rmarkdown, FLa4a, doParallel
+License: EUPL
+
+Package: mseviz
+Version: 0.2.3
+Depends: ggplot2, data.table
+Imports: ggstance, xtable, patchwork
+Suggests: testthat, knitr, rmarkdown
+License: file LICENSE
+
+Package: mydas
+Version: 1.1.6
+Depends: R(>= 3.6.0), FLCore (>= 2.6.13)
+Imports: methods, FLBRP, FLasher, popbio, plyr, reshape
+Suggests: stats,
+License: GPL (>= 2)
+
+Package: ss3om
+Version: 0.4.0
+Depends: R (>= 3.3.2), FLCore (>= 2.6.5), FLFishery
+Imports: methods, stats, data.table, foreach, mse, r4ss (>= 1.33.1)
+Suggests: doParallel, testthat, knitr, rmarkdown
+License: EUPL
