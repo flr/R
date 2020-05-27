@@ -41,7 +41,7 @@ Imports: methods, Rcpp (>= 0.12.0)
 LinkingTo: Rcpp
 Suggests: testthat, knitr
 License: EUPL
-MD5sum: 702a44d3239bbd48aa4cfffdec1eaca3
+MD5sum: 8180cd9190620dc03cc998224a5422c1
 NeedsCompilation: yes
 
 Package: FLAssess
@@ -79,7 +79,7 @@ Imports: graphics, grid, methods, Matrix, MASS, stats, stats4, utils,
         ggplot2
 Suggests: testthat, rlang
 License: GPL (>= 2)
-MD5sum: 3a41ae7a4acfb03fd2ba34314f582ed5
+MD5sum: 20cee57e63f42f28a4ac14d00b9fb99c
 NeedsCompilation: no
 
 Package: FLEDA
