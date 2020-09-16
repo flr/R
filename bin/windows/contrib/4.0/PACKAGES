@@ -29,11 +29,11 @@ License: GPL-2
 Archs: x64
 
 Package: FLasher
-Version: 0.6.2
+Version: 0.6.5
 Depends: R(>= 3.5.0), FLCore(> 2.6.5), FLFishery(>= 0.1), ggplotFL
 Imports: methods, Rcpp (>= 0.12.0)
 LinkingTo: Rcpp
-Suggests: testthat, knitr
+Suggests: testthat, knitr, covr
 License: EUPL
 Archs: x64
 

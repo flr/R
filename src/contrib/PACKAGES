@@ -35,13 +35,13 @@ MD5sum: 4f6d2f18cc8abe50f11170b8e060f88e
 NeedsCompilation: yes
 
 Package: FLasher
-Version: 0.6.2
+Version: 0.6.5
 Depends: R(>= 3.5.0), FLCore(> 2.6.5), FLFishery(>= 0.1), ggplotFL
 Imports: methods, Rcpp (>= 0.12.0)
 LinkingTo: Rcpp
-Suggests: testthat, knitr
+Suggests: testthat, knitr, covr
 License: EUPL
-MD5sum: 8180cd9190620dc03cc998224a5422c1
+MD5sum: 7225467272a7ad59ba76c6b062ba04ed
 NeedsCompilation: yes
 
 Package: FLAssess
