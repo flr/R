@@ -6,6 +6,13 @@ Imports: methods, lattice, Matrix, triangle, copula, coda, grid,
 Suggests: knitr, formatR, XML, reshape2, testthat
 License: EUPL
 
+Package: FLash
+Version: 2.5.11
+Depends: R(>= 3.4.0), FLCore(>= 2.6.5), methods
+Suggests: knitr, rmarkdown
+License: GPL-2
+Archs: x64
+
 Package: FLasher
 Version: 0.6.6
 Depends: R(>= 3.5.0), FLCore(> 2.6.5), FLFishery(>= 0.1), ggplotFL
@@ -13,6 +20,13 @@ Imports: methods, Rcpp (>= 0.12.0), rlang, ggplot2
 LinkingTo: Rcpp
 Suggests: testthat, knitr, rmarkdown, covr
 License: EUPL
+Archs: x64
+
+Package: FLAssess
+Version: 2.6.3
+Depends: methods, FLCore(>= 2.5.0)
+Imports: lattice
+License: GPL-2
 Archs: x64
 
 Package: FLBRP
@@ -37,6 +51,18 @@ Depends: R(>= 4.0), methods, FLCore(>= 2.6.16), ggplotFL
 Imports: ggplot2
 Suggests: knitr, testthat, rmarkdown
 License: EUPL
+
+Package: FLFleet
+Version: 2.6.1
+Depends: R(>= 3.5.0), methods, FLCore
+License: GPL-2
+
+Package: FLXSA
+Version: 2.6.5
+Depends: R(>= 3.5.0), methods, FLCore(>= 2.6), FLAssess(>= 2.5)
+Suggests: testthat
+License: GPL-2
+Archs: x64
 
 Package: ggplotFL
 Version: 2.6.9
