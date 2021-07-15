@@ -1,3 +1,9 @@
+Package: diags
+Version: 2.2.1
+Depends: R(>= 2.15.1),
+Suggests: methods, RCurl, gam, GGally, knitr, corrplot, rmarkdown
+License: GPL-2
+
 Package: FLa4a
 Version: 1.8.2
 Depends: R (>= 4.0), FLCore (>= 2.6.15)
@@ -29,8 +35,17 @@ Imports: lattice
 License: GPL-2
 Archs: x64
 
+Package: FLBEIA
+Version: 1.15.6.8
+Depends: methods, R(>= 3.5.0), ggplot2, FLCore (>= 2.6.5), FLFleet
+Imports: stats, utils, FLXSA, FLa4a, Matrix, FLash, mvtnorm, mlogit,
+        nloptr, triangle, arrayhelpers, dplyr, plyr, purrr, tidyr,
+        tidyverse, tibble
+Suggests: R.rsp, spict, XLConnect
+License: GPL (>= 2)
+
 Package: FLBRP
-Version: 2.5.6
+Version: 2.5.7
 Depends: R (>= 3.5.0), FLCore (>= 2.6.7), ggplotFL
 Imports: methods, ggplot2
 Suggests: knitr, rmarkdown
@@ -45,6 +60,11 @@ Imports: graphics, grid, methods, Matrix, MASS, stats, stats4, utils,
 Suggests: testthat, rlang, hedgehog
 License: GPL (>= 2)
 
+Package: FLEDA
+Version: 2.5.2
+Depends: FLCore(>= 2.5.0), methods
+License: GPL-2
+
 Package: FLFishery
 Version: 0.3.5
 Depends: R(>= 4.0), methods, FLCore(>= 2.6.16), ggplotFL
@@ -56,6 +76,21 @@ Package: FLFleet
 Version: 2.6.1
 Depends: R(>= 3.5.0), methods, FLCore
 License: GPL-2
+
+Package: FLife
+Version: 3.4.0
+Depends: R(>= 3.6.0), FLCore (>= 2.6.13), ggplotFL
+Imports: methods, plyr, FLBRP
+Suggests: FLasher, FLAssess, testthat, knitr, GGally, reshape, popbio,
+        rmarkdown
+License: GPL (>= 2)
+
+Package: FLSAM
+Version: 2.1.1
+Depends: R (>= 3.5.0), FLCore (>= 2.6.0)
+Imports: methods, utils, TMB, ellipse, MASS, stockassessment
+Suggests: reshape, plyr, RColorBrewer, doParallel
+License: GPL
 
 Package: FLXSA
 Version: 2.6.5
@@ -71,6 +106,20 @@ Imports: methods, gridExtra, rlang, stats, scales, cowplot, data.table
 Suggests: knitr, rmarkdown, testthat
 License: GPL-2
 
+Package: kobe
+Version: 2.2.0
+Depends: R(>= 3.5.1)
+Imports: methods, MASS, emdbook, coda, ggplot2, plyr
+License: GPL (>= 2)
+
+Package: mpb
+Version: 3.4.0
+Depends: R(>= 3.6.0), FLCore (>= 2.6.13), ggplotFL
+Imports: methods, stringr, plyr, reshape, Rcpp, FLBRP
+LinkingTo: Rcpp
+Suggests: rmarkdown, knitr
+License: GPL-2
+
 Package: mse
 Version: 2.2.0
 Depends: R(>= 3.5), methods, FLCore(>= 2.6.11), ggplotFL, data.table,
@@ -78,6 +127,13 @@ Depends: R(>= 3.5), methods, FLCore(>= 2.6.11), ggplotFL, data.table,
 Imports: foreach
 Suggests: testthat, knitr, rmarkdown, FLa4a, doParallel
 License: EUPL
+
+Package: mydas
+Version: 1.2.0
+Depends: R(>= 3.6.0), FLCore (>= 2.6.13)
+Imports: methods, FLBRP, FLasher, popbio, plyr, reshape
+Suggests: stats,
+License: GPL (>= 2)
 
 Package: ss3om
 Version: 0.5.0
