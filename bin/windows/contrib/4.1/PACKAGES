@@ -45,7 +45,7 @@ Suggests: R.rsp, spict, XLConnect
 License: GPL (>= 2)
 
 Package: FLBRP
-Version: 2.5.7
+Version: 2.5.8
 Depends: R (>= 3.5.0), FLCore (>= 2.6.7), ggplotFL
 Imports: methods, ggplot2
 Suggests: knitr, rmarkdown

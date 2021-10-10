@@ -54,12 +54,12 @@ MD5sum: 89cb5b8533c26fcb288747a1a491f982
 NeedsCompilation: no
 
 Package: FLBRP
-Version: 2.5.7
+Version: 2.5.8
 Depends: R (>= 3.5.0), FLCore (>= 2.6.7), ggplotFL
 Imports: methods, ggplot2
 Suggests: knitr, rmarkdown
 License: GPL-3
-MD5sum: 32128c307cf00b3c24c25047df38ec1f
+MD5sum: b06a52f018d3e9b3d48c9bd908a84495
 NeedsCompilation: yes
 
 Package: FLCore
