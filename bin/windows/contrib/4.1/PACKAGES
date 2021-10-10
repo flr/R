@@ -92,6 +92,21 @@ Imports: methods, utils, TMB, ellipse, MASS, stockassessment
 Suggests: reshape, plyr, RColorBrewer, doParallel
 License: GPL
 
+Package: FLSelex
+Version: 1.0.4
+Depends: R (>= 3.5), FLCore, ggplotFL, FLBRP, FLasher
+Imports: methods, ggplot2, gridExtra, metR
+License: EUPL
+
+Package: FLSRTMB
+Version: 1.0.4
+Depends: FLCore (>= 2.6.16)
+Imports: TMB (>= 1.7.19)
+LinkingTo: TMB, RcppEigen
+Suggests: ggplotFL
+License: EUPL
+Archs: x64
+
 Package: FLXSA
 Version: 2.6.5
 Depends: R(>= 3.5.0), methods, FLCore(>= 2.6), FLAssess(>= 2.5)

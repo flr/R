@@ -114,6 +114,24 @@ License: GPL
 MD5sum: 0dde8207b1be6df74074431567518c86
 NeedsCompilation: no
 
+Package: FLSelex
+Version: 1.0.4
+Depends: R (>= 3.5), FLCore, ggplotFL, FLBRP, FLasher
+Imports: methods, ggplot2, gridExtra, metR
+License: EUPL
+MD5sum: ecd902a45f0dedb08e4f5ebe28a4e9e7
+NeedsCompilation: no
+
+Package: FLSRTMB
+Version: 1.0.4
+Depends: FLCore (>= 2.6.16)
+Imports: TMB (>= 1.7.19)
+LinkingTo: TMB, RcppEigen
+Suggests: ggplotFL
+License: EUPL
+MD5sum: 9bc193b8aca3c2e53ec5c281519d6f79
+NeedsCompilation: yes
+
 Package: FLXSA
 Version: 2.6.5
 Depends: R(>= 3.5.0), methods, FLCore(>= 2.6), FLAssess(>= 2.5)
