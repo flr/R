@@ -1,3 +1,12 @@
+Package: a4adiags
+Version: 0.1.4
+Depends: R(>= 3.5.0), ggplot2, FLCore, ggplotFL, FLa4a
+Imports: methods, FLasher, data.table, foreach, snpar
+Suggests: knitr, rmarkdown, doParallel, icesAdvice
+License: EUPL
+MD5sum: fc7c8e2d2ac000c0598ac57f10980ddf
+NeedsCompilation: no
+
 Package: diags
 Version: 2.2.1
 Depends: R(>= 2.15.1),
