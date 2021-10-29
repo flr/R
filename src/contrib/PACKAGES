@@ -178,12 +178,12 @@ NeedsCompilation: no
 
 Package: mse
 Version: 2.2.1
-Depends: R(>= 3.5), methods, FLCore(>= 2.6.11), ggplotFL, data.table,
-        FLasher, FLBRP
+Depends: R(>= 4.0), methods, FLCore(>= 2.6.18), ggplotFL(>= 2.6.10),
+        data.table, FLasher(>= 0.6.7), FLBRP(>= 2.5.8)
 Imports: foreach, progressr
 Suggests: testthat, knitr, rmarkdown, FLa4a, doParallel
 License: EUPL
-MD5sum: 2e13c144f48628e8a37eb8be30aee9c2
+MD5sum: 01da44ed7f055fb3d236b605417fae77
 NeedsCompilation: no
 
 Package: mseviz

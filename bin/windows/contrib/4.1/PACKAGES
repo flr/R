@@ -144,8 +144,8 @@ License: GPL-2
 
 Package: mse
 Version: 2.2.1
-Depends: R(>= 3.5), methods, FLCore(>= 2.6.11), ggplotFL, data.table,
-        FLasher, FLBRP
+Depends: R(>= 4.0), methods, FLCore(>= 2.6.18), ggplotFL(>= 2.6.10),
+        data.table, FLasher(>= 0.6.7), FLBRP(>= 2.5.8)
 Imports: foreach, progressr
 Suggests: testthat, knitr, rmarkdown, FLa4a, doParallel
 License: EUPL
