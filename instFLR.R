@@ -43,6 +43,6 @@ if(length(miss) > 0) {
 }
 
 # INSTALL from FLR repo
-qat("INSTALLING FLR packages \n")
+cat("INSTALLING FLR packages \n")
 
 install.packages(pkgs, repos="http://flr-project.org/R")
