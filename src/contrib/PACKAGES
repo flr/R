@@ -72,13 +72,13 @@ MD5sum: b06a52f018d3e9b3d48c9bd908a84495
 NeedsCompilation: yes
 
 Package: FLCore
-Version: 2.6.17
+Version: 2.6.18
 Depends: R(>= 4.0), lattice, iterators
 Imports: graphics, grid, methods, Matrix, MASS, stats, stats4, utils,
         ggplot2
 Suggests: testthat, rlang, hedgehog
 License: GPL (>= 2)
-MD5sum: a9aa024913d52d69a42629ffd3146bcc
+MD5sum: 38727088dc3e6884411ec9de588c3245
 NeedsCompilation: no
 
 Package: FLEDA
@@ -89,12 +89,12 @@ MD5sum: a622a6a05118c1f5777f243612133219
 NeedsCompilation: no
 
 Package: FLFishery
-Version: 0.3.6
+Version: 0.3.7
 Depends: R(>= 4.0), methods, FLCore(>= 2.6.16), ggplotFL
 Imports: ggplot2
 Suggests: knitr, testthat, rmarkdown
 License: EUPL
-MD5sum: 076d53513879023f89b8f15f007a1277
+MD5sum: 059036e94d8883b9605d3503d0a587f2
 NeedsCompilation: no
 
 Package: FLFleet
@@ -177,13 +177,22 @@ MD5sum: ac3144defe9725b236b716780a121ffa
 NeedsCompilation: no
 
 Package: mse
-Version: 2.2.0
+Version: 2.2.1
 Depends: R(>= 3.5), methods, FLCore(>= 2.6.11), ggplotFL, data.table,
         FLasher, FLBRP
-Imports: foreach
+Imports: foreach, progressr
 Suggests: testthat, knitr, rmarkdown, FLa4a, doParallel
 License: EUPL
-MD5sum: d07b5a398156a31e3e4c48e2897117f8
+MD5sum: 2e13c144f48628e8a37eb8be30aee9c2
+NeedsCompilation: no
+
+Package: mseviz
+Version: 0.2.5
+Depends: R (>= 3.5.0), ggplotFL, data.table
+Imports: xtable, patchwork
+Suggests: testthat, knitr, rmarkdown, markdown
+License: file LICENSE
+MD5sum: 4d270e910a27a064ea3cc4990003aac8
 NeedsCompilation: no
 
 Package: mydas

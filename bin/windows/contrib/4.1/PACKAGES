@@ -60,7 +60,7 @@ License: GPL-3
 Archs: x64
 
 Package: FLCore
-Version: 2.6.17
+Version: 2.6.18
 Depends: R(>= 4.0), lattice, iterators
 Imports: graphics, grid, methods, Matrix, MASS, stats, stats4, utils,
         ggplot2
@@ -73,7 +73,7 @@ Depends: FLCore(>= 2.5.0), methods
 License: GPL-2
 
 Package: FLFishery
-Version: 0.3.6
+Version: 0.3.7
 Depends: R(>= 4.0), methods, FLCore(>= 2.6.16), ggplotFL
 Imports: ggplot2
 Suggests: knitr, testthat, rmarkdown
@@ -143,12 +143,19 @@ Suggests: rmarkdown, knitr
 License: GPL-2
 
 Package: mse
-Version: 2.2.0
+Version: 2.2.1
 Depends: R(>= 3.5), methods, FLCore(>= 2.6.11), ggplotFL, data.table,
         FLasher, FLBRP
-Imports: foreach
+Imports: foreach, progressr
 Suggests: testthat, knitr, rmarkdown, FLa4a, doParallel
 License: EUPL
+
+Package: mseviz
+Version: 0.2.5
+Depends: R (>= 3.5.0), ggplotFL, data.table
+Imports: xtable, patchwork
+Suggests: testthat, knitr, rmarkdown, markdown
+License: file LICENSE
 
 Package: mydas
 Version: 1.2.0
