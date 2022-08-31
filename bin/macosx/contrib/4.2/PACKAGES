@@ -1,0 +1,113 @@
+Package: a4adiags
+Version: 0.1.5
+Depends: R(>= 3.5.0), ggplot2, FLCore, ggplotFL, FLa4a
+Imports: methods, FLasher, data.table, foreach
+Suggests: knitr, rmarkdown, doParallel, icesAdvice
+License: EUPL
+MD5sum: 6007462e298a0e853ff785f96a65c73f
+
+Package: bbm
+Version: 0.0.3
+Depends: R(>= 3.4.0), methods, FLCore, ggplotFL
+Imports: TMB, stats
+LinkingTo: TMB, RcppEigen
+Suggests: testthat, knitr, rmarkdown, latticeExtra
+License: EUPL
+MD5sum: 06dcafb098214ad60ae7124e458c6376
+
+Package: FLasher
+Version: 0.7.0
+Depends: R(>= 3.5.0), FLCore(> 2.6.5), FLFishery(>= 0.1), ggplotFL
+Imports: methods, Rcpp (>= 0.12.0), rlang, ggplot2
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown, covr
+License: EUPL
+MD5sum: d96cca1d71d4e58e1d7f01d66e553e41
+
+Package: FLAssess
+Version: 2.6.3
+Depends: methods, FLCore(>= 2.5.0)
+Imports: lattice
+License: GPL-2
+MD5sum: 20182573853d6072e1c472cb1227d1bd
+
+Package: FLBRP
+Version: 2.5.9
+Depends: R (>= 3.5.0), FLCore (>= 2.6.7), ggplotFL
+Imports: methods, ggplot2
+Suggests: knitr, rmarkdown
+License: GPL-3
+MD5sum: 92605f0ef679b506edae6b7ece5b28cf
+
+Package: FLCore
+Version: 2.6.19
+Depends: R(>= 4.0), lattice, iterators
+Imports: graphics, grid, methods, Matrix, MASS, stats, stats4, utils,
+        ggplot2
+Suggests: testthat, rlang, hedgehog
+License: GPL (>= 2)
+MD5sum: 477c6a35b2b8dfa03de172960fd6ab31
+
+Package: FLFishery
+Version: 0.3.8
+Depends: R(>= 4.0), methods, FLCore(>= 2.6.16), ggplotFL
+Imports: ggplot2
+Suggests: knitr, testthat, rmarkdown
+License: EUPL
+MD5sum: 9349964daeee3993f57b94c47c7b5163
+
+Package: FLSAM
+Version: 2.1.1
+Depends: R (>= 3.5.0), FLCore (>= 2.6.0)
+Imports: methods, utils, TMB, ellipse, MASS, stockassessment
+Suggests: reshape, plyr, RColorBrewer, doParallel
+License: GPL
+MD5sum: ee8a870ffc46f8d041052704557033af
+
+Package: FLSRTMB
+Version: 1.1.3
+Depends: FLCore (>= 2.6.16), ggplot2, ggplotFL
+Imports: TMB (>= 1.7.19)
+LinkingTo: TMB, RcppEigen
+License: EUPL
+MD5sum: 3dee6b9eeeb0ac8b47c3718942511934
+
+Package: FLXSA
+Version: 2.6.6
+Depends: R(>= 3.5.0), methods, FLCore(>= 2.6), FLAssess(>= 2.5)
+Suggests: testthat
+License: GPL-2
+MD5sum: 06ccdc74eba838e13d8eacb85369929e
+
+Package: ggplotFL
+Version: 2.7.0
+Depends: R(>= 4.0), ggplot2(>= 2.0.0), FLCore(>= 2.6.15)
+Imports: methods, gridExtra, rlang, stats, scales, cowplot, data.table
+Suggests: knitr, rmarkdown, testthat
+License: GPL-2
+MD5sum: ba70c2cafb9786125cc23131e2009f97
+
+Package: mse
+Version: 2.2.3
+Depends: R(>= 4.0), methods, FLCore(>= 2.6.18), ggplotFL(>= 2.6.10),
+        data.table, FLasher(>= 0.6.7), FLBRP(>= 2.5.8)
+Imports: foreach, parallelly, progressr, patchwork
+Suggests: testthat, knitr, rmarkdown, FLa4a, doParallel
+License: EUPL
+MD5sum: fba9b5e7dd77e67cc5308361348b9c5d
+
+Package: ss3om
+Version: 0.5.2
+Depends: R (>= 3.3.2), FLCore (>= 2.6.5), r4ss (>= 1.43.0)
+Imports: methods, stats, data.table, foreach, FLFishery, mse
+Suggests: doParallel, testthat, rlang, knitr, rmarkdown
+License: EUPL
+MD5sum: c049b20c23f73b1fb3b4c5ea16150f87
+
+Package: stockassessment
+Version: 0.5.4
+Imports: TMB, ellipse, MASS
+LinkingTo: TMB, RcppEigen
+Suggests: testthat
+License: GPL-2
+MD5sum: f594ceec06e2e6dfb7b82f34f58967ec
