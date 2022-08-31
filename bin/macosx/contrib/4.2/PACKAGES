@@ -15,6 +15,13 @@ Suggests: testthat, knitr, rmarkdown, latticeExtra
 License: EUPL
 MD5sum: 06dcafb098214ad60ae7124e458c6376
 
+Package: FLash
+Version: 2.5.11
+Depends: R(>= 3.4.0), FLCore(>= 2.6.5), methods
+Suggests: knitr, rmarkdown
+License: GPL-2
+MD5sum: 867fae66365063b4b1153bd2457e0dc9
+
 Package: FLasher
 Version: 0.7.0
 Depends: R(>= 3.5.0), FLCore(> 2.6.5), FLFishery(>= 0.1), ggplotFL
@@ -55,6 +62,12 @@ Imports: ggplot2
 Suggests: knitr, testthat, rmarkdown
 License: EUPL
 MD5sum: 9349964daeee3993f57b94c47c7b5163
+
+Package: FLFleet
+Version: 2.6.1
+Depends: R(>= 3.5.0), methods, FLCore
+License: GPL-2
+MD5sum: 2984b111f389ba3fa3022ef31afae21f
 
 Package: FLSAM
 Version: 2.1.1

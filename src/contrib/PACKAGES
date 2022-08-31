@@ -49,7 +49,7 @@ Version: 2.5.11
 Depends: R(>= 3.4.0), FLCore(>= 2.6.5), methods
 Suggests: knitr, rmarkdown
 License: GPL-2
-MD5sum: f760c869327d89cbe198860929a706a1
+MD5sum: f9a814df61227fb58e3a3b7efcad2036
 NeedsCompilation: yes
 
 Package: FLasher
@@ -120,7 +120,7 @@ Package: FLFleet
 Version: 2.6.1
 Depends: R(>= 3.5.0), methods, FLCore
 License: GPL-2
-MD5sum: c73ffc300491b967bd7ce606ba272d9e
+MD5sum: 478de23a94efce414c9084e420c78c3d
 NeedsCompilation: no
 
 Package: FLife
