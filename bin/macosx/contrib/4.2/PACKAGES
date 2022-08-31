@@ -15,6 +15,15 @@ Suggests: testthat, knitr, rmarkdown, latticeExtra
 License: EUPL
 MD5sum: 06dcafb098214ad60ae7124e458c6376
 
+Package: FLa4a
+Version: 1.8.3
+Depends: R (>= 4.0), FLCore (>= 2.6.15), triangle,
+Imports: methods, lattice, Matrix, copula, coda, grid, gridExtra,
+        latticeExtra, mgcv
+Suggests: knitr, formatR, XML, reshape2, testthat
+License: EUPL
+MD5sum: a081f7a39afc208a060458e7d7b4ffb4
+
 Package: FLash
 Version: 2.5.11
 Depends: R(>= 3.4.0), FLCore(>= 2.6.5), methods
